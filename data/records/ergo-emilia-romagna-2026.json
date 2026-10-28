@@ -1,0 +1,90 @@
+{
+  "scholarship_title": "ER.GO Regional Scholarship 2026/2027 (Emilia-Romagna, incl. University of Modena and Reggio Emilia)",
+  "provider_organization": "ER.GO (Azienda Regionale per il Diritto agli Studi Superiori, Emilia-Romagna)",
+  "academic_level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "All"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": "Separate UNIMORE fee exemption or reduction based on income and merit",
+    "stipend": {
+      "amount_min": 433,
+      "amount_max": 7171,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "Depends on income and residence status; paid in 3-4 instalments (secondary source)"
+    },
+    "additional_benefits": [
+      "Housing (ER.GO residences, separate benefit)",
+      "Meals"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": null
+  },
+  "eligibility_criteria": {
+    "min_gpa": "First year: no merit requirement. Year 2: at least 10 credits; later years: at least 25 credits (UNIMORE webinar)",
+    "language_proficiency": [
+      "None required for the grant itself"
+    ],
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    "Foreign income and asset documents uploaded to the ER.GO Dossier Utente"
+  ],
+  "preparation_alerts": [
+    "ISEE (or country-equivalent) must be under EUR 30,000",
+    "Collect and translate family income and asset documents well before June"
+  ],
+  "application_timeline": {
+    "opening_date": "2026-06-23",
+    "deadline_date": "2026-08-24",
+    "deadline_time": "16:00 Europe/Rome",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.er-go.it/international-students",
+  "source_urls": [
+    {
+      "url": "https://www.unimore.it/sites/default/files/2026-07/WEBINAR%20ITA%202026%20sito.pdf",
+      "type": "official",
+      "used_for": "ISEE limit and merit rules"
+    },
+    {
+      "url": "https://international.unimore.it/fees.html",
+      "type": "official",
+      "used_for": "Fee exemption and how to apply"
+    },
+    {
+      "url": "https://www.european-funding-guide.eu/es/beca/10516-Scholarships",
+      "type": "secondary",
+      "used_for": "Dates and amount range"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.75,
+    "verification_notes": "Rules confirmed officially; dates and amounts only from a secondary source. Check the ER.GO bando."
+  }
+}

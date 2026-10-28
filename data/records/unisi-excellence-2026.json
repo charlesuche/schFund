@@ -1,0 +1,86 @@
+{
+  "scholarship_title": "Siena International Excellence Scholarships 2026/2027",
+  "provider_organization": "University of Siena (Università degli Studi di Siena)",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Economics",
+    "Finance",
+    "International Accounting and Management",
+    "Linguistics and Cognitive Studies",
+    "Public and Cultural Diplomacy",
+    "European Studies",
+    "Biotechnologies of Human Reproduction",
+    "Medical Biotechnologies",
+    "Applied Mathematics",
+    "Artificial Intelligence and Automation Engineering",
+    "Biodiversity and Environmental Quality",
+    "Chemistry",
+    "Electronics and Communications Engineering",
+    "Engineering Management",
+    "Sustainable Industrial Pharmaceutical Biotechnology"
+  ],
+  "eligible_nationalities": [
+    "All (non-Italian citizens with entry qualifications earned outside Italy)"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": null,
+    "stipend": {
+      "amount_min": 6000,
+      "amount_max": 6000,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "gross",
+      "notes": "One year, renewable for a second year (EUR 12,000 gross total). Only 5 awards: one each in areas A, B, C and two in area D."
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not checked; see the call PDF"
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "language_proficiency": [
+      "English proficiency as required by the chosen English-taught programme"
+    ],
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [],
+  "preparation_alerts": [
+    "You must also apply to an eligible Master's programme via apply.unisi.it"
+  ],
+  "application_timeline": {
+    "opening_date": "2026-05-05",
+    "deadline_date": "2026-05-26",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://admission.unisi.it/",
+  "source_urls": [
+    {
+      "url": "https://www.unisi.it/call-applications-siena-international-excellence-scholarships-2026-2027",
+      "type": "official",
+      "used_for": "Amount, number of awards, eligible programmes, dates, results"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.9,
+    "verification_notes": "Official deadline 26 May 2026; several aggregator sites wrongly list 6 May 2026 (the 2025 date). Final rankings published Aug 2026. Tuition not covered by this award."
+  }
+}

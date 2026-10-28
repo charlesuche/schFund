@@ -1,0 +1,92 @@
+{
+  "scholarship_title": "UnicalAdmission Scholarships for International Master's Degrees 2026/2027",
+  "provider_organization": "University of Calabria (Università della Calabria, UniCal)",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Engineering",
+    "Computer Science",
+    "Artificial Intelligence",
+    "Natural Sciences",
+    "Economics and Finance",
+    "Health Biotechnology",
+    "Mathematics",
+    "Other programmes listed in the call"
+  ],
+  "eligible_nationalities": [
+    "All non-EU citizens living abroad"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "100% tuition fees",
+    "stipend": {
+      "amount_min": 3600,
+      "amount_max": 3600,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "Called an 'allowance' on the official page; 132 scholarships in 2026/27"
+    },
+    "additional_benefits": [
+      "Housing (free campus lodging)",
+      "Meals (free board)"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not checked; see the official call PDF"
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "language_proficiency": [
+      "English or Italian at the level required by each programme (see call)"
+    ],
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [],
+  "preparation_alerts": [
+    "Register on the UniCal ESSE3 portal before applying"
+  ],
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-03-30",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": "2027-01",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.unical.it/internazionale/intenational-students/unical-admission/",
+  "source_urls": [
+    {
+      "url": "https://www.unical.it/internazionale/intenational-students/unical-admission/?lang=it",
+      "type": "official",
+      "used_for": "Number of scholarships, coverage, allowance, next-call timing"
+    },
+    {
+      "url": "https://www.unical.it/media/medias/2026/Bando_Unicaladmission_Lauree_Magistrali_aa_26-27_ING.pdf",
+      "type": "official",
+      "used_for": "Full 2026/27 call (not read in this pass)"
+    },
+    {
+      "url": "https://o4af.com/?p=252805",
+      "type": "secondary",
+      "used_for": "Deadline 30 Mar 2026"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.8,
+    "verification_notes": "Coverage confirmed on the official page. Deadline only from secondary sources; read the call PDF to confirm deadline, fee, documents and GPA rules. Official page says the 2027/28 call will likely be published in January 2027."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "scholarship_title": "CICOPS Scholarships 2027 (Visiting Scholars from Developing Countries)",
+  "provider_organization": "University of Pavia (CICOPS) with EDiSU Pavia",
+  "academic_level": [
+    "Postdoc"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "Developing countries (official list not verified)"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": null,
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": "EUR",
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "Research stay of 4 to 12 weeks in 2027; roughly 6-8 awards (sources disagree)"
+    },
+    "additional_benefits": [
+      "Airfare (return economy)"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": null
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [],
+  "preparation_alerts": [],
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-06-10",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "urgent_deadline": false
+  },
+  "official_apply_url": null,
+  "source_urls": [
+    {
+      "url": "https://opportunitiescorners.com/?p=26299",
+      "type": "secondary",
+      "used_for": "Deadline, duration, airfare"
+    },
+    {
+      "url": "https://scholarglow.com/?p=801",
+      "type": "secondary",
+      "used_for": "Number of awards, duration"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.6,
+    "verification_notes": "Visiting-scholar fellowship for academics, not a degree; 'Postdoc' is the closest schema level. Official CICOPS call not reached. Not from the 2022 thread; found while checking Pavia."
+  }
+}

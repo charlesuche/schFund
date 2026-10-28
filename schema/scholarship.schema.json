@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Scholarship record (extraction prompt v2.1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "scholarship_title", "provider_organization", "academic_level", "degree_fields",
+    "eligible_nationalities", "host_countries", "status", "financial_coverage",
+    "application_fee", "eligibility_criteria", "country_specific_notes",
+    "required_documents", "preparation_alerts", "application_timeline",
+    "official_apply_url", "source_urls", "last_verified", "verification_status"
+  ],
+  "$defs": {
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "nullableDate": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "nullableString": { "type": ["string", "null"] },
+    "nullableNumber": { "type": ["number", "null"], "minimum": 0 },
+    "currency": { "type": ["string", "null"], "pattern": "^[A-Z]{3}$" },
+    "stringList": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+  },
+  "properties": {
+    "scholarship_title": { "type": "string", "minLength": 3 },
+    "provider_organization": { "type": "string", "minLength": 2 },
+    "academic_level": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": { "enum": ["Bachelor", "Master", "PhD", "Postdoc"] }
+    },
+    "degree_fields": { "$ref": "#/$defs/stringList", "minItems": 1 },
+    "eligible_nationalities": { "$ref": "#/$defs/stringList", "minItems": 1 },
+    "host_countries": { "$ref": "#/$defs/stringList", "minItems": 1 },
+    "status": { "enum": ["open", "closed", "upcoming", "unknown"] },
+    "financial_coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["funding_type", "tuition_coverage", "stipend", "additional_benefits"],
+      "properties": {
+        "funding_type": { "enum": ["Fully Funded", "Partially Funded", "Tuition Only", "Stipend Only"] },
+        "tuition_coverage": { "$ref": "#/$defs/nullableString" },
+        "stipend": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["amount_min", "amount_max", "currency", "period", "gross_or_net", "notes"],
+          "properties": {
+            "amount_min": { "$ref": "#/$defs/nullableNumber" },
+            "amount_max": { "$ref": "#/$defs/nullableNumber" },
+            "currency": { "$ref": "#/$defs/currency" },
+            "period": { "enum": ["month", "year", "total", "one-off", null] },
+            "gross_or_net": { "enum": ["gross", "net", "unknown"] },
+            "notes": { "$ref": "#/$defs/nullableString" }
+          }
+        },
+        "additional_benefits": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "application_fee": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required", "amount", "currency", "paid_to", "notes"],
+      "properties": {
+        "required": { "type": ["boolean", "null"] },
+        "amount": { "$ref": "#/$defs/nullableNumber" },
+        "currency": { "$ref": "#/$defs/currency" },
+        "paid_to": { "enum": ["university", "official_agency", "none", null] },
+        "notes": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "eligibility_criteria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min_gpa", "language_proficiency", "age_limit", "work_experience_years"],
+      "properties": {
+        "min_gpa": { "$ref": "#/$defs/nullableString" },
+        "language_proficiency": { "type": ["array", "null"], "items": { "type": "string" } },
+        "age_limit": { "$ref": "#/$defs/nullableString" },
+        "work_experience_years": { "type": ["string", "number", "null"] }
+      }
+    },
+    "country_specific_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["country", "note"],
+        "properties": {
+          "country": { "type": "string", "minLength": 2 },
+          "note": { "type": "string", "minLength": 5 }
+        }
+      }
+    },
+    "required_documents": { "$ref": "#/$defs/stringList" },
+    "preparation_alerts": { "$ref": "#/$defs/stringList" },
+    "application_timeline": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["opening_date", "deadline_date", "deadline_time", "cycle_frequency", "next_cycle_expected", "urgent_deadline"],
+      "properties": {
+        "opening_date": { "$ref": "#/$defs/nullableDate" },
+        "deadline_date": { "$ref": "#/$defs/nullableDate" },
+        "deadline_time": { "$ref": "#/$defs/nullableString" },
+        "cycle_frequency": { "enum": ["Annual", "Rolling", "Bi-annual"] },
+        "next_cycle_expected": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}$" },
+        "urgent_deadline": { "type": "boolean" }
+      }
+    },
+    "official_apply_url": { "type": ["string", "null"], "pattern": "^https?://" },
+    "source_urls": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "type", "used_for"],
+        "properties": {
+          "url": { "type": "string", "pattern": "^https?://" },
+          "type": { "enum": ["official", "secondary"] },
+          "used_for": { "type": "string", "minLength": 3 }
+        }
+      }
+    },
+    "last_verified": { "$ref": "#/$defs/date" },
+    "verification_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["is_legitimate", "confidence_score", "verification_notes"],
+      "properties": {
+        "is_legitimate": { "type": "boolean" },
+        "confidence_score": { "type": "number", "minimum": 0, "maximum": 1 },
+        "verification_notes": { "type": "string", "minLength": 10 }
+      }
+    }
+  }
+}

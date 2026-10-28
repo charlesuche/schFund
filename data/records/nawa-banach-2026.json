@@ -1,0 +1,136 @@
+{
+  "scholarship_title": "Banach NAWA Programme (Prof. Stefan Banach Scholarship Programme) 2026",
+  "provider_organization": "Polish National Agency for Academic Exchange (NAWA), with the Polish Ministry of Foreign Affairs",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "Albania",
+    "Angola",
+    "Argentina",
+    "Armenia",
+    "Azerbaijan",
+    "Belarus",
+    "Bosnia and Herzegovina",
+    "Brazil",
+    "Georgia",
+    "India",
+    "Indonesia",
+    "Iraq",
+    "Iran",
+    "Jordan",
+    "Kazakhstan",
+    "Kenya",
+    "Kosovo",
+    "Lebanon",
+    "Mexico",
+    "Moldova",
+    "Mongolia",
+    "Montenegro",
+    "Nigeria",
+    "North Macedonia",
+    "Palestine",
+    "Papua New Guinea",
+    "Peru",
+    "Philippines",
+    "Rwanda",
+    "Senegal",
+    "Serbia",
+    "Tanzania",
+    "Tunisia",
+    "Ukraine",
+    "Uzbekistan",
+    "Vietnam"
+  ],
+  "host_countries": [
+    "Poland"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "100% fee exemption at public universities; private universities set their own terms",
+    "stipend": {
+      "amount_min": 2500,
+      "amount_max": 2500,
+      "currency": "PLN",
+      "period": "month",
+      "gross_or_net": "unknown",
+      "notes": "Paid for a maximum of 12 months per academic year (max 5 in winter semester, 7 in summer semester)"
+    },
+    "additional_benefits": [
+      "Airfare (one-off lump sum for international travel, paid with the first stipend)",
+      "Polish language and culture course (English-taught path)"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": "No fee to NAWA. The Polish university may charge its own admission fee; proof of paying it is one accepted way to show you are in its admission process."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Bachelor's average must earn at least 50 of 70 points on NAWA's formula (about 71% of the maximum on your grading scale); total score at least 70 of 110",
+    "language_proficiency": [
+      "English B2 (certificate from NAWA's Appendix 4 list)",
+      "Polish B2 for Polish-taught study",
+      "Polish B1 for the preparatory course"
+    ],
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Nigeria is in country group 4 with Azerbaijan only. The group closes early once 200 applications are submitted, so apply early in the window. Places per country are set by the assessment team."
+    }
+  ],
+  "required_documents": [
+    "Passport data page",
+    "Bachelor's diploma with supplement showing grade average and all subject grades (or a university certificate if graduating by 15 Jul 2026)",
+    "Proof of admission or of contact with a Polish university for a specific programme",
+    "Language certificate",
+    "Self-presentation video (1-3 minutes, Polish or English)",
+    "Optional: recommendation letter from a Polish diplomatic mission (worth up to 10 points)"
+  ],
+  "preparation_alerts": [
+    "Bachelor's must be obtained in a programme country in 2024 or later",
+    "Documents not in Polish or English need a sworn translation",
+    "Start Polish university admission before the NAWA deadline"
+  ],
+  "application_timeline": {
+    "opening_date": "2026-04-13",
+    "deadline_date": "2026-05-08",
+    "deadline_time": "15:00 Europe/Warsaw",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://programs.nawa.gov.pl/login",
+  "source_urls": [
+    {
+      "url": "https://www.nawa.gov.pl/images/Banach/2026/Banach-2026---Call-for-applications-EN.pdf",
+      "type": "official",
+      "used_for": "All eligibility, funding, document, scoring and date fields"
+    },
+    {
+      "url": "https://nawa.gov.pl/en/students/foreign-students/the-banach-scholarship-programme/landing",
+      "type": "official",
+      "used_for": "Programme overview and deadline"
+    },
+    {
+      "url": "https://www.gov.pl/web/polishaid/results-of-the-banach-nawa-programm-call",
+      "type": "official",
+      "used_for": "Results published 10 Aug 2026"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.95,
+    "verification_notes": "Verified against NAWA call No. 16/2026. Next call not yet announced (2025 call opened in June, 2026 call in April). The 2022 tweet described this as STEM-only; the 2026 call has no field restriction."
+  }
+}

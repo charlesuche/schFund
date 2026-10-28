@@ -1,0 +1,77 @@
+{
+  "scholarship_title": "ERSU Messina Scholarship 2026/2027",
+  "provider_organization": "ERSU Messina (Ente Regionale per il Diritto allo Studio Universitario), Region of Sicily",
+  "academic_level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "All"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": null,
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "Need-based; official amounts not verified"
+    },
+    "additional_benefits": [
+      "Housing",
+      "Rent contribution",
+      "Meals",
+      "Graduation prize (for previous scholarship holders)"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": null
+  },
+  "eligibility_criteria": {
+    "min_gpa": "First year: none stated; later years need minimum credits by 10 Aug 2026",
+    "language_proficiency": [
+      "None required for the grant itself"
+    ],
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [],
+  "preparation_alerts": [],
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.ersumessina.it/",
+  "source_urls": [
+    {
+      "url": "https://www.studenti.it/borse-di-studio-2026-27-sicilia-bando-requisiti-e-scadenze.html",
+      "type": "secondary",
+      "used_for": "Call published; benefit types; credit rule"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.55,
+    "verification_notes": "ERSU Messina is the official regional body. Official bando not read; deadline (reportedly August) and amounts left null. Needs manual review."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "scholarship_title": "DSU Toscana Scholarship and Accommodation 2026/2027 (Bachelor's and Master's)",
+  "provider_organization": "DSU Toscana (Azienda Regionale per il Diritto allo Studio Universitario della Toscana), Region of Tuscany",
+  "academic_level": [
+    "Bachelor",
+    "Master"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "All"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": null,
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "Amount depends on family income and whether the student is local, commuter or off-site. One academic year; reapply every year."
+    },
+    "additional_benefits": [
+      "Housing (university residence place, applied for in the same call)"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": null
+  },
+  "eligibility_criteria": {
+    "min_gpa": "No merit requirement stated for first-year students; renewal from year 2 depends on credits earned",
+    "language_proficiency": [
+      "None required for the grant itself (programme admission rules apply)"
+    ],
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    "ISEE parificato (non-EU students)"
+  ],
+  "preparation_alerts": [
+    "Non-EU students need an ISEE parificato: family income and asset documents legalised and translated. Start in spring, months before the deadline.",
+    "Apply before the deadline even if not yet enrolled"
+  ],
+  "application_timeline": {
+    "opening_date": "2026-07-20",
+    "deadline_date": "2026-09-07",
+    "deadline_time": "13:00 Europe/Rome",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.dsu.toscana.it/",
+  "source_urls": [
+    {
+      "url": "https://www.unifi.it/en/node/12087",
+      "type": "official",
+      "used_for": "Dates"
+    },
+    {
+      "url": "https://www.unipi.it/avvisi/borsa-di-studio-e-posto-alloggio-per-lanno-accademico-2026-2027/",
+      "type": "official",
+      "used_for": "Dates"
+    },
+    {
+      "url": "https://www.unipi.it/didattica/iscrizioni/immatricolazioni-e-iscrizioni/iscrizioni-per-studenti-internazionali/borsa-di-studio-del-dsu/",
+      "type": "official",
+      "used_for": "Open to any nationality; benefit structure; renewal rules"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.85,
+    "verification_notes": "Covers students at the Universities of Florence, Pisa and Siena (three universities from the 2022 thread). Grant amounts only found on secondary sites and left null; read the DSU Toscana bando for exact figures."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "scholarship_title": "University of Verona International Master's Scholarships and Reduced Fees 2026/2027",
+  "provider_organization": "University of Verona (Università degli Studi di Verona)",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Artificial Intelligence",
+    "Computer Engineering for Intelligent Systems",
+    "Data Science",
+    "Economics and Data Analysis",
+    "International Economics and Business",
+    "Languages, Literatures and Digital Culture",
+    "Linguistics",
+    "Languages for Global Business, Trade and Tourism",
+    "Mathematics",
+    "Medical Bioinformatics",
+    "Molecular and Medical Biotechnology",
+    "Viticulture, Enology and Wine Marketing"
+  ],
+  "eligible_nationalities": [
+    "All (non-Italian citizens with a foreign degree, not resident in Italy)"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": "Scholarship winners: full fee exemption (pay only EUR 205 regional tax and stamp duty). Separately, 48 non-EU students get a reduced flat fee of EUR 1,000 per year for two years.",
+    "stipend": {
+      "amount_min": 8000,
+      "amount_max": 8000,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "gross",
+      "notes": "Two years. Paid in two instalments of EUR 4,000 per year. Year 2 requires 40 credits by 30 Sep 2027. 16 scholarships in total (one or two per programme); cannot be combined with Italian regional (DSU/ESU) grants."
+    },
+    "additional_benefits": [
+      "Housing (priority consideration for an ESU residence place)",
+      "International Welcome Desk support (residence permit, bank account, tax code, health insurance)"
+    ]
+  },
+  "application_fee": {
+    "required": true,
+    "amount": 50,
+    "currency": "EUR",
+    "paid_to": "university",
+    "notes": "Pre-admission fee; deducted from later fees for students who enrol (except scholarship winners)."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Varies by programme from 70% to 85% of the maximum (e.g. AI 85%, Data Science 80%, Computer Engineering 75%)",
+    "language_proficiency": [
+      "English B2 or previous degree taught in English",
+      "C1 in two languages for the language programmes"
+    ],
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Duolingo is not accepted (only for applicants from Iran and Afghanistan). A degree taught in English can replace the English certificate."
+    }
+  ],
+  "required_documents": [
+    "Passport",
+    "Bachelor's degree certificate (or enrolment certificate with expected completion date)",
+    "Transcript in English",
+    "CV in English (max 2 pages)",
+    "Cover letter (where requested)",
+    "Language certificate",
+    "Receipt for the EUR 50 pre-admission fee"
+  ],
+  "preparation_alerts": [
+    "Online interview for shortlisted candidates",
+    "Must graduate by 30 Jun 2026",
+    "Winners must accept within 7 days of the ranking and apply for a Type D study visa",
+    "Diploma translation and legalisation plus Declaration of Value (or CIMEA statements) needed to enrol",
+    "Visa proof of funds: at least EUR 546 per month"
+  ],
+  "application_timeline": {
+    "opening_date": "2026-01-29",
+    "deadline_date": "2026-03-31",
+    "deadline_time": "15:00 Europe/Rome",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.unicandidate.com/application-for-pre-admission-to-master-programmes-at-the-university-of-verona-2026-2027",
+  "source_urls": [
+    {
+      "url": "https://cdn.docs.univr.it/documenti/Concorso/bando/bando992939.pdf",
+      "type": "official",
+      "used_for": "All fields"
+    },
+    {
+      "url": "https://ambwellington.esteri.it/en/?p=4376",
+      "type": "official",
+      "used_for": "Deadline confirmation (Italian Embassy notice)"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.95,
+    "verification_notes": "Read directly from the official call. The call's title says 15 scholarships but its Article 1 and the table total 16; recorded as 16. The application portal (unicandidate.com) is the one named in the university's own call. Previously excluded under the old fee rule; the EUR 50 fee is paid to the university and is not a scam signal."
+  }
+}

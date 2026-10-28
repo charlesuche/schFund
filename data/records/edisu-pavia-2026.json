@@ -1,0 +1,82 @@
+{
+  "scholarship_title": "EDiSU Pavia Regional Scholarship 2026/2027",
+  "provider_organization": "EDiSU Pavia (Ente per il Diritto allo Studio Universitario di Pavia)",
+  "academic_level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "All"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": null,
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "Need-based; official amounts not verified"
+    },
+    "additional_benefits": [
+      "Housing (EDiSU colleges and residences)",
+      "Meals"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": null
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "language_proficiency": [
+      "None required for the grant itself"
+    ],
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [],
+  "preparation_alerts": [
+    "Likely needs ISEE parificato or legalised income documents (not verified)"
+  ],
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.edisu.pv.it/",
+  "source_urls": [
+    {
+      "url": "https://portale.unipv.it/it/didattica/corsi-di-laurea/contribuzione-universitaria/incentivi-agevolazioni-ed-esoneri/financial-support",
+      "type": "official",
+      "used_for": "EDiSU publishes an annual scholarship and residence call"
+    },
+    {
+      "url": "https://tuitionfreetrek.blogspot.com/2026/02/university-of-pavia-2026-ultimate-guide.html",
+      "type": "secondary",
+      "used_for": "Claimed 15 Sep 2026 deadline (not used in fields)"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.6,
+    "verification_notes": "Official 2026/27 bando not reached; dates and amounts left null. A blog claims a 15 Sep 2026 deadline and a guide claims up to EUR 8,248/year; both unverified. Pavia also has programme-specific scholarships (e.g. CIVRISK, 2 x EUR 4,000/year, deadline 17 Jun 2026) worth separate records. Needs manual review."
+  }
+}

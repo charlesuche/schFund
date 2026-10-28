@@ -1,0 +1,82 @@
+{
+  "scholarship_title": "University of Messina PhD Scholarships, 42nd Cycle (2026/2027)",
+  "provider_organization": "University of Messina (Università degli Studi di Messina, UniME)",
+  "academic_level": [
+    "PhD"
+  ],
+  "degree_fields": [
+    "Engineering",
+    "Natural Sciences",
+    "Medicine",
+    "Humanities",
+    "Social Sciences",
+    "Law",
+    "Economics",
+    "Psychology"
+  ],
+  "eligible_nationalities": [
+    "All"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": null,
+    "stipend": {
+      "amount_min": 16243,
+      "amount_max": 16243,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "gross",
+      "notes": "3 years from 1 Nov 2026. Applies only to funded places; the call also has unfunded places."
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": null
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "language_proficiency": null,
+    "age_limit": "None",
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [],
+  "preparation_alerts": [
+    "Apply via UniME's Esse3 portal; international applicants without SPID register an Esse3 account"
+  ],
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-07-24",
+    "deadline_time": "23:59 Europe/Rome",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "urgent_deadline": false
+  },
+  "official_apply_url": null,
+  "source_urls": [
+    {
+      "url": "https://gradualin.com/university-of-messina-phd-scholarships-2026-international-students/",
+      "type": "secondary",
+      "used_for": "Amount, deadline, start date, no age limit"
+    },
+    {
+      "url": "https://www.careershelpdesk.com/?p=8373",
+      "type": "secondary",
+      "used_for": "15 programmes, Esse3 application"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.65,
+    "verification_notes": "Secondary sources agree on amount and deadline but disagree on the publication date (24 vs 25 June 2026), so opening_date is null. Official call URL not confirmed."
+  }
+}

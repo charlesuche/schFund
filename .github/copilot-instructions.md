@@ -1,0 +1,3 @@
+Read and follow `AGENTS.md` in the repo root before doing anything. It contains the project context, folder layout, data workflow and hard rules.
+
+For any scholarship research or extraction task, also read `docs/extraction_prompt.md` and write results to `data/inbox/<slug>.json`, then run `python scripts/validate.py data/inbox`.
