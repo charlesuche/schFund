@@ -3,9 +3,6 @@
 .env.*
 !.env.example
 .cursor/
-AGENTS.md
-CLAUDE.md
-
 
 # --- Local working files, not needed in the repo ---
 # Task prompts sent to AI agents (kept on this computer only).
@@ -29,6 +26,8 @@ pgdata/
 .vscode/
 .claude/settings.local.json
 *.swp
+AGENTS.md
+CLAUDE.md
 
 # --- Operating system ---
 .DS_Store
@@ -37,3 +36,5 @@ Thumbs.db
 # --- Logs and scratch files ---
 *.log
 tmp/
+.github/copilot-instructions.md
+.cursor/rules/project.mdc
