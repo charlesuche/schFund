@@ -1,6 +1,6 @@
 # Scholarship Platform
 
-Verified, detailed scholarship data for Nigerian and African students, with help preparing applications.
+Verified, detailed scholarship data for students, with help preparing applications.
 
 **Current phase:** database and backend (Phase 2), with data collection continuing. See `AGENTS.md` for how agents work in this repo.
 
