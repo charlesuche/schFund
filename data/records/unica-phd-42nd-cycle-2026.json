@@ -1,0 +1,153 @@
+{
+  "scholarship_title": "University of Cagliari PhD Scholarships, 42nd Cycle (2026/2027)",
+  "provider_organization": "University of Cagliari (UniCa), with Sardinia Region ESF+ STEP funds and partner bodies",
+  "academic_level": [
+    "PhD"
+  ],
+  "degree_fields": [
+    "Global Health",
+    "Data Science",
+    "Philosophy and Human Sciences",
+    "Physics",
+    "Civil Engineering and Architecture",
+    "Electronic and Computer Engineering",
+    "Industrial Engineering",
+    "Mathematics and Computer Science",
+    "Medicine and Life Sciences",
+    "Earth and Environmental Sciences",
+    "Economics and Business",
+    "Law",
+    "History and Humanities"
+  ],
+  "eligible_nationalities": [
+    "All"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "No enrolment or attendance fees; only EUR 16 stamp duty and the EUR 140 regional tax (if due) each year",
+    "stipend": {
+      "amount_min": 16243,
+      "amount_max": 16243,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "gross",
+      "notes": "EUR 16,243 gross a year for 3 years, paid monthly; raised by up to 50% during authorised periods abroad. Lost if your other gross income exceeds EUR 16,243 a year."
+    },
+    "additional_benefits": [
+      "Mandatory 6 to 12 month research period abroad with increased scholarship"
+    ]
+  },
+  "application_fee": {
+    "required": true,
+    "amount": 26.8,
+    "currency": "EUR",
+    "paid_to": "university",
+    "notes": "Non-refundable selection fee via PagoPA, per PhD programme applied to"
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Master's-level (second-cycle) degree, or a foreign degree judged equivalent by the committee; can graduate by 31 Oct 2026",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": "2026-10-31",
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Master's degree certificate with exam list",
+      "detail": "Grades, credits, average, grading scale, final grade and dates; translated into Italian or English",
+      "optional": false
+    },
+    {
+      "name": "Bachelor's degree certificate with exam list",
+      "detail": "Same details, for two-cycle systems",
+      "optional": false
+    },
+    {
+      "name": "Passport scan",
+      "detail": "Colour scan; must be valid at least six months after the deadline",
+      "optional": false
+    },
+    {
+      "name": "Up to three reference letters",
+      "detail": "Reserved places for foreign-degree holders: on UniCa's template, in English, on letterhead, sent by referees to phdcall_referenceletter@unica.it by the deadline",
+      "optional": false
+    },
+    {
+      "name": "Other qualifications, publications, language certificates",
+      "detail": "Optional unless the programme annex says mandatory",
+      "optional": true
+    },
+    {
+      "name": "Declaration of Value or CIMEA statement and legalised Italian translation of the degree",
+      "detail": "At enrolment, for foreign degrees",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Ask referees early: they must email letters directly by the application deadline",
+    "Request a Declaration of Value from the Italian embassy or a CIMEA statement for enrolment",
+    "Apply separately (and pay the fee) for each PhD programme"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "CV",
+        "max_points": 40,
+        "notes": "Reserved places for foreign-degree holders; at least 30 points on qualifications needed for interview"
+      },
+      {
+        "criterion": "Reference letters",
+        "max_points": 20,
+        "notes": null
+      },
+      {
+        "criterion": "Online interview (Microsoft Teams)",
+        "max_points": 40,
+        "notes": "Held 1-23 Oct 2026"
+      }
+    ],
+    "pass_rule": "At least 60 of 100 points. Ordinary places use a different scale: academic career 45, experience 15, test/interview 40."
+  },
+  "application_timeline": {
+    "opening_date": "2026-08-07",
+    "deadline_date": "2026-09-28",
+    "deadline_time": "23:59 Europe/Rome",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://pica.cineca.it/login",
+  "source_urls": [
+    {
+      "url": "https://web.unica.it/unica/protected/544034/0/def/ref/AVS543900/",
+      "title": "UniCa: PhD call Cycle 42, English translation (PDF, Rector's Decree 856/2026)",
+      "type": "official",
+      "used_for": "All fields: positions, reserved places, amounts, fee, documents, selection, dates"
+    },
+    {
+      "url": "https://web.unica.it/unica/en/studenti_s01_ss05.page",
+      "title": "UniCa: PhD programmes page",
+      "type": "official",
+      "used_for": "Programme annexes and results (not read)"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.9,
+    "verification_notes": "Read the English translation of the Cycle 42 call (Italian version is official). 149 positions: 109 ordinary with scholarship, 17 without, 19 with scholarship reserved for foreign candidates with a foreign degree (about one per programme), 2 for foreign-government scholarship holders, 2 for international mobility scholars. 128 scholarships in total. PhDs start 16 Nov 2026. Programme-specific requirements are in annexes not read."
+  },
+  "award_stats": {
+    "year": 2026,
+    "awards": 128,
+    "applicants": null
+  }
+}

@@ -1,0 +1,38 @@
+# Render Blueprint: the website on Render's free plan, in Frankfurt.
+# The database is on Neon (free plan, Frankfurt), not on Render, because
+# Render's free database is deleted after 30 days.
+#
+# Deploys never start on their own: GitHub Actions (.github/workflows/ci.yml)
+# runs the tests and the validator first, then calls the deploy hook.
+services:
+  - type: web
+    name: scholarship-platform
+    runtime: python
+    plan: free
+    region: frankfurt
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips "*"
+    healthCheckPath: /api/health
+    autoDeployTrigger: "off"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      # Secrets: Render asks for these when the Blueprint is first created.
+      - key: DATABASE_URL      # Neon connection string (the "pooled" one)
+        sync: false
+      - key: SITE_URL          # e.g. https://yourdomain.org, no trailing slash
+        sync: false
+      - key: SMTP_HOST         # Brevo: smtp-relay.brevo.com
+        sync: false
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASSWORD
+        sync: false
+      - key: MAIL_FROM         # a sender address verified in Brevo
+        sync: false
+      - key: REPORT_TO         # where problem reports are sent
+        sync: false
+      - key: CONTACT_EMAIL     # shown on the Privacy page for data requests
+        sync: false

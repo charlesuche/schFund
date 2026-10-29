@@ -1,0 +1,94 @@
+{
+  "scholarship_title": "Padua International Excellence Scholarship Programme (University of Padova)",
+  "provider_organization": "University of Padova",
+  "academic_level": [
+    "Bachelor",
+    "Master"
+  ],
+  "degree_fields": [
+    "English-taught bachelor's and master's programmes"
+  ],
+  "eligible_nationalities": [
+    "All non-Italian citizens (dual Italian citizens excluded), not resident in Italy"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": "Exemption from student fees; only the regional fee and revenue stamp are paid",
+    "stipend": {
+      "amount_min": 8000,
+      "amount_max": 8000,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "gross",
+      "notes": "EUR 8,000 gross a year in two instalments of EUR 4,000. Up to 2 years for master's, 3 for bachelor's. Keep it with at least 20 CFU by 30 Nov of the following year; repay if you withdraw or transfer."
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": "university",
+    "notes": "Not stated on the scholarship page; Padova's admission application may have its own fee (search results mention EUR 30)."
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Complete application to an English-taught degree programme",
+      "detail": "No separate scholarship form; first-call applicants are mainly considered",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Apply in the first admission call; the scholarships mostly go to first-call applicants",
+    "Cannot be held together with other scholarships"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": "Up to 76 scholarships; results follow the admission notice dates"
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": "2026-11",
+    "next_cycle_confidence": "likely",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.unipd.it/en/padua-excellence",
+  "source_urls": [
+    {
+      "url": "https://www.unipd.it/en/padua-excellence",
+      "title": "University of Padova: Padua Excellence scholarships",
+      "type": "official",
+      "used_for": "Number, amount, fee exemption, eligibility, renewal, no separate form"
+    },
+    {
+      "url": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+      "title": "University of Padova: International Excellence Scholarship Programme",
+      "type": "official",
+      "used_for": "Calls for application due in November 2026"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.65,
+    "verification_notes": "Official pages give the programme terms but are inconsistent on the year: they name the A.Y. 2026/2027 call yet say the calls will be published in November 2026, so this may be the 2027/28 round. No deadlines are on the pages; aggregators give early February (first call) for past rounds. Status unknown until the call is out. The 2022 tweet also mentioned an ESU Veneto regional grant (separate, not researched here). Search results mention a EUR 30 application fee to the university; not confirmed."
+  },
+  "award_stats": null
+}

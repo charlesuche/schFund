@@ -1,0 +1,141 @@
+{
+  "scholarship_title": "Stipendium Hungaricum Scholarship 2027/2028",
+  "provider_organization": "Hungarian Government, run by the Tempus Public Foundation",
+  "academic_level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+  ],
+  "degree_fields": [
+    "Agricultural Science",
+    "Arts and Humanities",
+    "Engineering Science",
+    "Medical and Health Science",
+    "Political Science and Public Governance",
+    "Teacher Training",
+    "Other fields set by the Nigerian partner (doctoral: any field)"
+  ],
+  "eligible_nationalities": [
+    "Nigeria",
+    "Citizens of other Stipendium Hungaricum partner countries (list on stipendiumhungaricum.hu)"
+  ],
+  "host_countries": [
+    "Hungary"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "Full tuition-fee exemption",
+    "stipend": {
+      "amount_min": 43700,
+      "amount_max": 180000,
+      "currency": "HUF",
+      "period": "month",
+      "gross_or_net": "unknown",
+      "notes": "Bachelor's and master's: HUF 43,700 a month, 12 months a year. Doctoral: HUF 140,000 a month in the first 4 semesters, HUF 180,000 in the next 4. Described as a contribution to living costs only."
+    },
+    "additional_benefits": [
+      "Free dormitory place or HUF 40,000 a month towards housing",
+      "Hungarian state health care plus supplementary insurance up to HUF 65,000 a year",
+      "Free compulsory Hungarian language course (two semesters)"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": "The official site says online registration and entrance exams are free and warns against paying agencies."
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": [
+      "Hungarian B2 for Hungarian-taught programmes (a one-year preparatory course is available)",
+      "Other programmes: each university's language requirement"
+    ],
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Nigeria is a partner country. The sending partner is the Federal Ministry of Education, Department of Scholarship Awards (Abuja), which nominates applicants. Bachelor's, master's and one-tier master's are offered in listed fields; doctoral study in any field."
+    }
+  ],
+  "required_documents": [
+    {
+      "name": "Passport or national ID",
+      "detail": "A national ID copy plus signed declaration can replace the passport at application; a valid passport is needed by 1 August (2026/27 call)",
+      "optional": false
+    },
+    {
+      "name": "Supervisor's statement",
+      "detail": "Doctoral applicants only, if the doctoral school asks for it (by 15 Mar in the 2026/27 call)",
+      "optional": false
+    },
+    {
+      "name": "Medical certificate",
+      "detail": "Awardees only",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Apply in the online system and also to the Nigerian sending partner, which nominates by end of February",
+    "Nominated applicants take university entrance exams between mid-March and late May"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Nomination by the sending partner",
+        "max_points": null,
+        "notes": "Best applicants nominated by end of February"
+      },
+      {
+        "criterion": "University entrance exam or interview",
+        "max_points": 100,
+        "notes": null
+      }
+    ],
+    "pass_rule": "At least 56 of 100 points (2026/27 call)"
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://stipendiumhungaricum.hu/apply/",
+  "source_urls": [
+    {
+      "url": "https://stipendiumhungaricum.hu/apply/",
+      "title": "Stipendium Hungaricum: how to apply (2026/27 call)",
+      "type": "official",
+      "used_for": "Process, fee, exam pass mark, documents, previous deadline"
+    },
+    {
+      "url": "https://stipendiumhungaricum.hu/partners/",
+      "title": "Stipendium Hungaricum: partner countries",
+      "type": "official",
+      "used_for": "Nigeria partner details, levels and fields"
+    },
+    {
+      "url": "https://stipendiumhungaricum.hu/about/",
+      "title": "Stipendium Hungaricum: about the programme",
+      "type": "official",
+      "used_for": "Stipend, housing and insurance amounts"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.75,
+    "verification_notes": "The 2027/28 call is not published yet, so status and dates are unknown. Rules and amounts here come from the 2026/27 call (deadline 15 Jan 2026, 14:00 CET) and may change. The partner list gives a yahoo.com contact for the Nigerian partner; applications go through the official online system, but a human should confirm the ministry's current contact. A 2019 tweet mentioned a USD 150 fee; the official site says applying is free. Leads.csv had this programme twice."
+  },
+  "award_stats": null
+}

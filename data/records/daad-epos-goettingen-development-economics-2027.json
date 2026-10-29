@@ -1,0 +1,170 @@
+{
+  "scholarship_title": "DAAD EPOS Scholarship: MSc Development Economics, University of Göttingen (intake 2027/2028)",
+  "provider_organization": "German Academic Exchange Service (DAAD), with the University of Göttingen",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Development Economics"
+  ],
+  "eligible_nationalities": [
+    "Nigeria",
+    "Other developing countries on DAAD's EPOS (OECD-DAC) country list"
+  ],
+  "host_countries": [
+    "Germany"
+  ],
+  "status": "open",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "No tuition fees for EPOS scholarship holders; registration or enrolment fees may still apply",
+    "stipend": {
+      "amount_min": 992,
+      "amount_max": 992,
+      "currency": "EUR",
+      "period": "month",
+      "gross_or_net": "unknown",
+      "notes": "EUR 992 a month for graduates for the length of the 24-month programme"
+    },
+    "additional_benefits": [
+      "Health, accident and personal liability insurance contributions",
+      "Travel allowance (unless paid by the home country or another funder)",
+      "Rent subsidy and family allowance in some cases"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not stated on the Göttingen EPOS page or DAAD's EPOS entry."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Göttingen's general programme requirements (not read)",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": [
+      "IELTS or TOEFL at the level set by the programme (institutional TOEFL not accepted)"
+    ],
+    "age_limit": "None, but your latest degree should normally be no more than six years old",
+    "work_experience_years": "2 (relevant work after the bachelor's degree, at the time of application)"
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Signed DAAD checklist",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "DAAD EPOS application form",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "CV",
+      "detail": "Reverse chronological, no unexplained gaps, Europass format preferred",
+      "optional": false
+    },
+    {
+      "name": "Letter of motivation",
+      "detail": "One identical letter for all courses you apply to (max 3), explaining your choice and priority",
+      "optional": false
+    },
+    {
+      "name": "Recommendation letter from current employer",
+      "detail": "Official letterhead, signed, stamped and recently dated",
+      "optional": false
+    },
+    {
+      "name": "Certificates of employment",
+      "detail": "Showing at least two years of relevant work after the bachelor's; ideally with a re-employment guarantee",
+      "optional": false
+    },
+    {
+      "name": "English test results (IELTS or TOEFL)",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Degree certificates",
+      "detail": "Certified translation if not in English or German",
+      "optional": false
+    },
+    {
+      "name": "Full transcript of records",
+      "detail": "With an explanation of the grading system if not on the transcript",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Get an employer recommendation and employment certificates showing two years' work after your bachelor's",
+    "Book IELTS or TOEFL early; institutional TOEFL is not accepted",
+    "Apply on Göttingen's portal and choose 'Development Economics with DAAD EPOS SCHOLARSHIP'; one application covers admission and funding"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Review of application by the course selection committee",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Online interview",
+        "max_points": null,
+        "notes": "About 15 minutes, for shortlisted candidates"
+      }
+    ],
+    "pass_rule": "The course nominates candidates; DAAD then asks nominees to upload the full application to the DAAD portal. Decisions by email in mid-March."
+  },
+  "application_timeline": {
+    "opening_date": "2026-10-01",
+    "deadline_date": "2026-11-15",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": true
+  },
+  "official_apply_url": "https://uni-goettingen.de/de/572462.html",
+  "source_urls": [
+    {
+      "url": "https://uni-goettingen.de/de/572462.html",
+      "title": "University of Göttingen: DAAD EPOS scholarship overview (Development Economics)",
+      "type": "official",
+      "used_for": "Application window 1 Oct to 15 Nov, 6-7 places a year, how to apply, selection"
+    },
+    {
+      "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50076777",
+      "title": "DAAD scholarship database: Development-Related Postgraduate Courses (EPOS)",
+      "type": "official",
+      "used_for": "Eligibility, stipend, insurance, travel, documents, language"
+    },
+    {
+      "url": "https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/deadlines_2027_28.pdf",
+      "title": "DAAD: EPOS list of courses and deadlines, intake 2027/2028 (PDF)",
+      "type": "official",
+      "used_for": "Course is on the 2027/28 EPOS list; English, MSc, 24 months"
+    },
+    {
+      "url": "https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/epos_faq_en.pdf",
+      "title": "DAAD: EPOS FAQ (PDF, June 2026)",
+      "type": "official",
+      "used_for": "No age limit, degree age, no tuition fees, telephone interview"
+    },
+    {
+      "url": "https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/dac_laenderliste_epos.pdf",
+      "title": "DAAD: EPOS list of eligible developing countries (PDF, validity 2024-2025)",
+      "type": "official",
+      "used_for": "Nigeria eligible"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.8,
+    "verification_notes": "Göttingen says applications are only possible 1 Oct to 15 Nov each year, so the intake 2027 window is open now; its linked guide is still labelled 2026, so a human should confirm no date change. Nigeria is on DAAD's EPOS country list (dac_laenderliste_epos.pdf), but that PDF is marked 'validity 2024-2025'; no newer list was found. Göttingen's own programme entry requirements (grades) were not read. Stipend is DAAD's current graduate rate."
+  },
+  "award_stats": null
+}

@@ -1,0 +1,97 @@
+{
+  "scholarship_title": "Chalmers University of Technology Scholarships for Fee-Paying Master's Students (autumn 2027 intake)",
+  "provider_organization": "Chalmers University of Technology",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "All international master's programmes"
+  ],
+  "eligible_nationalities": [
+    "All countries outside the EU/EEA and Switzerland (tuition-fee-paying applicants)"
+  ],
+  "host_countries": [
+    "Sweden"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "Depends on the scholarship: past schemes include IPOET (75% tuition reduction) and Adlerbert Study Scholarships (full tuition waiver)",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No living costs; you must show funds for living costs for the Swedish residence permit"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": true,
+    "amount": 900,
+    "currency": "SEK",
+    "paid_to": "official_agency",
+    "notes": "SEK 900 University Admissions in Sweden application fee for the programme application (cannot be waived); no separate scholarship fee stated"
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Strong academic record; must meet programme admission requirements",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Programme application on universityadmissions.se",
+      "detail": "Application number needed for the scholarship form",
+      "optional": false
+    },
+    {
+      "name": "Chalmers scholarship application",
+      "detail": null,
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "The scholarship deadline is the programme deadline (15 Jan 2027), not the 1 Feb document deadline"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": "Award notices mid-March to late April 2027"
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2027-01-15",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.chalmers.se/en/education/application-and-admission/scholarships-for-fee-paying-students/",
+  "source_urls": [
+    {
+      "url": "https://www.chalmers.se/en/education/application-and-admission/scholarships-for-fee-paying-students/",
+      "title": "Chalmers: scholarships for fee-paying students",
+      "type": "official",
+      "used_for": "Window late Nov 2026 to mid-Jan 2027; deadline matches programme deadline"
+    },
+    {
+      "url": "https://www.chalmers.se/en/education/application-and-admission/key-dates-for-masters-studies/",
+      "title": "Chalmers: key dates for master's",
+      "type": "official",
+      "used_for": "Programme application 16 Oct 2026 to 15 Jan 2027; documents 1 Feb; notices"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.6,
+    "verification_notes": "Official pages (via search results) give a scholarship window from late November 2026 to mid-January 2027; exact opening date not stated, so status unknown. Which schemes run in 2027 (IPOET, Adlerbert) was not confirmed; their pages refer to 2023."
+  },
+  "award_stats": null
+}

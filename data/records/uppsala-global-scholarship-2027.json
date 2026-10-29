@@ -1,0 +1,98 @@
+{
+  "scholarship_title": "Uppsala University Global Scholarship (autumn 2027 intake)",
+  "provider_organization": "Uppsala University",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "All international master's programmes"
+  ],
+  "eligible_nationalities": [
+    "All countries outside the EU/EEA and Switzerland (tuition-fee-paying applicants)"
+  ],
+  "host_countries": [
+    "Sweden"
+  ],
+  "status": "upcoming",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "Full tuition fee for an international master's programme",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No living costs; you must show funds for living costs for the Swedish residence permit"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": true,
+    "amount": 900,
+    "currency": "SEK",
+    "paid_to": "official_agency",
+    "notes": "SEK 900 University Admissions in Sweden application fee for the programme application (cannot be waived); no fee for the scholarship application itself"
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Strong academic record; must meet programme admission requirements",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Programme application on universityadmissions.se with Uppsala as first priority",
+      "detail": "Programme application 16 Oct 2026 to 15 Jan 2027; documents by 1 Feb 2027",
+      "optional": false
+    },
+    {
+      "name": "Motivation letter",
+      "detail": "Maximum 350 words, in the scholarship form",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Apply to the programme first, with Uppsala as your first priority, by 15 Jan 2027",
+    "Only about 2% of applicants get a scholarship"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": "Merit-based; financial need is not considered"
+  },
+  "application_timeline": {
+    "opening_date": "2027-01-16",
+    "deadline_date": "2027-02-01",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.uu.se/en/study/masters-studies/scholarships/uppsala-university-scholarships",
+  "source_urls": [
+    {
+      "url": "https://www.uu.se/en/study/masters-studies/scholarships/uppsala-university-scholarships",
+      "title": "Uppsala University: master's scholarships",
+      "type": "official",
+      "used_for": "Scholarship window 16 Jan to 1 Feb 2027, coverage, eligibility, motivation letter, 2% success rate"
+    },
+    {
+      "url": "https://www.uu.se/en/study/masters-studies/scholarships/application-guide",
+      "title": "Uppsala University: scholarship application guide",
+      "type": "official",
+      "used_for": "Application steps"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.75,
+    "verification_notes": "Facts from official uu.se pages as summarised in search results (pages not opened directly). The lead called these 'IPK scholarships'; no scheme by that name was found; this is Uppsala's Global Scholarship. A separate King Carl XVI Gustaf scholarship (SEK 40,000/yr from autumn 2027) is for students already enrolled."
+  },
+  "award_stats": null
+}

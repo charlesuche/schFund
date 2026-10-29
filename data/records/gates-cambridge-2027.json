@@ -1,0 +1,134 @@
+{
+  "scholarship_title": "Gates Cambridge Scholarship 2027",
+  "provider_organization": "Gates Cambridge Trust, University of Cambridge",
+  "academic_level": [
+    "Master",
+    "PhD"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "All (citizens of any country outside the United Kingdom)"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "open",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "University Composition Fee at the appropriate rate",
+    "stipend": {
+      "amount_min": 23152,
+      "amount_max": 23152,
+      "currency": "GBP",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "Maintenance allowance at the 2026-27 rate, pro rata for courses shorter than 12 months. PhD awards last up to four years. May be reduced if the scholar has a salary or another large award."
+    },
+    "additional_benefits": [
+      "One economy airfare at the start and end of the course",
+      "Inbound visa costs",
+      "Immigration Health Surcharge",
+      "Academic development funding (up to GBP 750 to 4,000, by course length; on application)",
+      "Family allowance for children (up to GBP 12,793 a year for one child, GBP 18,244 for two or more; on application)",
+      "Hardship and parental leave funding (on application)"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Apply through the University of Cambridge postgraduate application; the university's own application fee was not checked."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "No minimum GPA; academic excellence judged on the whole application",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "University of Cambridge postgraduate application, including the Gates Cambridge section",
+      "detail": "Full application due by 11:59pm UK time on your course's funding deadline",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Check your course's funding deadline in the Cambridge Course Directory: it is either 8 Dec 2026 or 6 Jan 2027",
+    "Not open to MBA, MFin, PGCE, MASt, undergraduate or part-time degrees (except the PhD)"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Academic excellence",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Reasons for choice of course",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Commitment to improving the lives of others",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Capacity for leadership",
+        "max_points": null,
+        "notes": null
+      }
+    ],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": "2026-09-11",
+    "deadline_date": "2026-12-08",
+    "deadline_time": "23:59 Europe/London",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.gatescambridge.org/apply/how-to-apply/",
+  "source_urls": [
+    {
+      "url": "https://www.gatescambridge.org/apply/timeline/",
+      "title": "Gates Cambridge: 2027 timeline",
+      "type": "official",
+      "used_for": "Opening date, deadlines, results dates"
+    },
+    {
+      "url": "https://www.gatescambridge.org/apply/eligibility/",
+      "title": "Gates Cambridge: eligibility",
+      "type": "official",
+      "used_for": "Citizenship, eligible and excluded courses"
+    },
+    {
+      "url": "https://www.gatescambridge.org/apply/criteria/",
+      "title": "Gates Cambridge: selection criteria",
+      "type": "official",
+      "used_for": "Four selection criteria"
+    },
+    {
+      "url": "https://www.gatescambridge.org/programme/the-scholarship/",
+      "title": "Gates Cambridge: what the scholarship covers",
+      "type": "official",
+      "used_for": "Fees, maintenance, airfare, visa, IHS, discretionary funding, about 70 awards a year"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.9,
+    "verification_notes": "All facts from official Gates Cambridge pages. Deadline stored as 8 Dec 2026 (the earlier of the two international deadlines); some courses close 6 Jan 2027. US citizens resident in the US had a separate round that closed 14 Oct 2026. About 70 scholarships a year (no applicant count found, so award_stats is null). The 2027-28 maintenance rate is not yet published; the 2026-27 rate is shown. The Cambridge course application fee was not checked."
+  },
+  "award_stats": null
+}

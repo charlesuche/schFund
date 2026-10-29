@@ -1,0 +1,92 @@
+{
+  "scholarship_title": "University of Glasgow Global Leadership Scholarship, September 2027 entry",
+  "provider_organization": "University of Glasgow",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "All eligible 1-year full-time in-person master's programmes"
+  ],
+  "eligible_nationalities": [
+    "Nigeria",
+    "Other countries on the university's eligible list (International or EU fee status)"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "GBP 10,000 tuition fee discount",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No stipend"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not stated on the scholarship page."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Grades equivalent to UK First Class Honours",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Scholarship application",
+      "detail": "Opens shortly; register interest on the scholarship page",
+      "optional": false
+    },
+    {
+      "name": "Offer for a full-time 1-year master's starting September 2027",
+      "detail": null,
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Cannot be combined with other University of Glasgow scholarships or discounts (except the Alumni Discount)"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": "350 awards; decided on a rolling basis within 6 weeks of your offer or scholarship application"
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://gla.ac.uk/scholarships/globalleadershipscholarship",
+  "source_urls": [
+    {
+      "url": "https://gla.ac.uk/scholarships/globalleadershipscholarship",
+      "title": "University of Glasgow: Global Leadership Scholarship 2027/28",
+      "type": "official",
+      "used_for": "Value, 350 awards, eligibility incl. Nigeria, programme rules, timing"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.85,
+    "verification_notes": "Official page for academic session 2027/28 (September 2027 entry): GBP 10,000 fee waiver for one year, 350 awards, Nigeria eligible, first-class equivalent grades. The scholarship 'will open shortly'; closing date usually late August, to be confirmed. Partial award only. A separate January 2027 version is in glasgow-global-leadership-jan-2027."
+  },
+  "award_stats": null
+}

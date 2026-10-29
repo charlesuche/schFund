@@ -5,14 +5,21 @@
     "PhD"
   ],
   "degree_fields": [
+    "Biomedical Engineering",
+    "Biology and Experimental Medicine",
+    "Economics, Management and Statistics",
+    "Physics",
     "Engineering",
-    "Natural Sciences",
-    "Medicine",
-    "Humanities",
-    "Social Sciences",
+    "Psychology",
+    "Chemistry",
+    "Cognitive Science",
+    "Public Administration",
     "Law",
-    "Economics",
-    "Psychology"
+    "Political Science",
+    "Humanities",
+    "Veterinary, Biotechnology and Agricultural Sciences",
+    "Sustainability Sciences",
+    "Translational Molecular Medicine and Surgery"
   ],
   "eligible_nationalities": [
     "All"
@@ -22,61 +29,144 @@
   ],
   "status": "closed",
   "financial_coverage": {
-    "funding_type": "Fully Funded",
-    "tuition_coverage": null,
+    "funding_type": "Stipend Only",
+    "tuition_coverage": "Not waived. Funded PhD students who live abroad with no Italian income pay a flat EUR 750 per year, plus EUR 156 at enrolment (EUR 140 regional tax + EUR 16 stamp). Unfunded places pay only the EUR 156.",
     "stipend": {
       "amount_min": 16243,
       "amount_max": 16243,
       "currency": "EUR",
       "period": "year",
       "gross_or_net": "gross",
-      "notes": "3 years from 1 Nov 2026. Applies only to funded places; the call also has unfunded places."
+      "notes": "Gross of the student's share of INPS social security (one third). Paid monthly in arrears for 3 years from 1 Nov 2026, renewed yearly after a positive review. +50% during approved periods abroad. Applies only to funded places; the call also has unfunded places."
     },
-    "additional_benefits": []
+    "additional_benefits": [
+      "50% stipend increase during authorised research periods abroad",
+      "Research budget per the UniME PhD regulations (amount not stated in the call)"
+    ]
   },
   "application_fee": {
-    "required": null,
-    "amount": null,
-    "currency": null,
-    "paid_to": null,
-    "notes": null
+    "required": true,
+    "amount": 30,
+    "currency": "EUR",
+    "paid_to": "university",
+    "notes": "Non-refundable entry fee per application, paid by PagoPA (or international bank transfer for residents abroad) by the deadline. Applicants from 'particularly poor' countries (D.M. 176/2026) are exempt; Nigeria is not on that list."
   },
   "eligibility_criteria": {
     "min_gpa": null,
-    "language_proficiency": null,
-    "age_limit": "None",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": "2026-10-31",
+    "language_proficiency": [
+      "Language set per course (Attachments 1-15), tested at the oral exam; no certificate stated"
+    ],
+    "age_limit": "None for standard places (18-29 only for high-apprenticeship places)",
     "work_experience_years": null
   },
-  "country_specific_notes": [],
-  "required_documents": [],
-  "preparation_alerts": [
-    "Apply via UniME's Esse3 portal; international applicants without SPID register an Esse3 account"
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Nigerian applicants pay the EUR 30 entry fee (Nigeria is not on the D.M. 176/2026 exempt list). If funded and living abroad, expect the EUR 750 yearly contribution."
+    }
   ],
+  "required_documents": [
+    {
+      "name": "Valid ID with photo",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "CV",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Residence/domicile self-declaration",
+      "detail": "UniME form",
+      "optional": false
+    },
+    {
+      "name": "Foreign master's certificate",
+      "detail": "With duration, transcript, university, date and final grade, with official Italian or English translation from the issuing university",
+      "optional": false
+    },
+    {
+      "name": "Master's thesis",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Publications, work experience and other qualifications",
+      "detail": "If any",
+      "optional": true
+    },
+    {
+      "name": "Research project",
+      "detail": "Where the course attachment requires it",
+      "optional": false
+    },
+    {
+      "name": "Videoconference request form",
+      "detail": "If the course allows a remote oral exam",
+      "optional": false
+    },
+    {
+      "name": "Proof of EUR 30 fee payment",
+      "detail": null,
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Master's degree must be held by 31 Oct 2026 at the latest",
+    "Non-EU degree holders who are admitted must provide an embassy-certified translation plus a CIMEA/ENIC-NARIC comparability statement or a Declaration of Value, within 6 months of the course start (Art. 7)",
+    "International applicants without SPID must first register an Esse3 account",
+    "One separate application (and fee) per PhD course",
+    "Read your course attachment (1-15): places, language, oral exam mode and research project rules differ"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
   "application_timeline": {
-    "opening_date": null,
+    "opening_date": "2026-06-25",
     "deadline_date": "2026-07-24",
     "deadline_time": "23:59 Europe/Rome",
     "cycle_frequency": "Annual",
     "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
     "urgent_deadline": false
   },
-  "official_apply_url": null,
+  "official_apply_url": "https://unime.esse3.cineca.it/Root.do",
   "source_urls": [
     {
-      "url": "https://gradualin.com/university-of-messina-phd-scholarships-2026-international-students/",
-      "type": "secondary",
-      "used_for": "Amount, deadline, start date, no age limit"
+      "url": "https://www.unime.it/sites/default/files/2026-06/Bando%20Dottorati%20di%20Ricerca%2042%C2%B0%20ciclo%20con%20Schede_signed.pdf",
+      "title": "UniME: 42nd cycle PhD call (Italian PDF)",
+      "type": "official",
+      "used_for": "Stipend, fees, documents, eligibility, course list, start date"
     },
     {
-      "url": "https://www.careershelpdesk.com/?p=8373",
-      "type": "secondary",
-      "used_for": "15 programmes, Esse3 application"
+      "url": "https://www.unime.it/bandi/bando-di-concorso-pubblico-titoli-ed-esami-lammissione-ai-corsi-di-dottorato-di-ricerca-1",
+      "title": "UniME: 42nd cycle PhD call page",
+      "type": "official",
+      "used_for": "Publication date, portal opening date, deadline and time"
+    },
+    {
+      "url": "https://www.unime.it/sites/default/files/2026-07/42nd%20PhD%20Call-%20Correction%20Notice%20_signed.pdf",
+      "title": "UniME: 42nd cycle correction notice (PDF)",
+      "type": "official",
+      "used_for": "Corrections (oral exam dates and residence form only)"
+    },
+    {
+      "url": "https://international.unime.it/research/phd-programmes/42nd-phd-call-qualifications-and-examinations-admission-phd-courses",
+      "title": "UniME: 42nd cycle PhD call (English page)",
+      "type": "official",
+      "used_for": "English landing page"
     }
   ],
   "last_verified": "2026-10-28",
   "verification_status": {
     "is_legitimate": true,
-    "confidence_score": 0.65,
-    "verification_notes": "Secondary sources agree on amount and deadline but disagree on the publication date (24 vs 25 June 2026), so opening_date is null. Official call URL not confirmed."
-  }
+    "confidence_score": 0.9,
+    "verification_notes": "Rechecked 2026-10-28 against the official Italian call (D.R. 1608/2026) and the 7 Jul 2026 correction. Changes: opening date confirmed (25 Jun 2026; call published 24 Jun); application fee EUR 30 found; tuition is NOT waived (EUR 750/year for funded non-residents), so funding_type changed from Fully Funded to Stipend Only; documents, course list and age rule filled. Amount and deadline from secondary sources were correct. The English PDF did not download fully; Italian version used. Next (43rd) cycle not announced."
+  },
+  "award_stats": null
 }

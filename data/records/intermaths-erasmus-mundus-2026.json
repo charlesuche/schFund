@@ -1,0 +1,132 @@
+{
+  "scholarship_title": "InterMaths Erasmus Mundus Joint Master in Interdisciplinary Mathematics, 2026 intake",
+  "provider_organization": "InterMaths consortium led by the University of L'Aquila, funded by the European Union (Erasmus Mundus)",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Mathematics",
+    "Applied Mathematics"
+  ],
+  "eligible_nationalities": [
+    "All"
+  ],
+  "host_countries": [
+    "Italy",
+    "Spain",
+    "Germany",
+    "France",
+    "Austria"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "Full exemption from the EUR 18,000 two-year participation costs",
+    "stipend": {
+      "amount_min": 1400,
+      "amount_max": 1400,
+      "currency": "EUR",
+      "period": "month",
+      "gross_or_net": "unknown",
+      "notes": "EMJM scholarship allowance for the two-year programme; scholars pay their own living costs from it"
+    },
+    "additional_benefits": [
+      "University of L'Aquila travel and installation contribution of about EUR 3,000 (not confirmed for 2026)"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": "The consortium says it charges no application fee."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Bachelor's (or 180 ECTS equivalent) in mathematics, applied mathematics, physics, engineering or similar with a very strong maths background",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": [
+      "English B2: IELTS Academic 6.0, TOEFL iBT 80, PTE Academic 56 or C1 Advanced 169 (no more than four years old)",
+      "No certificate needed if your degree was taught in English (proof required)"
+    ],
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Photo",
+      "detail": "ID style",
+      "optional": false
+    },
+    {
+      "name": "CV",
+      "detail": "Europass format preferred",
+      "optional": false
+    },
+    {
+      "name": "Passport or national ID",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "English certificate or proof of English-taught degree",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Transcript of records",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Course description",
+      "detail": "On the consortium's template",
+      "optional": false
+    },
+    {
+      "name": "Two academic reference letters",
+      "detail": "Sent by referees through the online tool; referee deadline two weeks after the application deadline",
+      "optional": false
+    },
+    {
+      "name": "Letter of intent",
+      "detail": "Maximum one page",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Book an English test early or get a letter showing your degree was taught in English",
+    "Ask two academic referees early; they submit online after your application"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-02-25",
+    "deadline_time": "13:00 Europe/Rome",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.intermaths.eu/apply",
+  "source_urls": [
+    {
+      "url": "https://www.intermaths.eu/apply",
+      "title": "InterMaths: how to apply (2026 edition)",
+      "type": "official",
+      "used_for": "Deadlines, scholarship amounts, eligibility, English, documents, 20 scholarships, no fee"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.8,
+    "verification_notes": "The official page still shows the 2026 edition (scholarship deadline 25 Feb 2026 13:00 CET, referees 11 Mar, results 30 Apr). The 2027 call was not published at last_verified. 20 EMJM scholarships, 3 reserved for targeted regions (which regions not stated). Selection criteria and mobility path between partners not read. The 2022 tweet also mentioned MathMods and RealMaths on one form; not checked."
+  },
+  "award_stats": null
+}

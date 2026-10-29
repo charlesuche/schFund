@@ -1,0 +1,106 @@
+{
+  "scholarship_title": "Boustany Foundation Cambridge University MBA Scholarship 2027",
+  "provider_organization": "Boustany Foundation (Monaco), with the University of Cambridge (Pembroke College)",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Business Administration (MBA)"
+  ],
+  "eligible_nationalities": [
+    "All (priority to candidates of Lebanese descent)"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": "75% of Cambridge MBA tuition fees",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No stipend stated"
+    },
+    "additional_benefits": [
+      "Travel, food and accommodation for the required two-month internship in Monaco"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "No fee mentioned on the Foundation's page."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Excellent academic background (no figure given)",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "CV with photograph",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "GMAT scores",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Cambridge MBA acceptance letter",
+      "detail": "You can only apply after receiving an offer",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Get a Cambridge MBA offer first; you can only apply for the scholarship after that",
+    "Winners must do a two-month unpaid internship at the Foundation's Monaco office",
+    "Scholars are placed at Pembroke College"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": "One scholarship every two years; phone interview possible"
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2027-05-31",
+    "deadline_time": null,
+    "cycle_frequency": "Bi-annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.boustany-foundation.org/scholarships/programs/cambridge-university-mba-scholarship/",
+  "source_urls": [
+    {
+      "url": "https://www.boustany-foundation.org/scholarships/programs/cambridge-university-mba-scholarship/",
+      "title": "Boustany Foundation: Cambridge University MBA Scholarship",
+      "type": "official",
+      "used_for": "Eligibility, 75% tuition, frequency, deadline 31 May 2027, documents, internship"
+    },
+    {
+      "url": "https://www.boustany-foundation.org/scholarships/",
+      "title": "Boustany Foundation: scholarships overview",
+      "type": "official",
+      "used_for": "Pembroke College link, interviews, internship costs"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.85,
+    "verification_notes": "Award is made every two years; this round is for the Cambridge MBA class starting autumn 2027, deadline 31 May 2027, results June 2027. No opening date is given, so status is unknown (you can apply once you have an MBA offer). 'Bi-annual' here means every two years. Only one award per round and priority to Lebanese descent, so chances for Nigerian applicants are low. The Foundation also has an Astronomy PhD award at Cambridge, not covered here."
+  },
+  "award_stats": null
+}

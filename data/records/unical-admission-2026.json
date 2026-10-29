@@ -23,14 +23,14 @@
   "status": "closed",
   "financial_coverage": {
     "funding_type": "Fully Funded",
-    "tuition_coverage": "100% tuition fees",
+    "tuition_coverage": "Tuition covered: scholarship winners pay only EUR 18.75 at enrolment (non-scholarship places pay EUR 1,000)",
     "stipend": {
       "amount_min": 3600,
       "amount_max": 3600,
       "currency": "EUR",
       "period": "year",
       "gross_or_net": "unknown",
-      "notes": "Called an 'allowance' on the official page; 132 scholarships in 2026/27"
+      "notes": "Pocket money of about EUR 3,600, paid after enrolment. Repay it if you earn fewer than 20 ECTS by 30 Nov 2027. Renewal for year 2 needs 30 ECTS by 10 Aug 2027 and a new application (July 2027)."
     },
     "additional_benefits": [
       "Housing (free campus lodging)",
@@ -38,47 +38,103 @@
     ]
   },
   "application_fee": {
-    "required": null,
-    "amount": null,
-    "currency": null,
-    "paid_to": null,
-    "notes": "Not checked; see the official call PDF"
+    "required": true,
+    "amount": 10,
+    "currency": "EUR",
+    "paid_to": "university",
+    "notes": "EUR 10 to take part in the admission procedure"
   },
   "eligibility_criteria": {
-    "min_gpa": null,
+    "min_gpa": "Foreign university degree valid for Italian master's admission, meeting each programme's requirements; places are ranked on qualifications",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
     "language_proficiency": [
-      "English or Italian at the level required by each programme (see call)"
+      "English or Italian (language of the programme), checked in an online interview"
     ],
     "age_limit": null,
     "work_experience_years": null
   },
   "country_specific_notes": [],
-  "required_documents": [],
-  "preparation_alerts": [
-    "Register on the UniCal ESSE3 portal before applying"
+  "required_documents": [
+    {
+      "name": "Online application form with required uploads",
+      "detail": "Incomplete applications are excluded",
+      "optional": false
+    },
+    {
+      "name": "CV",
+      "detail": "Evaluated by the department committee",
+      "optional": false
+    },
+    {
+      "name": "Degree certificate and transcripts",
+      "detail": "Valid for admission to an Italian master's",
+      "optional": false
+    },
+    {
+      "name": "ISEE parificato (equivalent ISEE)",
+      "detail": "Scholarship winners, by 30 Oct 2026; based on 2024 income and assets, translated into Italian and legalised or apostilled. Students from 'particularly poor and developing countries' instead need a certificate from the Italian embassy that their family is not high income",
+      "optional": false
+    },
+    {
+      "name": "Translated, legalised degree with Declaration of Value or CIMEA certificates",
+      "detail": "After enrolment, by 28 Feb 2027 at the latest",
+      "optional": false
+    },
+    {
+      "name": "Passport",
+      "detail": "In-person identification at the Welcome Office by 30 Oct 2026",
+      "optional": false
+    }
   ],
+  "preparation_alerts": [
+    "Household income must be below EUR 26,500 (independent), 41,500 (two-person family) or 54,000 (three or more) for scholarship places",
+    "Start the ISEE parificato or the Italian embassy income certificate early; it takes weeks",
+    "Get your degree translated and legalised and request a Declaration of Value or CIMEA certificate",
+    "Conditional enrolment deadline was 10 Jun 2026 (reallocated places 31 Jul 2026)"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Evaluation of CV and qualifications",
+        "max_points": null,
+        "notes": "At least twice the number of places are invited to the oral exam"
+      },
+      {
+        "criterion": "Remote oral exam in the programme's language",
+        "max_points": null,
+        "notes": "Checks subject knowledge, background and language"
+      }
+    ],
+    "pass_rule": "Separate merit rankings for scholarship and non-scholarship places; ties go to the younger candidate"
+  },
   "application_timeline": {
     "opening_date": null,
     "deadline_date": "2026-03-30",
-    "deadline_time": null,
+    "deadline_time": "23:59 Europe/Rome",
     "cycle_frequency": "Annual",
     "next_cycle_expected": "2027-01",
+    "next_cycle_confidence": "likely",
     "urgent_deadline": false
   },
   "official_apply_url": "https://www.unical.it/internazionale/intenational-students/unical-admission/",
   "source_urls": [
     {
       "url": "https://www.unical.it/internazionale/intenational-students/unical-admission/?lang=it",
+      "title": "University of Calabria: UnicalAdmission page",
       "type": "official",
       "used_for": "Number of scholarships, coverage, allowance, next-call timing"
     },
     {
       "url": "https://www.unical.it/media/medias/2026/Bando_Unicaladmission_Lauree_Magistrali_aa_26-27_ING.pdf",
+      "title": "UniCal: Unicaladmission master's call 2026/27, English (PDF)",
       "type": "official",
-      "used_for": "Full 2026/27 call (not read in this pass)"
+      "used_for": "Places, fee, income limits, selection, deadline and time, benefits, ISEE, Declaration of Value, renewal rules"
     },
     {
       "url": "https://o4af.com/?p=252805",
+      "title": "Opportunities for Africans: UnicalAdmission listing",
       "type": "secondary",
       "used_for": "Deadline 30 Mar 2026"
     }
@@ -86,7 +142,12 @@
   "last_verified": "2026-10-28",
   "verification_status": {
     "is_legitimate": true,
-    "confidence_score": 0.8,
-    "verification_notes": "Coverage confirmed on the official page. Deadline only from secondary sources; read the call PDF to confirm deadline, fee, documents and GPA rules. Official page says the 2027/28 call will likely be published in January 2027."
+    "confidence_score": 0.9,
+    "verification_notes": "Updated after reading the full 2026/27 English call (Rector's decree 287/2026): deadline 30 Mar 2026 23:59 Italian time, EUR 10 fee, income thresholds, selection by CV plus remote oral exam, benefits (enrolment fee, free housing and canteen, about EUR 3,600 pocket money), ISEE parificato by 30 Oct 2026, Declaration of Value/CIMEA by 28 Feb 2027. 132 scholarship places counted in the call table (English-taught programmes have 9 each). Whether Nigeria is on the 'particularly poor countries' list (Ministerial Decree 166/2025) was not checked. Official page said the 2027/28 call will likely be published in January 2027. Earlier note: Coverage confirmed on the official page. Deadline only from secondary sources; read the call PDF to confirm deadline, fee, documents and GPA rules. Official page says the 2027/28 call will likely be published in January 2027."
+  },
+  "award_stats": {
+    "year": 2026,
+    "awards": 132,
+    "applicants": null
   }
 }

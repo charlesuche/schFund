@@ -1,0 +1,96 @@
+{
+  "scholarship_title": "ESU Padova / University of Padova Regional Study Grant 2026/2027",
+  "provider_organization": "ESU Padova and the University of Padova (Veneto regional right-to-study grant)",
+  "academic_level": [
+    "Bachelor",
+    "Master"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "All (students enrolled at the University of Padova)"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": null,
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "Income- and merit-based cash grant; a student guide gives up to about EUR 8,246 a year for off-site students (not verified in the call)"
+    },
+    "additional_benefits": [
+      "One daily meal at ESU canteens",
+      "Housing for eligible off-site students (per guide)"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": "No application fee stated."
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Online application to the University of Padova regional grant call",
+      "detail": null,
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "International students usually need an ISEE parificato or equivalent income documents; check the call"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-09-30",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.unipd.it/",
+  "source_urls": [
+    {
+      "url": "https://www.unipd.it/node/128279",
+      "title": "University of Padova: regional scholarships 2026/27 (page not read)",
+      "type": "official",
+      "used_for": "Official call location"
+    },
+    {
+      "url": "https://thisislocomotive.com/wp-content/uploads/2026/08/Padova-dsu-202627.pdf",
+      "title": "Copy of Padova DSU 2026/27 call (PDF, hosted by a student guide site)",
+      "type": "secondary",
+      "used_for": "Deadline 30 Sep 2026"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.5,
+    "verification_notes": "Deadline 30 Sep 2026 is from a copy of the call hosted on a third-party site and a student guide; the official unipd.it page was not read. A later window (24 Nov 2026 to 30 Apr 2027) mentioned by the guide was not confirmed. Amounts not verified."
+  },
+  "award_stats": null
+}

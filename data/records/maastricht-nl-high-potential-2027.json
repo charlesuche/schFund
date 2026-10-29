@@ -1,0 +1,128 @@
+{
+  "scholarship_title": "Maastricht University NL-High Potential Scholarship 2027/2028",
+  "provider_organization": "Maastricht University, with the Dutch Ministry of Education, Culture and Science",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "All participating full-time master's programmes"
+  ],
+  "eligible_nationalities": [
+    "All non-EU/EEA countries (not Switzerland or Suriname; no EU/EEA or Swiss dual nationality)"
+  ],
+  "host_countries": [
+    "Netherlands"
+  ],
+  "status": "open",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "Tuition fees paid at cost",
+    "stipend": {
+      "amount_min": 20150,
+      "amount_max": 38750,
+      "currency": "EUR",
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "Living expenses: EUR 20,150 for a one-year master's (13 months) or EUR 38,750 for a two-year master's (25 months)"
+    },
+    "additional_benefits": [
+      "Health and liability insurance (EUR 700)",
+      "Visa application costs",
+      "Pre-Academic Training and ISAP"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": "university",
+    "notes": "Any master's application handling fee must be paid by 10 Dec 2026; amount not stated on the scholarship page. Air tickets and a EUR 75 housing cleaning fee are not covered."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "GPA of at least 7.5 out of 10 on your latest transcript (or equivalent)",
+    "min_grade_percent": 75,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": "35 or younger on 1 Sep 2027",
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "CV",
+      "detail": "Maximum two A4 pages",
+      "optional": false
+    },
+    {
+      "name": "Letter of motivation",
+      "detail": "On the UM template",
+      "optional": false
+    },
+    {
+      "name": "Official transcript",
+      "detail": "Showing GPA of 7.5 or higher, with an explanation of the grading system",
+      "optional": false
+    },
+    {
+      "name": "Personal statement of financial need",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "One reference letter",
+      "detail": "From a (former) professor, lecturer or employer, dated February 2026 or later; you upload it yourself",
+      "optional": false
+    },
+    {
+      "name": "Referee contact details",
+      "detail": "Work phone number and institutional email",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Your master's application and complete file must be in by 10 Dec 2026, before the scholarship form deadline",
+    "Only one scholarship application, for one scholarship, is allowed",
+    "Preference goes to applicants who do not already have a master's"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Faculty selection and ranking (top 5 per faculty)",
+        "max_points": null,
+        "notes": "February to March 2027"
+      },
+      {
+        "criterion": "Online interview",
+        "max_points": null,
+        "notes": "Invitations by end of March 2027"
+      }
+    ],
+    "pass_rule": "18 scholarships a year (about 2% of applicants); status in April, final by early May 2027"
+  },
+  "application_timeline": {
+    "opening_date": "2026-10-01",
+    "deadline_date": "2026-12-10",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.maastrichtuniversity.nl/maastricht-university-nl-high-potential-scholarship",
+  "source_urls": [
+    {
+      "url": "https://www.maastrichtuniversity.nl/maastricht-university-nl-high-potential-scholarship",
+      "title": "Maastricht University: NL-High Potential scholarship 2027-2028",
+      "type": "official",
+      "used_for": "All eligibility, amounts, deadlines, documents and selection"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.9,
+    "verification_notes": "Official page: scholarship applications 1 Oct 2026 to 1 Feb 2027 23:59 CET, but the master's application with a complete file is due 10 Dec 2026, so deadline_date is the earlier date. min_grade_percent 75 comes from the stated 7.5/10 GPA. The lead called it 'UM Holland-High Potential'; the current name is NL-High Potential. The 2022 tweet's 'up to 30K' is outdated. English requirements are set by each master's programme (not read)."
+  },
+  "award_stats": null
+}

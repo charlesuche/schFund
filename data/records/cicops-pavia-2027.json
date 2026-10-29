@@ -8,7 +8,7 @@
     "All"
   ],
   "eligible_nationalities": [
-    "Developing countries (official list not verified)"
+    "All (based on residence: must live in a World Bank low, lower-middle or upper-middle income country at the deadline)"
   ],
   "host_countries": [
     "Italy"
@@ -16,60 +16,127 @@
   "status": "closed",
   "financial_coverage": {
     "funding_type": "Fully Funded",
-    "tuition_coverage": null,
+    "tuition_coverage": "Not applicable (research visit, not a degree)",
     "stipend": {
-      "amount_min": null,
-      "amount_max": null,
+      "amount_min": 600,
+      "amount_max": 1800,
       "currency": "EUR",
       "period": "total",
-      "gross_or_net": "unknown",
-      "notes": "Research stay of 4 to 12 weeks in 2027; roughly 6-8 awards (sources disagree)"
+      "gross_or_net": "gross",
+      "notes": "EUR 150 gross per week for a 4-12 week stay in 2027 (11 Jan - 24 Jul or 6 Sep - 18 Dec). Paid after arrival in Pavia. 8 scholarships."
     },
     "additional_benefits": [
-      "Airfare (return economy)"
+      "Airfare (return economy)",
+      "Health and accident insurance",
+      "Housing (single room in a university college)",
+      "Meals (two free meals a day at university canteens)",
+      "Visa support letter (visa cost contribution in special cases)"
     ]
   },
   "application_fee": {
-    "required": null,
+    "required": false,
     "amount": null,
     "currency": null,
-    "paid_to": null,
-    "notes": null
+    "paid_to": "none",
+    "notes": "No fee mentioned in the call."
   },
   "eligibility_criteria": {
     "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
     "language_proficiency": null,
     "age_limit": null,
-    "work_experience_years": null
+    "work_experience_years": "PhD plus current university job, and/or at least 2 years' employment (teaching, research or technical) at a university, public/non-profit research centre or international public body in an eligible country"
   },
-  "country_specific_notes": [],
-  "required_documents": [],
-  "preparation_alerts": [],
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Nigeria is a World Bank lower-middle income economy, so Nigerian residents can apply. Lower-income applicants get preference when scores are equal. No Nigerian was among the 8 winners for 2027 (150 applications)."
+    }
+  ],
+  "required_documents": [
+    {
+      "name": "CV with publication list",
+      "detail": "European format preferred",
+      "optional": false
+    },
+    {
+      "name": "Invitation/acceptance letter from a University of Pavia professor or researcher",
+      "detail": "Must confirm the research plan",
+      "optional": false
+    },
+    {
+      "name": "At least 2 authored publications in the proposed field",
+      "detail": "Listed in the CV",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "You must find and secure a University of Pavia host before applying; CICOPS will not suggest supervisors (use the UNIFIND search tool)",
+    "Apply only after you have the host letter; incomplete applications are rejected",
+    "Not open to people already enrolled in an Italian PhD or postgraduate course",
+    "Winners must accept within 20 days and give exact stay dates"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Scientific relevance of the project",
+        "max_points": null,
+        "notes": "Especially when linked to University of Pavia projects"
+      },
+      {
+        "criterion": "Curriculum vitae",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Fair spread across departments and regions",
+        "max_points": null,
+        "notes": null
+      }
+    ],
+    "pass_rule": null
+  },
   "application_timeline": {
     "opening_date": null,
     "deadline_date": "2026-06-10",
     "deadline_time": null,
     "cycle_frequency": "Annual",
     "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
     "urgent_deadline": false
   },
-  "official_apply_url": null,
+  "official_apply_url": "http://cicops.unipv.it/cicops-scholarships/",
   "source_urls": [
     {
-      "url": "https://opportunitiescorners.com/?p=26299",
-      "type": "secondary",
-      "used_for": "Deadline, duration, airfare"
+      "url": "http://cicops.unipv.it/wp-content/uploads/2026/04/Bando_CICOPS_2027_EN_firmato_Unipv_Edisu.pdf",
+      "title": "CICOPS: 2027 call for applications (PDF)",
+      "type": "official",
+      "used_for": "All eligibility, benefits, documents, dates, number of awards"
     },
     {
-      "url": "https://scholarglow.com/?p=801",
-      "type": "secondary",
-      "used_for": "Number of awards, duration"
+      "url": "http://cicops.unipv.it/wp-content/uploads/2026/09/CICOPS-Scholarships-awarded-for-the-year-2027.pdf",
+      "title": "CICOPS: 2027 awards list (PDF)",
+      "type": "official",
+      "used_for": "Results: 8 awards from 150 applications; winners' countries"
+    },
+    {
+      "url": "http://cicops.unipv.it/cicops-scholarships/",
+      "title": "CICOPS: scholarships page",
+      "type": "official",
+      "used_for": "Programme page"
     }
   ],
   "last_verified": "2026-10-28",
   "verification_status": {
     "is_legitimate": true,
-    "confidence_score": 0.6,
-    "verification_notes": "Visiting-scholar fellowship for academics, not a degree; 'Postdoc' is the closest schema level. Official CICOPS call not reached. Not from the 2022 thread; found while checking Pavia."
+    "confidence_score": 0.9,
+    "verification_notes": "Rechecked 2026-10-28 against the official signed CICOPS 2027 call (University of Pavia + EDiSU). Changes: number of awards confirmed as 8; weekly contribution EUR 150 gross found; insurance, meals, housing confirmed; eligibility is by residence, not nationality; work/PhD and publication rules added. Call is closed and results published (Sep 2026). Opening date and deadline time not stated. The programme page only works over http (https times out). The online form (pica.cineca.it) returned 403 and was not used. Next cycle (2028) not announced; the 2027 call was posted in April 2026."
+  },
+  "award_stats": {
+    "year": 2027,
+    "awards": 8,
+    "applicants": 150
   }
 }

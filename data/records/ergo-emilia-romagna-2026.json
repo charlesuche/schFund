@@ -18,18 +18,20 @@
   "status": "closed",
   "financial_coverage": {
     "funding_type": "Partially Funded",
-    "tuition_coverage": "Separate UNIMORE fee exemption or reduction based on income and merit",
+    "tuition_coverage": "Full tuition exemption for students eligible for the scholarship, plus refund of the EUR 140 regional tax (bando Sezione II art. 1)",
     "stipend": {
-      "amount_min": 433,
-      "amount_max": 7171,
+      "amount_min": 1445.08,
+      "amount_max": 8605.33,
       "currency": "EUR",
       "period": "year",
-      "gross_or_net": "unknown",
-      "notes": "Depends on income and residence status; paid in 3-4 instalments (secondary source)"
+      "gross_or_net": "net",
+      "notes": "Set by ISEE band and student status. Off-site (fuori sede) students: EUR 3,585.56-7,171.11; commuters EUR 2,095.36-4,190.71; in-town EUR 1,445.08-2,890.16. +15% if ISEE up to EUR 12,500 (off-site max EUR 8,246.78); +20% for women in STEM courses (off-site max EUR 8,605.33). Extra-semester students get half. Tax-free. Paid in instalments that depend on credits earned."
     },
     "additional_benefits": [
-      "Housing (ER.GO residences, separate benefit)",
-      "Meals"
+      "Full tuition exemption",
+      "Refund of EUR 140 regional tax",
+      "Housing (ER.GO residences, separate application on the same form)",
+      "Meals (part of the grant can be converted to meal credit: EUR 200-600)"
     ]
   },
   "application_fee": {
@@ -37,54 +39,121 @@
     "amount": null,
     "currency": null,
     "paid_to": "none",
-    "notes": null
+    "notes": "No fee to ER.GO. If applying through a partner CAF, EUR 10.30 is taken from the first instalment."
   },
   "eligibility_criteria": {
-    "min_gpa": "First year: no merit requirement. Year 2: at least 10 credits; later years: at least 25 credits (UNIMORE webinar)",
+    "min_gpa": "First-year bachelor's/master's: first instalment(s) on income only, later instalments need credits by 28 Feb 2027, 10 Aug 2027 and 30 Nov 2027 or the money must be repaid. Later years: minimum credits by 10 Aug 2026 (UNIMORE webinar: 10 credits for year 2, 25 for later years).",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
     "language_proficiency": [
       "None required for the grant itself"
     ],
     "age_limit": null,
     "work_experience_years": null
   },
-  "country_specific_notes": [],
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Nigeria is not on the 'particularly poor countries' list (D.M. 176/2026), so Nigerian students must submit full family income and property documents for 2025, issued by Nigerian authorities, legalised by the Italian embassy (or apostilled where allowed) and translated into Italian. Self-declarations are not accepted. Non-EU first-year students with family abroad are ranked in a separate list."
+    }
+  ],
   "required_documents": [
-    "Foreign income and asset documents uploaded to the ER.GO Dossier Utente"
+    {
+      "name": "Online application in ER.GO Dossier Utente",
+      "detail": "Confirmed with PEC or PIN if needed",
+      "optional": false
+    },
+    {
+      "name": "Family composition certificate",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Each adult family member's job/activity and months worked in 2025",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Official 2025 gross income certificate for each adult family member",
+      "detail": "Or employer certificate / payslips",
+      "optional": false
+    },
+    {
+      "name": "Certificate of all buildings owned by the family at 31 Dec 2025",
+      "detail": "With size in square metres (or a statement that none are owned)",
+      "optional": false
+    },
+    {
+      "name": "Remaining mortgage and financial assets of each family member at 31 Dec 2025",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Legalisation and translation of all foreign documents",
+      "detail": "Legalised (or apostilled) and translated into Italian",
+      "optional": false
+    }
   ],
   "preparation_alerts": [
-    "ISEE (or country-equivalent) must be under EUR 30,000",
-    "Collect and translate family income and asset documents well before June"
+    "Combined income limits: ISEE under EUR 25,000 AND ISPE under EUR 50,000",
+    "Foreign income documents must be uploaded by the same 24 Aug 2026 16:00 deadline; late or incomplete documents mean not eligible",
+    "Legalisation at the Italian embassy and sworn translation take weeks; start in spring",
+    "Do not pay agents: the bando warns no intermediaries are needed",
+    "Off-site rate needs a documented domicile (self-certify by 3 Nov 2026, documents by 14 Jan 2027)",
+    "Enrolment at the university must be completed by the bando's enrolment deadlines"
   ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
   "application_timeline": {
     "opening_date": "2026-06-23",
     "deadline_date": "2026-08-24",
     "deadline_time": "16:00 Europe/Rome",
     "cycle_frequency": "Annual",
     "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
     "urgent_deadline": false
   },
-  "official_apply_url": "https://www.er-go.it/international-students",
+  "official_apply_url": "https://www.er-go.it/international-students/application/how-to-apply",
   "source_urls": [
     {
+      "url": "https://www.er-go.it/cosa-fare-per/bandi-di-concorso/leggi-il-bando/bando-di-concorso-benefici-dsu-a-a-2026_2027.pdf/@@download/file",
+      "title": "ER.GO: benefits call 2026/27 (PDF)",
+      "type": "official",
+      "used_for": "Amounts, increments, merit/instalment rules, foreign document rules, poor-country list, tax status"
+    },
+    {
+      "url": "https://www.er-go.it/cosa-fare-per/bandi-di-concorso/scadenze/scadenze-per-richiedere-i-benefici",
+      "title": "ER.GO: application deadlines",
+      "type": "official",
+      "used_for": "Opening date, deadline and time, domicile deadlines"
+    },
+    {
+      "url": "https://www.er-go.it/cosa-fare-per/bandi-di-concorso/soglie-economiche-per-laccesso",
+      "title": "ER.GO: income limits",
+      "type": "official",
+      "used_for": "ISEE and ISPE limits"
+    },
+    {
+      "url": "https://www.er-go.it/international-students/benefits/focus-on-scholarship",
+      "title": "ER.GO: scholarship for international students",
+      "type": "official",
+      "used_for": "Tuition exemption, overview in English"
+    },
+    {
       "url": "https://www.unimore.it/sites/default/files/2026-07/WEBINAR%20ITA%202026%20sito.pdf",
+      "title": "UNIMORE: benefits webinar slides 2026 (PDF)",
       "type": "official",
-      "used_for": "ISEE limit and merit rules"
-    },
-    {
-      "url": "https://international.unimore.it/fees.html",
-      "type": "official",
-      "used_for": "Fee exemption and how to apply"
-    },
-    {
-      "url": "https://www.european-funding-guide.eu/es/beca/10516-Scholarships",
-      "type": "secondary",
-      "used_for": "Dates and amount range"
+      "used_for": "Credit numbers for later years"
     }
   ],
   "last_verified": "2026-10-28",
   "verification_status": {
     "is_legitimate": true,
-    "confidence_score": 0.75,
-    "verification_notes": "Rules confirmed officially; dates and amounts only from a secondary source. Check the ER.GO bando."
-  }
+    "confidence_score": 0.9,
+    "verification_notes": "Rechecked 2026-10-28 against the official ER.GO bando 2026/27. Changes: ISEE limit corrected from EUR 30,000 to EUR 25,000 (plus ISPE EUR 50,000); amount range corrected (old minimum EUR 433 was from a secondary source); dates now officially confirmed. Next cycle not announced; ER.GO opened late June in 2026. Published corrections (rettifiche) checked: none change scholarship amounts, limits or dates."
+  },
+  "award_stats": null
 }

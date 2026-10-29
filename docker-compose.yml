@@ -1,4 +1,4 @@
-# PostgreSQL with the pgvector extension, for later phases.
+# PostgreSQL with the pgvector extension.
 # Start: docker compose up -d    Stop: docker compose down
 services:
   db:
@@ -8,7 +8,9 @@ services:
       POSTGRES_PASSWORD: scholar
       POSTGRES_DB: scholarships
     ports:
-      - "5432:5432"
+      # Host port. Set DB_PORT in .env if 5432 is already taken (e.g. by a
+      # Homebrew PostgreSQL), and use the same port in DATABASE_URL.
+      - "${DB_PORT:-5432}:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
 

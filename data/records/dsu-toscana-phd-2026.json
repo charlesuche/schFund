@@ -38,6 +38,9 @@
   },
   "eligibility_criteria": {
     "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
     "language_proficiency": [
       "None required for the grant itself"
     ],
@@ -46,29 +49,40 @@
   },
   "country_specific_notes": [],
   "required_documents": [
-    "ISEE parificato (non-EU students)"
+    {
+      "name": "ISEE parificato",
+      "detail": "Non-EU students",
+      "optional": false
+    }
   ],
   "preparation_alerts": [
     "Not available to PhD students who already hold a doctoral scholarship",
     "ISEE parificato needed for non-EU students"
   ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
   "application_timeline": {
     "opening_date": "2026-09-25",
     "deadline_date": "2026-11-16",
     "deadline_time": "13:00 Europe/Rome",
     "cycle_frequency": "Annual",
     "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
     "urgent_deadline": true
   },
   "official_apply_url": "https://www.dsu.toscana.it/",
   "source_urls": [
     {
       "url": "https://www.unipi.it/?p=559370",
+      "title": "University of Pisa: DSU PhD application window",
       "type": "official",
       "used_for": "PhD application window"
     },
     {
       "url": "https://www.unipi.it/didattica/iscrizioni/immatricolazioni-e-iscrizioni/iscrizioni-per-studenti-internazionali/borsa-di-studio-del-dsu/",
+      "title": "University of Pisa: DSU scholarship for international students",
       "type": "official",
       "used_for": "Excludes PhD students already holding a doctoral scholarship"
     }
@@ -78,5 +92,6 @@
     "is_legitimate": true,
     "confidence_score": 0.85,
     "verification_notes": "Open now; 19 days left as of last_verified. Applies to PhD students at Florence, Pisa and Siena."
-  }
+  },
+  "award_stats": null
 }

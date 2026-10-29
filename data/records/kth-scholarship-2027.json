@@ -1,0 +1,102 @@
+{
+  "scholarship_title": "KTH Scholarship (autumn 2027 intake)",
+  "provider_organization": "KTH Royal Institute of Technology",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "All international master's programmes"
+  ],
+  "eligible_nationalities": [
+    "All countries outside the EU/EEA and Switzerland (tuition-fee-paying applicants)"
+  ],
+  "host_countries": [
+    "Sweden"
+  ],
+  "status": "upcoming",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "Full tuition fee for a one- or two-year master's programme",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No living costs; you must show funds for living costs for the Swedish residence permit"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": true,
+    "amount": 900,
+    "currency": "SEK",
+    "paid_to": "official_agency",
+    "notes": "SEK 900 University Admissions in Sweden application fee for the programme application (cannot be waived); no separate scholarship fee stated"
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Strong academic record; must meet programme admission requirements",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Programme application on universityadmissions.se with KTH as first priority",
+      "detail": "Application fee paid; documents by 1 Feb 2027",
+      "optional": false
+    },
+    {
+      "name": "KTH Scholarship application",
+      "detail": "Through KTH's scholarship application",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Put KTH first; scholarships are not given for 2nd to 4th priority programmes",
+    "Results come on 1 Apr 2027"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": "In 2026, 65 of 718 admitted scholarship applicants (9%) were nominated"
+  },
+  "application_timeline": {
+    "opening_date": "2026-12-01",
+    "deadline_date": "2027-01-15",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.kth.se/en/studies/master/admissions/scholarships/kth-scholarship-1.72827",
+  "source_urls": [
+    {
+      "url": "https://www.kth.se/en/studies/master/admissions/scholarships/kth-scholarship-1.72827",
+      "title": "KTH: KTH Scholarship",
+      "type": "official",
+      "used_for": "Coverage, dates (1 Dec 2026 to 15 Jan 2027, results 1 Apr 2027), eligibility, 2026 statistics"
+    },
+    {
+      "url": "https://www.kth.se/en/studies/master/admissions/how-to-apply-for-masters-studies-1.68487",
+      "title": "KTH: how to apply for master's studies",
+      "type": "official",
+      "used_for": "Programme application window and SEK 900 fee"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.75,
+    "verification_notes": "Facts from official kth.se pages as summarised in search results (not opened directly). award_stats: 65 nominated out of 718 scholarship applicants who were admitted (2026). Tuition varies by programme (e.g. SEK 360,000)."
+  },
+  "award_stats": {
+    "year": 2026,
+    "awards": 65,
+    "applicants": 718
+  }
+}

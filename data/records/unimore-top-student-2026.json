@@ -1,0 +1,93 @@
+{
+  "scholarship_title": "UNIMORE 'Top Student' Fee Exemption for First-Year Master's Students",
+  "provider_organization": "University of Modena and Reggio Emilia (UNIMORE)",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "All two-year master's (laurea magistrale) programmes"
+  ],
+  "eligible_nationalities": [
+    "All (no nationality rule stated)"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "open",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "Full first-year fee exemption for students living outside Emilia-Romagna (pay only EUR 159.67 fixed costs); partial for Emilia-Romagna residents (EUR 859.67 total)",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No stipend; fee exemption only. Not means-tested."
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": "No fee mentioned for the exemption request."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Bachelor's (three-year degree or university diploma) completed with 110/110",
+    "min_grade_percent": 100,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Online request on the ER.GO portal ('ESONERO TOP STUDENT')",
+      "detail": "Log in with SPID, CIE or CNS; choose total exemption if you do not live in Emilia-Romagna",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "The online request needs an Italian digital identity (SPID, CIE or CNS), which most applicants abroad only get after arriving",
+    "Apply before enrolling, by the deadline"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": "Automatic if you meet the 110/110 rule and apply in time"
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-12-22",
+    "deadline_time": "16:00 Europe/Rome",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.unimore.it/en/node/596",
+  "source_urls": [
+    {
+      "url": "https://www.unimore.it/en/node/596",
+      "title": "UNIMORE: Top Student exemption",
+      "type": "official",
+      "used_for": "Eligibility, amounts, ER.GO procedure, deadline"
+    },
+    {
+      "url": "https://international.unimore.it/fees.html",
+      "title": "UNIMORE International: fees and flat tax for non-EU students",
+      "type": "official",
+      "used_for": "Exclusions (previous master's enrolment) per search results"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.6,
+    "verification_notes": "The official page text refers to freshmen enrolling in 2025/2026 but gives the deadline as 22 Dec 2026 16:00; this mismatch needs a human check. It is not stated how a foreign bachelor's grade is converted to 110/110, so international applicants may not qualify in practice; min_grade_percent 100 reflects 110/110. UNIMORE also has a flat-tax scheme for non-EU students (not researched). Status set to open because the stated deadline is in the future and the exemption is requested at enrolment."
+  },
+  "award_stats": null
+}

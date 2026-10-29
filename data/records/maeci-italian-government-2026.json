@@ -1,0 +1,140 @@
+{
+  "scholarship_title": "Italian Government (MAECI) Scholarships for Foreign Students 2026/2027",
+  "provider_organization": "Italian Ministry of Foreign Affairs and International Cooperation (MAECI)",
+  "academic_level": [
+    "Master",
+    "PhD",
+    "Postdoc"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "Nigeria",
+    "Other countries on the Study in Italy eligible-country list"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Stipend Only",
+    "tuition_coverage": "Not paid by MAECI; some universities exempt scholarship holders from tuition. Regional fees are always paid by the student.",
+    "stipend": {
+      "amount_min": 10800,
+      "amount_max": 10800,
+      "currency": "EUR",
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "EUR 10,800 for 9 months (1 Nov 2026 to 31 Jul 2027), paid in three instalments: 5,500 from Nov, 2,300 from Feb, 3,000 from Jun after 27 CFU or supervisor statement. Reduced if you arrive in Italy on or after 16 Nov. Master's, AFAM and PhD awards may be renewed."
+    },
+    "additional_benefits": [
+      "Health and accident insurance for the scholarship period"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": "No fee is mentioned in the call; apply only through the Study in Italy portal."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Academic qualification needed to enrol in the chosen programme (a first-cycle degree for master's; PhD applicants must already have passed the PhD admission test)",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": [
+      "English B2 for English-taught programmes (self-declaration allowed for citizens of countries where English is official)",
+      "Italian B2 for Italian-taught programmes",
+      "None for PhD and research"
+    ],
+    "age_limit": "Master's: 28 or younger at the deadline (born on or after 27 Mar 1997). PhD: 30 or younger (born on or after 27 Mar 1995). Research: 40 or younger.",
+    "work_experience_years": null
+  },
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Three 'Attanasio' 9-month scholarships are reserved for applicants from Nigeria, Morocco and DR Congo in international relations, development cooperation, humanitarian and human rights law (preferred master's classes LM-38, LM-52, LM-62, LM-81, LM-87). Applications are judged by a committee at the Italian Embassy in Abuja, which publishes the Nigeria ranking."
+    }
+  ],
+  "required_documents": [
+    {
+      "name": "Passport or ID copy",
+      "detail": "Uploaded when registering on the portal, or the application is excluded",
+      "optional": false
+    },
+    {
+      "name": "Degree certificate",
+      "detail": "If not yet obtained, declare it and upload later only if asked (by 1 Jul 2026, 14:00)",
+      "optional": false
+    },
+    {
+      "name": "Language certificate (English or Italian B2)",
+      "detail": "Master's and AFAM only; English-taught degree statement or self-declaration accepted in some cases",
+      "optional": false
+    },
+    {
+      "name": "PhD admission letter",
+      "detail": "PhD applicants only; pre-admission letters are not accepted. A supervisor's invitation letter can be uploaded first.",
+      "optional": false
+    },
+    {
+      "name": "Supervisor's invitation letter and research project",
+      "detail": "Research scholarships only",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Apply to the Italian university (and pre-enrol on Universitaly if needed) alongside the scholarship",
+    "Arrive in Italy by 15 Nov or the award is cut pro rata; allow time for the study visa and codice fiscale",
+    "Cannot be combined with Italian regional (DSU) grants or other Italian public scholarships",
+    "Not open to those who already studied or hold a degree in Italy"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Comparative review of requirements and academic merit",
+        "max_points": null,
+        "notes": "Decides who is invited to interview"
+      },
+      {
+        "criterion": "Interview",
+        "max_points": null,
+        "notes": "No interview invitation soon after the deadline means not selected"
+      }
+    ],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-03-26",
+    "deadline_time": "14:00 Europe/Rome",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://studyinitaly.esteri.it/",
+  "source_urls": [
+    {
+      "url": "https://ambabuja.esteri.it/wp-content/uploads/2026/03/Bando-StudyInItaly-26_ENG.pdf",
+      "title": "MAECI call for applications 2026-2027, English (PDF, Italian Embassy Abuja)",
+      "type": "official",
+      "used_for": "All eligibility, amounts, age limits, documents, selection, dates, Attanasio scholarships"
+    },
+    {
+      "url": "https://ambabuja.esteri.it/en/news/dall_ambasciata/2026/03/borse-di-studio-per-la-a-2026-2027-offerte-dal-governo-italiano-a-studenti-stranieri/",
+      "title": "Italian Embassy Abuja: 2026/2027 scholarships notice",
+      "type": "official",
+      "used_for": "Nigeria call, deadline, interview rule"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.9,
+    "verification_notes": "Read the full English call (Italian version prevails). Nigeria's eligibility comes from the Abuja embassy running the call and the Attanasio reserve; the full eligible-country list is on the portal and was not read. Funding type is Stipend Only because MAECI does not pay tuition. The Abuja embassy also posted a Nigeria ranking for 2026/2027 (number of awards not checked). Next call not announced; recent calls closed in late March. 'Invest Your Talent in Italy' is a separate programme (own lead row)."
+  },
+  "award_stats": null
+}

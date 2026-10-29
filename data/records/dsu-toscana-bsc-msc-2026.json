@@ -39,6 +39,9 @@
   },
   "eligibility_criteria": {
     "min_gpa": "No merit requirement stated for first-year students; renewal from year 2 depends on credits earned",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
     "language_proficiency": [
       "None required for the grant itself (programme admission rules apply)"
     ],
@@ -47,34 +50,46 @@
   },
   "country_specific_notes": [],
   "required_documents": [
-    "ISEE parificato (non-EU students)"
+    {
+      "name": "ISEE parificato",
+      "detail": "Non-EU students",
+      "optional": false
+    }
   ],
   "preparation_alerts": [
     "Non-EU students need an ISEE parificato: family income and asset documents legalised and translated. Start in spring, months before the deadline.",
     "Apply before the deadline even if not yet enrolled"
   ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
   "application_timeline": {
     "opening_date": "2026-07-20",
     "deadline_date": "2026-09-07",
     "deadline_time": "13:00 Europe/Rome",
     "cycle_frequency": "Annual",
     "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
     "urgent_deadline": false
   },
   "official_apply_url": "https://www.dsu.toscana.it/",
   "source_urls": [
     {
       "url": "https://www.unifi.it/en/node/12087",
+      "title": "University of Florence: DSU scholarship notice",
       "type": "official",
       "used_for": "Dates"
     },
     {
       "url": "https://www.unipi.it/avvisi/borsa-di-studio-e-posto-alloggio-per-lanno-accademico-2026-2027/",
+      "title": "University of Pisa: DSU scholarship and housing 2026/27",
       "type": "official",
       "used_for": "Dates"
     },
     {
       "url": "https://www.unipi.it/didattica/iscrizioni/immatricolazioni-e-iscrizioni/iscrizioni-per-studenti-internazionali/borsa-di-studio-del-dsu/",
+      "title": "University of Pisa: DSU scholarship for international students",
       "type": "official",
       "used_for": "Open to any nationality; benefit structure; renewal rules"
     }
@@ -84,5 +99,6 @@
     "is_legitimate": true,
     "confidence_score": 0.85,
     "verification_notes": "Covers students at the Universities of Florence, Pisa and Siena (three universities from the 2022 thread). Grant amounts only found on secondary sites and left null; read the DSU Toscana bando for exact figures."
-  }
+  },
+  "award_stats": null
 }

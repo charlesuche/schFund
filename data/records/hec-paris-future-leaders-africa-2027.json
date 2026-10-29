@@ -1,0 +1,98 @@
+{
+  "scholarship_title": "HEC Paris MBA Future Leaders of Africa Scholarship (2027 intake)",
+  "provider_organization": "HEC Paris and the HEC Foundation",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Business Administration (MBA)"
+  ],
+  "eligible_nationalities": [
+    "Nigeria",
+    "Other English-speaking sub-Saharan African countries"
+  ],
+  "host_countries": [
+    "France"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": "Up to EUR 15,000 off MBA tuition",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No stipend; tuition reduction only, deducted from the last tuition instalment"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": "university",
+    "notes": "The HEC MBA application fee was not checked."
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Nigerian citizens qualify if their bachelor's or master's was obtained outside France. About 10 awards a year for English-speaking sub-Saharan Africa."
+    }
+  ],
+  "required_documents": [
+    {
+      "name": "HEC Paris MBA application",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "350-word essay",
+      "detail": "Sent to scholarships@hec.fr",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Applicants are also automatically considered for HEC Excellence and Diversity scholarships (up to 50% of tuition); combined HEC awards are capped at 50% of tuition",
+    "The need-based CMA CGM fund (average EUR 25,000) needs a separate form within one week of admission"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.hec.edu/en/mba/admissions/fees-funding/scholarships",
+  "source_urls": [
+    {
+      "url": "https://www.hec.edu/en/mba/admissions/fees-funding/scholarships",
+      "title": "HEC Paris: MBA scholarships",
+      "type": "official",
+      "used_for": "Future Leaders of Africa amount, eligibility, essay; other HEC awards and stacking cap"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.75,
+    "verification_notes": "The official page gives the award (up to EUR 15,000, 10 a year) but no essay deadline; scholarship deadlines follow the MBA application rounds, which were not read, so dates are null and status unknown. The 2024 tweet called HEC MBA scholarships 'fully funded'; the official page shows partial awards (max 50% combined, Laidlaw excepted). Aggregators mention an 18 Oct 2026 round; not confirmed. MBA admission usually expects work experience and GMAT/GRE (Excellence award uses GMAT), not recorded here."
+  },
+  "award_stats": null
+}

@@ -1,0 +1,163 @@
+{
+  "scholarship_title": "SI Scholarship Pioneering Women in STEM 2027/2028",
+  "provider_organization": "Swedish Institute (SI), Swedish government agency",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "STEM"
+  ],
+  "eligible_nationalities": [
+    "Bangladesh",
+    "Indonesia",
+    "Kenya",
+    "Malaysia",
+    "Nigeria",
+    "Philippines",
+    "Rwanda",
+    "South Africa",
+    "Thailand",
+    "Vietnam"
+  ],
+  "host_countries": [
+    "Sweden"
+  ],
+  "status": "upcoming",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "100% of tuition, paid by SI directly to the Swedish university each semester",
+    "stipend": {
+      "amount_min": 12000,
+      "amount_max": 12000,
+      "currency": "SEK",
+      "period": "month",
+      "gross_or_net": "unknown",
+      "notes": "Paid for the whole study period of a one- or two-year master's. No extensions, no programme changes, no extra money for family members."
+    },
+    "additional_benefits": [
+      "Travel grant: one-off SEK 15,000; not paid to those already living in Sweden",
+      "Membership of the SI Network for Global Professionals",
+      "Sweden Alumni Network membership after the scholarship"
+    ]
+  },
+  "application_fee": {
+    "required": true,
+    "amount": 900,
+    "currency": "SEK",
+    "paid_to": "official_agency",
+    "notes": "No fee to SI. The University Admissions in Sweden application fee (SEK 900, once per semester) must be paid by 1 Feb 2027, or you are not eligible. SI does not refund it."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "No SI requirement; the university and University Admissions set GPA/entry rules",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": [
+      "No SI requirement; English as required by the chosen master's programme (assessed by University Admissions)"
+    ],
+    "age_limit": null,
+    "work_experience_years": "At least 3,000 hours of work before February 2027, from at most three employers. Leadership experience also required."
+  },
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Eligible for female Nigerian citizens only. 2 Nigerians won this award in the 2026 round (out of 5,678 Nigerian SI applicants overall). Same portal as Global Professionals: women applying to an eligible STEM programme are considered for both automatically."
+    }
+  ],
+  "required_documents": [
+    {
+      "name": "CV",
+      "detail": "On SI's 2027/2028 template (max 3 pages)",
+      "optional": false
+    },
+    {
+      "name": "Proof of work and leadership experience",
+      "detail": "On SI's template, signed and officially stamped by the employer or a notary",
+      "optional": false
+    },
+    {
+      "name": "Two letters of reference",
+      "detail": "On SI's template, signed and stamped (one must be work-based)",
+      "optional": false
+    },
+    {
+      "name": "Copy of valid passport or national ID card",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Motivation",
+      "detail": "Written in the online portal (some applicants are randomly asked for a short video)",
+      "optional": false
+    },
+    {
+      "name": "University Admissions application number",
+      "detail": "8 digits",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Apply to up to 4 eligible STEM master's programmes on universityadmissions.se by 15 Jan 2027 and pay the SEK 900 fee and upload documents by 1 Feb 2027. Missing this makes you ineligible.",
+    "You must be admitted (not reserve) to an eligible programme on 1 Apr 2027. Do not decline or change your admission offer.",
+    "SI templates and the list of eligible programmes are published on 13 Nov 2026; old-year templates are rejected.",
+    "Getting signed and stamped forms from employers (up to three) takes time; start early. Translations must be notarised.",
+    "Insurance is not included; check what the university provides."
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": "2027-02-08",
+    "deadline_date": "2027-02-24",
+    "deadline_time": "14:59 Europe/Stockholm",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://si.se/en/apply/scholarships/pioneeringwomeninstem/",
+  "source_urls": [
+    {
+      "url": "https://si.se/en/apply/scholarships/pioneeringwomeninstem/",
+      "title": "Swedish Institute: Pioneering Women in STEM",
+      "type": "official",
+      "used_for": "Countries, funding, eligibility, work/leadership rules, documents, all key dates"
+    },
+    {
+      "url": "https://si.se/en/apply/faq-scholarships-on-masters-level/",
+      "title": "Swedish Institute: scholarship FAQ",
+      "type": "official",
+      "used_for": "No SI GPA or language requirement; no insurance; template and stamp rules"
+    },
+    {
+      "url": "https://si.se/app/uploads/2026/10/applications-by-country-tillganglighetsanpassad.pdf",
+      "title": "Swedish Institute: 2026 applications by country (PDF)",
+      "type": "official",
+      "used_for": "2026 recipients by country (Nigeria note)"
+    },
+    {
+      "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+      "title": "University Admissions: autumn semester dates",
+      "type": "official",
+      "used_for": "University application dates and 1 Feb fee/documents deadline"
+    },
+    {
+      "url": "https://www.universityadmissions.se/en/apply-to-masters/pay-your-application-fee-non-eueea-masters/",
+      "title": "University Admissions: application fee",
+      "type": "official",
+      "used_for": "SEK 900 application fee"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.9,
+    "verification_notes": "Taken from SI's official 2027/2028 call page. Shares one application portal with the SI Scholarship for Global Professionals (see si-global-professionals-2027); no separate application. Status is 'upcoming' for the SI portal, but University Admissions step (16 Oct 2026 - 15 Jan 2027) is already open. Eligible programme list and templates due 13 Nov 2026; recheck then. Stipend gross/net not stated. Automated fetch tool got HTTP 403 from si.se; page was read with a normal browser request."
+  },
+  "award_stats": {
+    "year": 2026,
+    "awards": 43,
+    "applicants": null
+  }
+}

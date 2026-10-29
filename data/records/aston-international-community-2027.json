@@ -1,0 +1,86 @@
+{
+  "scholarship_title": "Aston University International Community Scholarship (postgraduate, 2027 intakes)",
+  "provider_organization": "Aston University",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Full-time on-campus taught master's (not MBA, MRes, research, online or some pharmacy programmes)"
+  ],
+  "eligible_nationalities": [
+    "All (international fee-paying students)"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "Automatic discount: GBP 4,000 (January 2027 or April 2027 start) or GBP 5,500 (September 2027 start)",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No stipend"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "No scholarship application; course application fee not checked."
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Aston offer and deposit paid by the offer-letter deadline",
+      "detail": "Discount applied automatically; no application",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Pay your deposit by the deadline in your offer letter to get the discount"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Rolling",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.aston.ac.uk/international/scholarships/global-ambassador",
+  "source_urls": [
+    {
+      "url": "https://www.aston.ac.uk/international/scholarships/global-ambassador",
+      "title": "Aston University: international scholarships",
+      "type": "official",
+      "used_for": "International Community Scholarship amounts and conditions"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.75,
+    "verification_notes": "Official Aston international scholarships page. Automatic; deadline is the deposit deadline in each offer letter, so no fixed date. Partial award."
+  },
+  "award_stats": null
+}

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Report a problem – {{ site_name }}{% endblock %}
+{% block description %}Tell us about a wrong date, a broken link or anything else that looks wrong. No account needed.{% endblock %}
+
+{% block content %}
+<article class="prose">
+  <h1>Report a problem</h1>
+  {% if sent %}
+    <p class="notice notice--success" role="status">Thank you. Your report has been sent and a person will read it.</p>
+    <p><a href="/scholarships">Back to scholarships</a></p>
+  {% else %}
+    <p class="prose__lead">A wrong date, a broken link, a requirement that has changed? Tell us. No account needed.</p>
+    {% if error %}<p class="notice notice--error" role="alert">{{ error }}</p>{% endif %}
+
+    <form class="report-form" method="post" action="/report-a-problem">
+      <label class="field">
+        <span class="field__label">Which page? <span class="field__hint">(optional)</span></span>
+        <input type="text" name="page" value="{{ values.page }}" maxlength="300" placeholder="/scholarships/...">
+      </label>
+
+      <label class="field">
+        <span class="field__label">What is wrong?</span>
+        <textarea name="message" rows="7" maxlength="{{ max_message }}" required>{{ values.message }}</textarea>
+      </label>
+
+      <label class="field">
+        <span class="field__label">Your email <span class="field__hint">(optional, only if you want a reply)</span></span>
+        <input type="email" name="email" value="{{ values.email }}" maxlength="200" autocomplete="email">
+      </label>
+
+      {# Honeypot: hidden from people, filled in by simple spam bots. #}
+      <div class="hp" aria-hidden="true">
+        <label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+      </div>
+
+      <p class="field__hint">What you send is emailed to us and not stored on the site. See <a href="/privacy">Privacy</a>.</p>
+      <button class="button button--primary" type="submit">Send report</button>
+    </form>
+  {% endif %}
+</article>
+{% endblock %}

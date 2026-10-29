@@ -1,0 +1,90 @@
+{
+  "scholarship_title": "DiSCo Lazio Regional Study Grant 2026/2027",
+  "provider_organization": "DiSCo Lazio (Lazio Regional Agency for the Right to Study)",
+  "academic_level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "All (students enrolled at universities or AFAM institutions in Lazio, incl. Sapienza)"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": null,
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "Secondary sources give about EUR 2,290-6,571 a year plus two free meals a day; not verified in the call"
+    },
+    "additional_benefits": [
+      "Meals (per secondary sources)"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": "No application fee stated."
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Online application in the DiSCo reserved area",
+      "detail": null,
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Non-EU applicants may need a residence permit and foreign income documents; check the call"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-12-10",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://laziodisco.it/",
+  "source_urls": [
+    {
+      "url": "https://laziodisco.it/wp-content/uploads/2026/07/BANDO-DIRITTO-ALLO-STUDIO-26-27-con-EC.pdf",
+      "title": "DiSCo Lazio: Bando Diritto allo Studio 2026/27 (PDF, 72 pages)",
+      "type": "official",
+      "used_for": "Dates (seen only as search excerpts)"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.45,
+    "verification_notes": "The official 72-page call was not read in full. Search excerpts of it show 10 Jun to 22 Jul 2026 for students resident in Italy, and 10 Dec 2026 (and a 10 Feb 2027 date of unclear purpose) for students not resident in Italy. Status left unknown until a human checks which date applies to international students. Amounts from secondary sources."
+  },
+  "award_stats": null
+}

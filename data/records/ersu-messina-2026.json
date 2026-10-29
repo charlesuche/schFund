@@ -15,63 +15,132 @@
   "host_countries": [
     "Italy"
   ],
-  "status": "unknown",
+  "status": "closed",
   "financial_coverage": {
     "funding_type": "Partially Funded",
     "tuition_coverage": null,
     "stipend": {
-      "amount_min": null,
-      "amount_max": null,
+      "amount_min": 1445.08,
+      "amount_max": 8246.77,
       "currency": "EUR",
       "period": "year",
       "gross_or_net": "unknown",
-      "notes": "Need-based; official amounts not verified"
+      "notes": "Total value (cash + housing + meals). Base: off-site/independent EUR 7,171.11; commuter EUR 4,190.71; in-town EUR 2,890.16. +15% if ISEE at most half the limit (off-site EUR 8,246.77); reduced gradually to half (min EUR 3,585.55 / 2,095.35 / 1,445.08) if ISEE above two-thirds of the limit. +20% for women in STEM (not combined with the 15%). Value of free housing/meals is deducted from cash. First-year students: halved if they have fewer than 15 credits by 10 Aug 2027 but 20 by 30 Nov 2027."
     },
     "additional_benefits": [
-      "Housing",
-      "Rent contribution",
-      "Meals",
-      "Graduation prize (for previous scholarship holders)"
+      "Housing (free place in ERSU or partner residences, separate 'servizio abitativo' request on the same form)",
+      "Meals (free meals at ERSU canteens)",
+      "Graduation bonus +50% for on-time graduates, only if funds remain"
     ]
   },
   "application_fee": {
-    "required": null,
+    "required": false,
     "amount": null,
     "currency": null,
-    "paid_to": null,
-    "notes": null
+    "paid_to": "none",
+    "notes": "No fee to ERSU. Winners must be enrolled at UniMe and have paid the regional tax for the right to study by 21 Apr 2027."
   },
   "eligibility_criteria": {
-    "min_gpa": "First year: none stated; later years need minimum credits by 10 Aug 2026",
+    "min_gpa": "First year: merit checked afterwards (credits by 10 Aug / 30 Nov 2027). Later years: minimum credits by 10 Aug 2026 (bando tables 3 and 5.x, per 2 Jul 2026 errata). PhD only if the PhD place is unpaid.",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
     "language_proficiency": [
       "None required for the grant itself"
     ],
     "age_limit": null,
     "work_experience_years": null
   },
-  "country_specific_notes": [],
-  "required_documents": [],
-  "preparation_alerts": [],
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Non-EU students with family abroad need an 'ISEE parificato' calculated by a CAF from family income and assets in Nigeria, with Nigerian documents translated into Italian and legalised where required. Upload by 16 Sep 2026 for a normal ranking place; uploads up to 30 Nov 2026 are accepted but go to the bottom of the ranking."
+    }
+  ],
+  "required_documents": [
+    {
+      "name": "Online application on studenti.ersumessina.it",
+      "detail": "Validated with OTP code",
+      "optional": false
+    },
+    {
+      "name": "ISEE parificato (ISEEU/ISPEU)",
+      "detail": "From a CAF",
+      "optional": false
+    },
+    {
+      "name": "Family income and asset documents from the home country",
+      "detail": "Translated and legalised (as the CAF requires)",
+      "optional": false
+    },
+    {
+      "name": "Identity document",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Residence permit or receipt of the permit application",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Rental declaration",
+      "detail": "For off-site status, 16 Oct 2026 - 8 Jan 2027",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Income limits: ISEE up to EUR 22,500 AND ISPE up to EUR 53,000",
+    "Get the ISEE parificato from a CAF early; you can apply with only the declarant's tax code and add values later, but by the correction deadline",
+    "Legalising and translating Nigerian income documents takes weeks",
+    "International students must validate the application with an OTP code by 18 Aug 2026 15:00",
+    "Enrol at the University of Messina and pay the regional tax by 21 Apr 2027 or lose the benefit"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
   "application_timeline": {
-    "opening_date": null,
-    "deadline_date": null,
-    "deadline_time": null,
+    "opening_date": "2026-07-01",
+    "deadline_date": "2026-08-18",
+    "deadline_time": "14:00 Europe/Rome",
     "cycle_frequency": "Annual",
     "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
     "urgent_deadline": false
   },
-  "official_apply_url": "https://www.ersumessina.it/",
+  "official_apply_url": "https://studenti.ersumessina.it",
   "source_urls": [
     {
+      "url": "https://www.ersumessina.it/wp-content/uploads/2026/07/Bando-di-concorso-2026_2027_signed.pdf",
+      "title": "ERSU Messina: call 2026/27 (PDF)",
+      "type": "official",
+      "used_for": "Dates, income limits, amounts, foreign student rules, merit rules, eligibility"
+    },
+    {
+      "url": "https://www.ersumessina.it/wp-content/uploads/2026/07/AVVISO-ERRATA-CORRIGE-BANDO-2026-2027.pdf",
+      "title": "ERSU Messina: correction notice 2 Jul 2026 (PDF)",
+      "type": "official",
+      "used_for": "Errata of 2 Jul 2026: merit date for later years is 10 Aug 2026"
+    },
+    {
+      "url": "https://www.ersumessina.it/2026/07/01/bando-di-concorso-per-lattribuzione-di-borse-di-studio-altri-contributi-economici-e-servizi-per-il-diritto-allo-studio-universitario-per-la-a-2026-2027/",
+      "title": "ERSU Messina: call announcement",
+      "type": "official",
+      "used_for": "Publication date"
+    },
+    {
       "url": "https://www.studenti.it/borse-di-studio-2026-27-sicilia-bando-requisiti-e-scadenze.html",
+      "title": "Studenti.it: Sicily scholarships 2026/27",
       "type": "secondary",
-      "used_for": "Call published; benefit types; credit rule"
+      "used_for": "Original lead (superseded by the bando)"
     }
   ],
   "last_verified": "2026-10-28",
   "verification_status": {
     "is_legitimate": true,
-    "confidence_score": 0.55,
-    "verification_notes": "ERSU Messina is the official regional body. Official bando not read; deadline (reportedly August) and amounts left null. Needs manual review."
-  }
+    "confidence_score": 0.85,
+    "verification_notes": "Rechecked 2026-10-28 against the official ERSU Messina 2026/27 bando. Changes: dates found (1 Jul - 18 Aug 2026 14:00; OTP validation 15:00 for international students); status unknown -> closed; amounts, income limits, documents and foreign-student rules filled. Tuition exemption is handled by the university, not stated in this bando, so left null. A second errata notice (15 Jul 2026) exists on the ERSU site but its content could not be read; human should check it. Next cycle not announced (2025 and 2026 calls both opened in July)."
+  },
+  "award_stats": null
 }

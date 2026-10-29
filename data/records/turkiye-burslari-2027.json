@@ -1,0 +1,138 @@
+{
+  "scholarship_title": "Türkiye Scholarships (Türkiye Bursları) 2027",
+  "provider_organization": "Presidency for Turks Abroad and Related Communities (YTB), Government of Türkiye",
+  "academic_level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "All"
+  ],
+  "host_countries": [
+    "Turkey"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "Full tuition fees",
+    "stipend": {
+      "amount_min": 6500,
+      "amount_max": 13000,
+      "currency": "TRY",
+      "period": "month",
+      "gross_or_net": "unknown",
+      "notes": "Bachelor's TRY 6,500, master's TRY 9,500, PhD TRY 13,000 a month (current rates on the official site)"
+    },
+    "additional_benefits": [
+      "Accommodation",
+      "Health insurance",
+      "Flight ticket at the start and end of studies",
+      "One-year Turkish language course",
+      "University placement"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": "Applications are online and free of charge."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Bachelor's applicants at least 70%; master's and PhD at least 75%; medicine, dentistry and pharmacy at least 90%",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": "Bachelor's under 21; master's under 30; PhD under 35",
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [],
+  "preparation_alerts": [
+    "Bring all certificates of your latest completed education to the interview"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Preliminary check of minimum grades and other basic criteria",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Expert committee review",
+        "max_points": null,
+        "notes": "Decides the interview shortlist"
+      },
+      {
+        "criterion": "Quantitative test",
+        "max_points": null,
+        "notes": "Bachelor's applicants only: 30 questions in maths, geometry and logic"
+      },
+      {
+        "criterion": "Interview",
+        "max_points": null,
+        "notes": "15 to 30 minutes with academics and experts"
+      },
+      {
+        "criterion": "Final assessment by the selection committee",
+        "max_points": null,
+        "notes": null
+      }
+    ],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": "2027-01",
+    "next_cycle_confidence": "likely",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://tbbs.turkiyeburslari.gov.tr/",
+  "source_urls": [
+    {
+      "url": "https://www.turkiyeburslari.gov.tr/scholarshipsprograms",
+      "title": "Türkiye Scholarships: criteria and programmes",
+      "type": "official",
+      "used_for": "Age limits and minimum grades"
+    },
+    {
+      "url": "https://www.turkiyeburslari.gov.tr/fulltimeprograms",
+      "title": "Türkiye Scholarships: full-time programmes",
+      "type": "official",
+      "used_for": "Stipend amounts and benefits"
+    },
+    {
+      "url": "https://www.turkiyeburslari.gov.tr/calendar",
+      "title": "Türkiye Scholarships: application calendar",
+      "type": "official",
+      "used_for": "General application period 10 Jan to 20 Feb, interviews April to June, results early August"
+    },
+    {
+      "url": "https://www.turkiyeburslari.gov.tr/evaluationandselectionprocess",
+      "title": "Türkiye Scholarships: evaluation and selection",
+      "type": "official",
+      "used_for": "Selection stages"
+    },
+    {
+      "url": "https://www.turkiyeburslari.gov.tr/",
+      "title": "Türkiye Scholarships: home page",
+      "type": "official",
+      "used_for": "Free online application"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.75,
+    "verification_notes": "The official calendar gives the general application period as 10 January to 20 February without naming a year, so the 2027 call is marked likely for Jan 2027 but dates are left null until it is announced. The full document list is not on the pages checked (it is shown in the application portal); required_documents is empty for that reason. No Nigeria-specific rules found. 'All' nationalities is based on the programme being an international call with no country list on the pages checked; a human should confirm any nationality exclusions."
+  },
+  "award_stats": null
+}

@@ -1,0 +1,264 @@
+{% extends "base.html" %}
+{% from "_macros.html" import status_badge, days_badge, icon, provider_mark, flag with context %}
+
+{% set fc = r.financial_coverage %}
+{% set stipend = fc.stipend %}
+{% set fee = r.application_fee %}
+{% set ec = r.eligibility_criteria %}
+{% set tl = r.application_timeline %}
+{% set sel = r.selection_criteria %}
+{% set nigeria_notes = r.country_specific_notes | selectattr("country", "equalto", "Nigeria") | list %}
+{% set other_notes = r.country_specific_notes | rejectattr("country", "equalto", "Nigeria") | list %}
+
+{% block title %}{{ r.scholarship_title }} – {{ site_name }}{% endblock %}
+{% block description %}{{ description }}{% endblock %}
+
+{% macro next_call() -%}
+  {{ tl.next_cycle_expected | month }}{% if tl.next_cycle_confidence != "unknown" %} ({{ tl.next_cycle_confidence }}){% endif %}
+{%- endmacro %}
+
+{% block content %}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/scholarships">Scholarships</a>
+  <span aria-hidden="true">/</span>
+  {% if r.host_countries | length == 1 %}
+    <a href="/scholarships?country={{ r.host_countries[0] | urlencode }}">{{ r.host_countries[0] }}</a>
+    <span aria-hidden="true">/</span>
+  {% endif %}
+  <span aria-current="page">{{ r.scholarship_title }}</span>
+</nav>
+
+<div class="detail-layout">
+  <div class="detail-main">
+
+    <header class="detail-header">
+      {{ provider_mark(slug, "lg", r.provider_logo) }}
+      <div class="card__badges">
+        <span class="badge badge--open">{{ labels.funding.get(fc.funding_type, fc.funding_type) }}</span>
+        {{ status_badge(live.status) }}
+        {% if nigeria_listed %}<span class="badge badge--info">Nigeria eligible</span>{% endif %}
+      </div>
+      <h1>{{ r.scholarship_title }}</h1>
+      <p class="detail-header__provider">{{ r.provider_organization }}</p>
+      <p class="detail-header__meta">{{ flag(r.host_countries) }}<span>
+        {{ r.academic_level | levels }} · {{ r.host_countries | join(", ") }}
+        {%- if r.degree_fields %} · {{ "All fields" if r.degree_fields == ["All"] else r.degree_fields | join(", ") }}{% endif %}
+      </p>
+    </header>
+
+    {% if live.status == "closed" and tl.deadline_date %}
+      <div class="status-note">
+        {{ icon("clock", 22) }}
+        <div>
+          <p class="status-note__title">Applications closed on {{ tl.deadline_date | date }}</p>
+          {% if tl.next_cycle_expected %}<p>Next call expected: {{ next_call() }}</p>{% endif %}
+        </div>
+      </div>
+    {% elif live.status == "open" and tl.deadline_date %}
+      <div class="status-note status-note--open">
+        {{ icon("clock", 22) }}
+        <div><p class="status-note__title">Applications are open until {{ tl.deadline_date | date }}{% if tl.deadline_time %}, {{ tl.deadline_time }}{% endif %}</p></div>
+      </div>
+    {% elif live.status == "upcoming" and tl.opening_date %}
+      <div class="status-note">
+        {{ icon("clock", 22) }}
+        <div><p class="status-note__title">Applications open on {{ tl.opening_date | date }}</p></div>
+      </div>
+    {% endif %}
+
+    <section>
+      <h2 class="section-title">What you get</h2>
+      <div class="tiles">
+        {% if money %}
+          <div class="tile">
+            <p class="tile__label">{{ {"month": "Monthly stipend", "year": "Yearly stipend"}.get(stipend.period, "Stipend") }}</p>
+            <p class="tile__value">{{ money }}</p>
+            {% if stipend.gross_or_net != "unknown" %}<p class="tile__note">{{ stipend.gross_or_net }}</p>{% endif %}
+          </div>
+        {% endif %}
+        {% if fc.tuition_coverage %}
+          <div class="tile">
+            <p class="tile__label">Tuition</p>
+            <p class="tile__text">{{ fc.tuition_coverage }}</p>
+          </div>
+        {% endif %}
+        {% for benefit in fc.additional_benefits %}
+          <div class="tile">
+            <p class="tile__label">Also included</p>
+            <p class="tile__text">{{ benefit }}</p>
+          </div>
+        {% endfor %}
+      </div>
+      {% if stipend.notes %}<p class="note">{{ stipend.notes }}</p>{% endif %}
+    </section>
+
+    {% for item in nigeria_notes %}
+      <section class="nigeria-note">
+        <h2>{{ icon("flag", 22) }} For Nigerian applicants</h2>
+        <p>{{ item.note }}</p>
+      </section>
+    {% endfor %}
+
+    <div class="two-up">
+      <section class="panel">
+        <h2>Who can apply</h2>
+        <ul class="checks">
+          <li>{{ icon("check", 20) }}<span><span class="checks__label">Level</span> {{ r.academic_level | levels }}</span></li>
+          <li>{{ icon("check", 20) }}<span><span class="checks__label">Fields</span> {{ r.degree_fields | join(", ") }}</span></li>
+          <li>{{ icon("check", 20) }}
+            <span>
+              <span class="checks__label">Nationalities</span>
+              {% if r.eligible_nationalities | length > 6 %}
+                {% if nigeria_listed %}<strong class="tag tag--primary">Includes Nigeria</strong>{% endif %}
+                <details>
+                  <summary>{{ r.eligible_nationalities | length }} countries</summary>
+                  <p>{{ r.eligible_nationalities | join(", ") }}</p>
+                </details>
+              {% else %}
+                {{ r.eligible_nationalities | join(", ") }}
+              {% endif %}
+            </span>
+          </li>
+          {% if ec.min_gpa %}<li>{{ icon("check", 20) }}<span><span class="checks__label">Grades</span> {{ ec.min_gpa }}</span></li>{% endif %}
+          {% if ec.min_grade_percent is not none %}<li>{{ icon("check", 20) }}<span><span class="checks__label">Minimum grade</span> {{ ec.min_grade_percent | number }}% of the top of your grading scale</span></li>{% endif %}
+          {% if ec.degree_completed_earliest or ec.degree_completed_latest %}
+            <li>{{ icon("check", 20) }}
+              <span>
+                <span class="checks__label">Degree completed</span>
+                {% if ec.degree_completed_earliest and ec.degree_completed_latest %}Between {{ ec.degree_completed_earliest | date }} and {{ ec.degree_completed_latest | date }}
+                {% elif ec.degree_completed_earliest %}On or after {{ ec.degree_completed_earliest | date }}
+                {% else %}By {{ ec.degree_completed_latest | date }}{% endif %}
+              </span>
+            </li>
+          {% endif %}
+          {% for language in ec.language_proficiency or [] %}
+            <li>{{ icon("check", 20) }}<span><span class="checks__label">Language</span> {{ language }}</span></li>
+          {% endfor %}
+          {% if ec.age_limit %}<li>{{ icon("check", 20) }}<span><span class="checks__label">Age limit</span> {{ ec.age_limit }}</span></li>{% endif %}
+          {% if ec.work_experience_years %}<li>{{ icon("check", 20) }}<span><span class="checks__label">Work experience</span> {{ ec.work_experience_years }}</span></li>{% endif %}
+        </ul>
+      </section>
+
+      {% if sel.criteria %}
+        <section class="panel">
+          <h2>How you're scored</h2>
+          <ul class="scores">
+            {% for c in sel.criteria %}
+              <li>
+                <div class="scores__row">
+                  <span>{{ c.criterion }}</span>
+                  {% if c.max_points is not none %}<strong>{{ c.max_points | number }} pts</strong>{% endif %}
+                </div>
+                {% if c.max_points is not none and score_total %}
+                  <div class="scores__bar"><span style="width: {{ (c.max_points / score_total * 100) | round(1) }}%"></span></div>
+                {% endif %}
+                {% if c.notes %}<p class="note">{{ c.notes }}</p>{% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+          {% if sel.pass_rule %}<p class="note">Pass mark: {{ sel.pass_rule }}</p>{% endif %}
+        </section>
+      {% endif %}
+    </div>
+
+    {% if other_notes %}
+      <section class="panel">
+        <h2>Country notes</h2>
+        <ul class="country-notes">
+          {% for item in other_notes %}
+            <li><strong>{{ item.country }}</strong><p>{{ item.note }}</p></li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if r.required_documents %}
+      <section>
+        <h2 class="section-title">Documents you'll need</h2>
+        <ul class="documents">
+          {% for doc in r.required_documents %}
+            <li>
+              {{ icon("document", 20) }}
+              <div class="documents__text">
+                <span class="documents__name">{{ doc.name }}</span>
+                {% if doc.detail %}<p class="note">{{ doc.detail }}</p>{% endif %}
+              </div>
+              {% if doc.optional %}<span class="badge badge--muted">Optional</span>{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if r.preparation_alerts %}
+      <section>
+        <h2 class="section-title">Start early</h2>
+        <ul class="alerts">
+          {% for alert in r.preparation_alerts %}<li>{{ alert }}</li>{% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    <section>
+      <h2 class="section-title">Sources</h2>
+      <ul class="sources">
+        {% for s in r.source_urls %}
+          <li>
+            {{ icon("link", 18) }}
+            <a href="{{ s.url }}" rel="noopener" target="_blank">{{ s.title }}</a>
+            <span class="badge {{ 'badge--open' if s.type == 'official' else 'badge--muted' }}">{{ "Official" if s.type == "official" else "Secondary" }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+
+  <aside class="detail-side">
+    <div class="panel apply-card">
+      <div class="apply-card__top">
+        <span class="apply-card__label">{{ "Deadline" if tl.deadline_date else "Status" }}</span>
+        {{ status_badge(live.status) }}
+      </div>
+      {% if tl.deadline_date %}
+        <p class="apply-card__date">{{ tl.deadline_date | date }}{% if tl.deadline_time %}, {{ tl.deadline_time }}{% endif %}</p>
+      {% endif %}
+      {% if live.status == "open" and live.days_left is not none %}<p>{{ days_badge(live) }}</p>{% endif %}
+      {% if tl.next_cycle_expected %}<p class="apply-card__next">Next call: {{ next_call() }}</p>{% endif %}
+      {% if r.official_apply_url %}
+        <a class="button button--primary button--block" href="{{ r.official_apply_url }}" rel="noopener" target="_blank">Apply on the official site</a>
+      {% endif %}
+    </div>
+
+    <div class="panel quick-facts">
+      <h2>Quick facts</h2>
+      <dl>
+        <div><dt>Level</dt><dd>{{ r.academic_level | levels }}</dd></div>
+        <div><dt>Where</dt><dd>{{ r.host_countries | join(", ") }}</dd></div>
+        {% if tl.opening_date %}<div><dt>Opens</dt><dd>{{ tl.opening_date | date }}</dd></div>{% endif %}
+        {% if tl.cycle_frequency %}<div><dt>Cycle</dt><dd>{{ tl.cycle_frequency }}</dd></div>{% endif %}
+        {% if fee.required is true %}
+          <div><dt>Application fee</dt><dd>{% if fee.amount is not none %}{{ fee.currency }} {{ fee.amount | number }}{% else %}Yes{% endif %}</dd></div>
+        {% elif fee.required is false %}
+          <div><dt>Application fee</dt><dd>None</dd></div>
+        {% endif %}
+        {% if r.award_stats and (r.award_stats.awards is not none or r.award_stats.applicants is not none) %}
+          <div>
+            <dt>Places in {{ r.award_stats.year }}</dt>
+            <dd>
+              {% if r.award_stats.awards is not none %}{{ r.award_stats.awards | number }}{% endif %}
+              {% if r.award_stats.applicants is not none %}{% if r.award_stats.awards is not none %} from {% endif %}{{ r.award_stats.applicants | number }} applicants{% endif %}
+            </dd>
+          </div>
+        {% endif %}
+      </dl>
+      {% if fee.notes %}<p class="note">{{ fee.notes }}</p>{% endif %}
+    </div>
+
+    <div class="verified-note">
+      {{ icon("verified", 20) }}
+      <p>Verified on {{ r.last_verified | date }}. Always confirm on the official site before applying.
+        <a href="/report-a-problem?page=/scholarships/{{ slug }}">Report a problem</a> · <a href="/how-we-verify">How we verify</a></p>
+    </div>
+  </aside>
+</div>
+{% endblock %}

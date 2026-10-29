@@ -1,0 +1,112 @@
+{
+  "scholarship_title": "EDISU Piemonte Regional Scholarship and Housing 2026/2027 (first-year students)",
+  "provider_organization": "EDISU Piemonte (Piedmont Regional Agency for the Right to University Study)",
+  "academic_level": [
+    "Bachelor",
+    "Master"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "All (students enrolled at Piedmont universities, incl. international students)"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": "Winners who meet merit rules are exempt from or refunded university fees and the regional tax, under each university's fee rules",
+    "stipend": {
+      "amount_min": 1100,
+      "amount_max": 8455.33,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "Full-time amounts by ISEE band: off-site (fuori sede) EUR 3,800-8,096.78 (female STEM students up to 8,455.33); commuter EUR 1,945.36-4,878.85; in-town EUR 1,295.08-3,318.19; off-site students given an EDISU residence place EUR 1,100-5,755.33. Paid in instalments; second half needs 20 CFU by 10 Aug 2027."
+    },
+    "additional_benefits": [
+      "Place in an EDISU residence (housing service) for eligible off-site students",
+      "+20% for a second full-time course"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": "No application fee stated."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "First-year master's: only requirement is enrolling in a Piedmont master's by 30 Nov 2026 (or 2 Apr 2027); merit (20 CFU) needed to keep the grant",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Online application on the EDISU Sportello",
+      "detail": "International students without Italian residence use the 2026/27 Temporary Access Code instead of SPID/CIE",
+      "optional": false
+    },
+    {
+      "name": "University ISEE (or equivalent for foreign income)",
+      "detail": "ISEE up to EUR 26,306.25 and ISPE up to EUR 57,187.53, based on 2024 income and assets at 31 Dec 2024",
+      "optional": false
+    },
+    {
+      "name": "Paid-accommodation self-declaration",
+      "detail": "Off-site students, to get the off-site amount (lease registered with the Agenzia delle Entrate)",
+      "optional": false
+    },
+    {
+      "name": "IBAN of an account in your name",
+      "detail": "Needed for payment",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Start the ISEE / ISEE parificato paperwork early; it is not issued immediately",
+    "Applications close at 12:00 on the deadline day, with no exceptions"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": "Public competition by income; provisional rankings 21 Oct 2026, definitive 9 Nov and 16 Dec 2026"
+  },
+  "application_timeline": {
+    "opening_date": "2026-07-22",
+    "deadline_date": "2026-09-04",
+    "deadline_time": "12:00 Europe/Rome",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.edisu.piemonte.it/",
+  "source_urls": [
+    {
+      "url": "https://www.edisu.piemonte.it/sites/default/files/schede-informative-borse-e-contributi-documenti/bando-20262027/Step_by_step_Primi_anni_2026_27.pdf",
+      "title": "EDISU Piemonte: Step by step guide, first-year students 2026/27 (PDF)",
+      "type": "official",
+      "used_for": "Dates, amounts, income limits, access code for international students, rankings, merit rules"
+    },
+    {
+      "url": "https://www.regione.piemonte.it/web/node/22773",
+      "title": "Regione Piemonte: EDISU 2026-27 call announcement",
+      "type": "official",
+      "used_for": "Call published July 2026"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.8,
+    "verification_notes": "Read EDISU's official 2026/27 step-by-step guide for first-year students (the guide says the bando prevails). The full bando, including rules for non-EU students' foreign income (ISEE parificato), was not read. Students at Politecnico di Torino and University of Turin apply here."
+  },
+  "award_stats": null
+}

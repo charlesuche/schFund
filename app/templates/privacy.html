@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy – {{ site_name }}{% endblock %}
+{% block description %}What {{ site_name }} collects about visitors: no accounts, no cookies, no tracking. Only what you send us in a problem report.{% endblock %}
+
+{% block content %}
+<article class="prose">
+  <h1>Privacy</h1>
+  <p class="prose__lead">This page describes exactly what the site collects today. If that changes, this page changes first.</p>
+
+  <h2>What we don't collect</h2>
+  <ul>
+    <li>No accounts. You don't need to sign up or log in.</li>
+    <li>No cookies.</li>
+    <li>No analytics, adverts or tracking scripts. The site loads no code or fonts from other companies; everything comes from our own server.</li>
+  </ul>
+
+  <h2>Technical logs</h2>
+  <p>Like any website, our server notes each request: your IP address, the time, the page you asked for and your browser's name. These logs are used only to keep the site running and safe from abuse. They are kept by our hosting provider, Render, under its own retention rules, and we don't use them to identify or follow visitors.</p>
+
+  <h2>When you report a problem</h2>
+  <p>The <a href="/report-a-problem">report form</a> sends us what you type: your message, the page it is about and, if you choose to give it, your email address. It is sent to us by email through our email provider, Brevo, and is not stored in our database.</p>
+  <ul>
+    <li>We use your email address only to reply to your report. You can leave it out.</li>
+    <li>We keep the email only as long as we need it to fix the problem and reply, then delete it.</li>
+  </ul>
+
+  <h2>Who handles data for us</h2>
+  <ul>
+    <li><strong>Render</strong> runs the website on servers in Frankfurt, Germany, and keeps the technical logs.</li>
+    <li><strong>Neon</strong> hosts our database in Frankfurt, Germany. It holds scholarship information only, nothing about visitors.</li>
+    <li><strong>Brevo</strong> delivers problem reports to us by email. It stores data in the EU.</li>
+  </ul>
+
+  <h2>Your rights</h2>
+  <p>You can ask us what we hold about you, and ask us to correct or delete it.{% if contact_email %} Write to <a href="mailto:{{ contact_email }}">{{ contact_email }}</a>{% else %} Use the <a href="/report-a-problem">report form</a>{% endif %} and we'll answer. You can also complain to your data protection authority, such as the Nigeria Data Protection Commission or, in the EU, your national authority.</p>
+</article>
+{% endblock %}

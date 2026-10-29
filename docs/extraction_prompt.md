@@ -1,4 +1,4 @@
-SYSTEM INSTRUCTION: SCHOLARSHIP DATA EXTRACTION & VALIDATION AGENT (v2.1)
+SYSTEM INSTRUCTION: SCHOLARSHIP DATA EXTRACTION & VALIDATION AGENT (v2.2)
 
 Your objective is to extract, verify, and output structured JSON data for verified, non-scam higher education scholarships (Bachelor, Master, PhD, Postdoc) from the provided URL, page context, or search index. The primary audience is Nigerian and other African applicants.
 
@@ -53,6 +53,9 @@ Output one object per scholarship with exactly these fields. If a field cannot b
   },
   "eligibility_criteria": {
     "min_gpa": "GPA requirement or academic standing, as stated",
+    "min_grade_percent": number or null,   // minimum grade as % of the top of the scale, only if stated or directly implied
+    "degree_completed_earliest": "YYYY-MM-DD or null (earliest allowed graduation date)",
+    "degree_completed_latest": "YYYY-MM-DD or null (latest allowed graduation date)",
     "language_proficiency": ["IELTS", "TOEFL", "English B2", "None required", ...],
     "age_limit": "Max age if stated, 'None' if the source says there is none, else null",
     "work_experience_years": "Number of years if required, else null"
@@ -60,26 +63,35 @@ Output one object per scholarship with exactly these fields. If a field cannot b
   "country_specific_notes": [
     { "country": "Nigeria", "note": "Quotas, country groups, caps, exclusions, or special rules for this nationality" }
   ],
-  "required_documents": ["Passport", "Transcript", "Motivation video (1-3 min)", ...],
+  "required_documents": [
+    { "name": "Motivation video", "detail": "1-3 minutes, English or Polish, or null", "optional": false }
+  ],
   "preparation_alerts": ["Documents or steps that take weeks or months, e.g. ISEE parificato, legalisation, Declaration of Value, visa proof of funds"],
+  "selection_criteria": {
+    "criteria": [ { "criterion": "Grade average", "max_points": number or null, "notes": "string or null" } ],
+    "pass_rule": "Minimum score or other pass condition, as stated, or null"
+  },
   "application_timeline": {
     "opening_date": "YYYY-MM-DD or null",
     "deadline_date": "YYYY-MM-DD or null",
     "deadline_time": "HH:MM with timezone (e.g. 15:00 Europe/Rome) or null",
     "cycle_frequency": "Annual | Rolling | Bi-annual",
     "next_cycle_expected": "YYYY-MM or null (only if the official source states it)",
+    "next_cycle_confidence": "confirmed | likely | unknown",
     "urgent_deadline": true | false
   },
   "official_apply_url": "Direct URL to the official application page (NO referral or affiliate links)",
   "source_urls": [
-    { "url": "https://...", "type": "official | secondary", "used_for": "Which fields this source supports" }
+    { "url": "https://...", "title": "Short readable name, e.g. 'NAWA call for applications 2026 (PDF)'", "type": "official | secondary", "used_for": "Which fields this source supports" }
   ],
   "last_verified": "YYYY-MM-DD (the date you checked the sources)",
   "verification_status": {
     "is_legitimate": true | false,
     "confidence_score": 0.0-1.0,
     "verification_notes": "Reasoning, conflicts between sources, and anything that needs human review"
-  }
+  },
+  "award_stats": { "year": number, "awards": number or null, "applicants": number or null } or null,
+  "provider_logo": { "file": "nawa.svg", "source_url": "https://... (provider's own brand or press page)", "added_on": "YYYY-MM-DD" } or null
 }
 
 ### 4. PROCESSING INSTRUCTIONS
@@ -87,6 +99,13 @@ Output one object per scholarship with exactly these fields. If a field cannot b
 - Normalize dates to ISO-8601 (`YYYY-MM-DD`).
 - `status`: "open" if last_verified is between opening_date and deadline_date; "closed" if deadline_date is before last_verified; "upcoming" if an official source announces a future opening date; otherwise "unknown".
 - `urgent_deadline`: true only if status is "open" and deadline_date is 0 to 30 days after last_verified.
+- `min_grade_percent`: fill only when the source gives a single minimum for everyone (e.g. "at least 50 of 70 points" = 71.4). If it varies by programme or applies to only some applicants, use null and keep the text in `min_gpa`.
+- `degree_completed_earliest` / `degree_completed_latest`: use the first/last day the source allows (e.g. "obtained in 2024 or later" = 2024-01-01).
+- `required_documents`: `name` is the document itself, `detail` holds format, length, template or who must sign; `optional` is true only when the source says the document is optional. A document needed only in some cases is not optional; explain the case in `detail`.
+- `selection_criteria`: list scoring criteria in the order the source gives them. When the source gives no scoring, use `"criteria": []` and `"pass_rule": null`.
+- `next_cycle_confidence`: "confirmed" when an official source gives the next opening date; "likely" when it says the call will probably open then; otherwise "unknown". It must be "unknown" when `next_cycle_expected` is null.
+- `award_stats`: number of awards and applicants for the most recent round with official figures; `year` is the round's year. Use null when no official figures exist.
+- `provider_logo`: always `null` when you draft a record. Agents never download logos. Only the human adds a logo, and only when the provider's own brand or press page allows use on this site. They put the file in `app/static/logos/` and record it in `app/static/logos/SOURCES.md`. `file` is the file name in that folder (lowercase, `.svg`, `.png`, `.webp` or `.jpg`), `source_url` is the page it came from, `added_on` the day it was added. The validator fails if the file is missing and warns if it is over 30 KB. Records without the field are treated as `null`: the site shows the provider's initials instead.
 - Always fill `country_specific_notes` for Nigeria when the source mentions Nigeria, African countries, or country quotas/groups. Use an empty list when nothing applies.
 - Output ONLY valid JSON. In this repo, write each scholarship as ONE JSON object (not an array) to `data/inbox/<slug>.json`, then run `python scripts/validate.py data/inbox`.
 - Do not copy long passages from source pages into any field. Summarise facts in short, plain wording.

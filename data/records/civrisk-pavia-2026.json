@@ -1,0 +1,141 @@
+{
+  "scholarship_title": "CIVRISK Master's Scholarships 2026/2027 (MSc Civil Engineering for Mitigation of Risk from Natural Hazards)",
+  "provider_organization": "University of Pavia and IUSS Pavia (funded by Fondazione PEPE and the Department of Civil Engineering and Architecture)",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Civil Engineering",
+    "Natural Hazard Risk Mitigation"
+  ],
+  "eligible_nationalities": [
+    "All (no nationality rule stated)"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": null,
+    "stipend": {
+      "amount_min": 4000,
+      "amount_max": 4000,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "EUR 4,000 per academic year; renewable for the second year if academic requirements in the call are met"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not stated on the scholarship page."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Must meet the academic requirements for direct admission to CIVRISK",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": [
+      "English (oral interview in English)"
+    ],
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Online application form",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "ID document or passport",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Academic transcripts and certificates",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "CV",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Pre-evaluation request",
+      "detail": "If you have not already completed the CIVRISK admission pre-evaluation",
+      "optional": false
+    },
+    {
+      "name": "Reference letters",
+      "detail": "Maximum two",
+      "optional": true
+    }
+  ],
+  "preparation_alerts": [
+    "Complete the CIVRISK admission pre-evaluation before or with the scholarship application"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Academic qualifications and grades",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Study and work experience",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Reference letters",
+        "max_points": null,
+        "notes": "Up to two"
+      },
+      {
+        "criterion": "Oral interview in English",
+        "max_points": null,
+        "notes": "Can be remote on request"
+      }
+    ],
+    "pass_rule": "Two scholarships; final ranking by 26 Jul 2026"
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-06-17",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://civrisk.cdl.unipv.it/en/node/173",
+  "source_urls": [
+    {
+      "url": "https://civrisk.cdl.unipv.it/en/node/173",
+      "title": "CIVRISK: scholarships and funding 2026/2027",
+      "type": "official",
+      "used_for": "Number, amount, renewal, eligibility, documents, selection, deadline, funders"
+    },
+    {
+      "url": "https://civrisk.cdl.unipv.it/sites/cdl84/files/2026-05/CIVRISK_26_27.pdf",
+      "title": "CIVRISK scholarship call 2026/27 (PDF)",
+      "type": "official",
+      "used_for": "Listed as the full call; not read"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.8,
+    "verification_notes": "Official CIVRISK page confirms the lead's figures (2 x EUR 4,000 a year, deadline 17 Jun 2026). The call PDF was not read, so renewal conditions and any fee are not detailed. Whether CIVRISK charges tuition, and whether this can be combined with an EDiSU Pavia grant, was not checked. No nationality restriction is stated."
+  },
+  "award_stats": null
+}

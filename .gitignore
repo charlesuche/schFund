@@ -1,7 +1,39 @@
+# --- Secrets: never commit ---
+.env
+.env.*
+!.env.example
+.cursor/
+AGENTS.md
+CLAUDE.md
+
+
+# --- Local working files, not needed in the repo ---
+# Task prompts sent to AI agents (kept on this computer only).
+prompts/
+
+# --- Python ---
 .venv/
+venv/
 __pycache__/
 *.pyc
-.env
-.DS_Store
-.idea/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Local database data (docker-compose volume, if mapped to a folder) ---
 pgdata/
+
+# --- Editors and AI tools: personal settings ---
+.idea/
+.vscode/
+.claude/settings.local.json
+*.swp
+
+# --- Operating system ---
+.DS_Store
+Thumbs.db
+
+# --- Logs and scratch files ---
+*.log
+tmp/

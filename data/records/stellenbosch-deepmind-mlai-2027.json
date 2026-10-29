@@ -1,0 +1,96 @@
+{
+  "scholarship_title": "Google DeepMind Scholarships for the MSc in Machine Learning and Artificial Intelligence, Stellenbosch University (January 2027 intake)",
+  "provider_organization": "Stellenbosch University, funded by Google DeepMind and administered by IIE",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Machine Learning",
+    "Artificial Intelligence"
+  ],
+  "eligible_nationalities": [
+    "African countries (students from Africa; citizenship or residence rule not stated)"
+  ],
+  "host_countries": [
+    "South Africa"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "Included in 'full funding' (not itemised)",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": "ZAR",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "Full funding for the one-year MSc; amounts not stated"
+    },
+    "additional_benefits": [
+      "Equipment budget",
+      "Travel budget"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": "university",
+    "notes": "Search results say there may be a small university application fee; not confirmed on the page read."
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Application to the MSc in Machine Learning and AI",
+      "detail": "Applying to the MSc by the scholarship deadline counts as nomination; no separate scholarship form",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Apply to the MSc early: only applications in by mid-August were considered for the scholarship, although the MSc itself closes later"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-08-15",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://mlai.sun.ac.za/apply/",
+  "source_urls": [
+    {
+      "url": "https://mlai.sun.ac.za/dms/",
+      "title": "Stellenbosch MLAI: Google DeepMind scholarships",
+      "type": "official",
+      "used_for": "Intake, eligibility (students from Africa), coverage, nomination, 15 Aug 2026 deadline, IIE"
+    },
+    {
+      "url": "https://mlai.sun.ac.za/apply/",
+      "title": "Stellenbosch MLAI: how to apply",
+      "type": "official",
+      "used_for": "Application route (MSc deadline 31 Oct 2026 per search results)"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.75,
+    "verification_notes": "The scholarship nomination deadline (15 Aug 2026) has passed; the MSc itself accepts applications until 31 Oct 2026 per search results (apply page not read directly), but late applicants are not considered for this scholarship. Number of awards and exact amounts not stated. Entry requirements (Honours in maths, applied maths, CS or statistics, or a 4-year electrical engineering degree; Python) come from search results of the apply page and were not verified directly. The 2022 tweet lead said 'file only if funding exists': funding exists."
+  },
+  "award_stats": null
+}

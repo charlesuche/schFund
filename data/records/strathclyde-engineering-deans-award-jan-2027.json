@@ -1,0 +1,92 @@
+{
+  "scholarship_title": "University of Strathclyde Faculty of Engineering Dean's International Excellence Award for Master's Study, January 2027",
+  "provider_organization": "University of Strathclyde, Faculty of Engineering",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Engineering",
+    "Mechanical & Aerospace Engineering",
+    "Electronic & Electrical Engineering",
+    "Civil Engineering",
+    "Architecture",
+    "Renewable Energy"
+  ],
+  "eligible_nationalities": [
+    "All (international non-EU fee status)"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "open",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "GBP 9,000 to 12,000 off tuition fees",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No stipend"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not stated on the scholarship page."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Usually a UK first class undergraduate degree or international equivalent",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Offer for an eligible full-time postgraduate taught course starting January 2027",
+      "detail": "No separate scholarship application; all international offer holders are considered",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Not open to applicants fully sponsored by a government or embassy",
+    "Only one Strathclyde scholarship per academic year; cannot be deferred"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": "Faculty chooses among offer holders; the award is recorded after your deposit is received"
+  },
+  "application_timeline": {
+    "opening_date": "2026-06-02",
+    "deadline_date": "2026-11-30",
+    "deadline_time": null,
+    "cycle_frequency": "Bi-annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.strath.ac.uk/studywithus/scholarships/engineeringdeansinternationalexcellenceaward-january2027/",
+  "source_urls": [
+    {
+      "url": "https://www.strath.ac.uk/studywithus/scholarships/engineeringdeansinternationalexcellenceaward-january2027/",
+      "title": "University of Strathclyde: Engineering Dean's International Excellence Award, January 2027",
+      "type": "official",
+      "used_for": "Value, eligibility, courses, dates, no separate application"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.9,
+    "verification_notes": "Official page. Strathclyde runs separate Dean's awards per faculty and per intake (September and January); this record is Engineering, January 2027. A search snippet gave a 31 Oct 2026 deadline, but the official page says 30 Nov 2026. Partial award (fee discount only); number of awards 'varies'. Glasgow campus only."
+  },
+  "award_stats": null
+}

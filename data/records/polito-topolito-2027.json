@@ -1,0 +1,95 @@
+{
+  "scholarship_title": "Politecnico di Torino TOPoliTO Scholarship (2027/28 call)",
+  "provider_organization": "Politecnico di Torino",
+  "academic_level": [
+    "Bachelor",
+    "Master"
+  ],
+  "degree_fields": [
+    "Engineering",
+    "Architecture",
+    "Design"
+  ],
+  "eligible_nationalities": [
+    "All (international students not legally resident in Italy, per past calls)"
+  ],
+  "host_countries": [
+    "Italy"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Partially Funded",
+    "tuition_coverage": null,
+    "stipend": {
+      "amount_min": 8000,
+      "amount_max": 8000,
+      "currency": "EUR",
+      "period": "year",
+      "gross_or_net": "gross",
+      "notes": "EUR 8,000 gross per year; tuition waiver, housing and flights not promised on the official page"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not checked."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Past calls: admission to a PoliTO programme; bachelor's applicants also needed a valid admission test score",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Application under the TOPoliTO call",
+      "detail": "Only admitted students can request the scholarship (per past calls)",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Apply for admission to Politecnico di Torino first; past master's calls closed in July"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.polito.it/en/education/international-students/financial-aid",
+  "source_urls": [
+    {
+      "url": "https://www.polito.it/en/education/international-students/financial-aid",
+      "title": "Politecnico di Torino: financial aid for international students",
+      "type": "official",
+      "used_for": "TOPoliTO amount (EUR 8,000 gross/yr) and purpose"
+    },
+    {
+      "url": "https://international.polito.it/financial_aid/topolito_scholarships/2023_2024/master_of_science",
+      "title": "Politecnico di Torino: TOPoliTO master's call 2023/24",
+      "type": "official",
+      "used_for": "Past deadline (14 Jul 2023) and rules"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.6,
+    "verification_notes": "Official page confirms EUR 8,000 gross a year for selected international bachelor's and master's students but gives no 2027/28 call or dates. Past calls: master's deadline 14 Jul 2023; bachelor's 24 Aug 2022 and 13 Sep 2021. Number of awards not stated."
+  },
+  "award_stats": null
+}

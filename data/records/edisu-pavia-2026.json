@@ -15,68 +15,132 @@
   "host_countries": [
     "Italy"
   ],
-  "status": "unknown",
+  "status": "closed",
   "financial_coverage": {
     "funding_type": "Partially Funded",
-    "tuition_coverage": null,
+    "tuition_coverage": "Winners are exempt from the University of Pavia all-inclusive contribution (fees); the EUR 140 regional tax is refunded within the grant",
     "stipend": {
-      "amount_min": null,
-      "amount_max": null,
+      "amount_min": 2143,
+      "amount_max": 8248,
       "currency": "EUR",
       "period": "year",
       "gross_or_net": "unknown",
-      "notes": "Need-based; official amounts not verified"
+      "notes": "Total value incl. one free meal a day. Cash part: in-town EUR 1,314-2,601; commuter EUR 2,470-3,991; off-site (living away, 10+ months' housing) EUR 5,028-7,419; off-site in an EDiSU college EUR 2,088-4,479 plus free room. Band depends on ISEE. +20% for women in STEM degrees (not combined with the 15% low-income increase). Halved for the first extra year after normal course length. First-year students get full value only if they reach Allegato B credits by 10 Aug 2027 (50% if by 30 Nov 2027)."
     },
     "additional_benefits": [
-      "Housing (EDiSU colleges and residences)",
-      "Meals"
+      "Fee exemption",
+      "One free meal per day",
+      "Free room for winners of an EDiSU college place",
+      "Refund of EUR 140 regional tax"
     ]
   },
   "application_fee": {
-    "required": null,
+    "required": false,
     "amount": null,
     "currency": null,
-    "paid_to": null,
-    "notes": null
+    "paid_to": "none",
+    "notes": "No fee to apply to EDiSU. Original foreign documents must be delivered or posted at the student's own cost."
   },
   "eligibility_criteria": {
-    "min_gpa": null,
+    "min_gpa": "First-year bachelor's/single-cycle: secondary school final grade at least 70/100 (foreign grades converted by MIUR formula). First-year master's/PhD: only regular enrolment and no previous enrolment at the same level. Later years: credits in Allegato A by 10 Aug 2026.",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
     "language_proficiency": [
       "None required for the grant itself"
     ],
     "age_limit": null,
     "work_experience_years": null
   },
-  "country_specific_notes": [],
-  "required_documents": [],
-  "preparation_alerts": [
-    "Likely needs ISEE parificato or legalised income documents (not verified)"
-  ],
-  "application_timeline": {
-    "opening_date": null,
-    "deadline_date": null,
-    "deadline_time": null,
-    "cycle_frequency": "Annual",
-    "next_cycle_expected": null,
-    "urgent_deadline": false
-  },
-  "official_apply_url": "https://www.edisu.pv.it/",
-  "source_urls": [
+  "country_specific_notes": [
     {
-      "url": "https://portale.unipv.it/it/didattica/corsi-di-laurea/contribuzione-universitaria/incentivi-agevolazioni-ed-esoneri/financial-support",
-      "type": "official",
-      "used_for": "EDiSU publishes an annual scholarship and residence call"
+      "country": "Nigeria",
+      "note": "Nigeria is not on the 'particularly poor countries' list (D.M. 176/2026), so Nigerian students must submit official 2025 family income, property and bank documents from Nigerian authorities, legalised by the Italian embassy (or apostilled) with Italian translation. Originals must reach EDiSU by the deadline. Affidavits and self-declarations are rejected. Declared foreign income can never count as less than EUR 10,179.85."
+    }
+  ],
+  "required_documents": [
+    {
+      "name": "Online application",
+      "detail": "Confirmed on EDiSU 'Servizi on line allo Studente'",
+      "optional": false
     },
     {
-      "url": "https://tuitionfreetrek.blogspot.com/2026/02/university-of-pavia-2026-ultimate-guide.html",
-      "type": "secondary",
-      "used_for": "Claimed 15 Sep 2026 deadline (not used in fields)"
+      "name": "Family composition certificate",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "2025 gross income (or unemployment status) of each adult family member",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Buildings owned at 31 Dec 2025",
+      "detail": "With size in square metres, or proof of none",
+      "optional": false
+    },
+    {
+      "name": "Bank statements for December 2025 and any investments",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Italian ISEE UNI 2026",
+      "detail": "Also needed if the student has any income or bank account in Italy",
+      "optional": false
+    },
+    {
+      "name": "Originals of all foreign documents",
+      "detail": "Uploaded as PDF AND delivered in original (by appointment or by post)",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Income limits: ISEE UNI (or ISEE parificato) up to EUR 26,887.93 AND ISPE up to EUR 58,452.06",
+    "Original legalised and translated foreign documents must physically reach EDiSU in Pavia by 15 Sep 2026 15:00; photocopies are not accepted",
+    "Embassy legalisation and translation take weeks; start in spring",
+    "Higher off-site amount needs proof of paid housing for 10 months (or an EDiSU college place)",
+    "One online application covers all EDiSU benefits; the earliest deadline (e.g. college places) applies"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-09-15",
+    "deadline_time": "15:00 Europe/Rome",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://edisupv-sol.dirittoallostudio.it/apps/V3.1/sol/public/",
+  "source_urls": [
+    {
+      "url": "https://www.edisu.pv.it/download/4758/",
+      "title": "EDiSU Pavia: scholarship call 2026/27 (PDF)",
+      "type": "official",
+      "used_for": "Bando 2026/27: amounts, income limits, foreign document rules, merit rules, deadline"
+    },
+    {
+      "url": "https://www.edisu.pv.it/servizi/borsa-di-studio-ordinaria/",
+      "title": "EDiSU Pavia: scholarship page",
+      "type": "official",
+      "used_for": "Deadline, application portal, bando and annex links"
+    },
+    {
+      "url": "https://portale.unipv.it/it/didattica/corsi-di-laurea/contribuzione-universitaria/incentivi-agevolazioni-ed-esoneri/financial-support",
+      "title": "University of Pavia: financial support",
+      "type": "official",
+      "used_for": "EDiSU runs the annual call for UniPV students"
     }
   ],
   "last_verified": "2026-10-28",
   "verification_status": {
     "is_legitimate": true,
-    "confidence_score": 0.6,
-    "verification_notes": "Official 2026/27 bando not reached; dates and amounts left null. A blog claims a 15 Sep 2026 deadline and a guide claims up to EUR 8,248/year; both unverified. Pavia also has programme-specific scholarships (e.g. CIVRISK, 2 x EUR 4,000/year, deadline 17 Jun 2026) worth separate records. Needs manual review."
-  }
+    "confidence_score": 0.85,
+    "verification_notes": "Rechecked 2026-10-28 against the official EDiSU 2026/27 bando. Changes: deadline confirmed as 15 Sep 2026 15:00 (blog date was right); amounts, income limits, documents and merit rules filled; status changed from unknown to closed. Opening date not stated in the bando, so left null. Merit credit tables (Allegati A and B) downloaded but not transcribed. Old secondary 'EUR 8,248' figure matches the off-site band 1 total. Next cycle not announced."
+  },
+  "award_stats": null
 }

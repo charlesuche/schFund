@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ site_name }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{% endblock %}">
+  {% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+  {% if noindex %}<meta name="robots" content="noindex, follow">{% endif %}
+  <link rel="preload" href="/static/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ static_url('styles.css') }}">
+  {% if structured_data %}<script type="application/ld+json">{{ structured_data | tojson }}</script>{% endif %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/">
+        <span class="brand__mark"><img src="{{ static_url('icons/logo.svg') }}" width="22" height="22" alt=""></span>
+        {{ site_name }}
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/scholarships" aria-current="page">Scholarships</a>
+      </nav>
+    </div>
+  </header>
+
+  {% block hero %}{% endblock %}
+
+  <main class="container" id="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="site-footer__about">
+        <p class="site-footer__brand">{{ site_name }}</p>
+        <p>Verified scholarships for Nigerian and African students.<br>We never charge students and never act as an agent.</p>
+      </div>
+      <nav class="site-footer__links" aria-label="Explore">
+        <p class="site-footer__heading">Explore</p>
+        <a href="/scholarships">All scholarships</a>
+        <a href="/scholarships?status=open&amp;sort=deadline">Closing soon</a>
+      </nav>
+      <nav class="site-footer__links" aria-label="About">
+        <p class="site-footer__heading">About</p>
+        <a href="/how-we-verify">How we verify</a>
+        <a href="/report-a-problem">Report a problem</a>
+        <a href="/privacy">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

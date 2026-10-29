@@ -1,0 +1,97 @@
+{
+  "scholarship_title": "University of Glasgow Global Leadership Scholarship, January 2027 entry",
+  "provider_organization": "University of Glasgow",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Aerospace Engineering & Management",
+    "Civil Engineering & Management",
+    "Educational Studies",
+    "Electronics & Electrical Engineering",
+    "Electronics & Electrical Engineering & Management",
+    "Mechanical Engineering & Management"
+  ],
+  "eligible_nationalities": [
+    "Nigeria",
+    "Other countries on the university's eligible list (International or EU fee status)"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "open",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "GBP 10,000 tuition fee discount",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No stipend"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not stated on the scholarship page."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Grades equivalent to UK First Class Honours",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Online scholarship application",
+      "detail": "Via 'Apply now' on the scholarship page",
+      "optional": false
+    },
+    {
+      "name": "Offer of a place on an eligible MSc starting January 2027",
+      "detail": "Applications without an offer by the deadline are rejected",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Get your programme offer before 14 Dec 2026, or the scholarship application is rejected"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-12-14",
+    "deadline_time": "11:45 Europe/London",
+    "cycle_frequency": "Bi-annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.gla.ac.uk/scholarships/globalleadershipscholarshipjanuary2027/",
+  "source_urls": [
+    {
+      "url": "https://www.gla.ac.uk/scholarships/globalleadershipscholarshipjanuary2027/",
+      "title": "University of Glasgow: Global Leadership Scholarship, January 2027",
+      "type": "official",
+      "used_for": "Value, eligible countries and programmes, grades, deadline, notification"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.9,
+    "verification_notes": "The lead named the 'Glasgow Excellence Scholarship', but Glasgow's Excellence Award is for UK students only; this record covers the Global Leadership Scholarship, which Nigerians can get. The page says applications are open now; opening date not stated. A separate September-entry version of this scholarship exists and was not researched. Partial award (fee discount only). Number of awards is 'variable'. Successful candidates are told within six weeks of their programme offer."
+  },
+  "award_stats": null
+}

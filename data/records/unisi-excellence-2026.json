@@ -50,6 +50,9 @@
   },
   "eligibility_criteria": {
     "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
     "language_proficiency": [
       "English proficiency as required by the chosen English-taught programme"
     ],
@@ -61,18 +64,24 @@
   "preparation_alerts": [
     "You must also apply to an eligible Master's programme via apply.unisi.it"
   ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
   "application_timeline": {
     "opening_date": "2026-05-05",
     "deadline_date": "2026-05-26",
     "deadline_time": null,
     "cycle_frequency": "Annual",
     "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
     "urgent_deadline": false
   },
   "official_apply_url": "https://admission.unisi.it/",
   "source_urls": [
     {
       "url": "https://www.unisi.it/call-applications-siena-international-excellence-scholarships-2026-2027",
+      "title": "University of Siena: Excellence Scholarships 2026/27 call",
       "type": "official",
       "used_for": "Amount, number of awards, eligible programmes, dates, results"
     }
@@ -82,5 +91,10 @@
     "is_legitimate": true,
     "confidence_score": 0.9,
     "verification_notes": "Official deadline 26 May 2026; several aggregator sites wrongly list 6 May 2026 (the 2025 date). Final rankings published Aug 2026. Tuition not covered by this award."
+  },
+  "award_stats": {
+    "year": 2026,
+    "awards": 5,
+    "applicants": null
   }
 }

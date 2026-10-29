@@ -1,0 +1,91 @@
+{
+  "scholarship_title": "University of Leeds International Excellence Scholarships 2026 (taught master's)",
+  "provider_organization": "University of Leeds",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "All taught master's (not MBA or fully online courses)"
+  ],
+  "eligible_nationalities": [
+    "All (international fee status)"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "GBP 3,000, 6,000 or 16,000 off first-year tuition fees",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No stipend"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not stated."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "2:1 honours or equivalent (achieved or predicted)",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Offer for an eligible taught master's starting September 2026",
+      "detail": "Conditional or unconditional",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Self-funded or partly funded applicants only",
+    "Show strong professional and personal skills through work experience or extracurricular activities"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": "500 scholarships; outcome by 26 Jun 2026 for applications by 29 May"
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-05-29",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.leeds.ac.uk/excellence-scholarships",
+  "source_urls": [
+    {
+      "url": "https://www.leeds.ac.uk/excellence-scholarships",
+      "title": "University of Leeds: International Excellence Scholarships 2026",
+      "type": "official",
+      "used_for": "Amounts, number, eligibility, exclusions, last deadline, closed status"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.8,
+    "verification_notes": "Official page covers the 2026 round only and says it is closed; the last deadline mentioned is 29 May 2026 (earlier rounds not listed). Aggregators give 2027 rounds closing 28 Feb 2027 and 16 May 2027, not confirmed officially. Partial award: first-year fee reduction only, can be combined with the International Regional Scholarship up to 100% of fees. How to apply not described on the page."
+  },
+  "award_stats": {
+    "year": 2026,
+    "awards": 500,
+    "applicants": null
+  }
+}

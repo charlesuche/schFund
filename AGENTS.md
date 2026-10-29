@@ -8,16 +8,23 @@ A scholarship platform for undergraduate, master's and PhD scholarships worldwid
 
 The value of the platform is **trustworthy data**. A wrong deadline or an invented requirement can cost a student a scholarship. Accuracy beats speed, always.
 
-## Current phase: Phase 1 — data collection
+## Current phase: Phase 4 — accounts and deadline alerts
 
-Right now we are only building the scholarship dataset. No website, API or database code yet unless the human asks for it.
+Phase 4 (prompt 09) adds sign-in by email link, saved scholarships and deadline alerts. Data collection continues in parallel using the data workflow below.
 
-Planned stack for later phases (do not start these unasked):
-- Backend: Python + FastAPI
-- Database: PostgreSQL with pgvector (see `docker-compose.yml`)
-- Public pages: server-rendered HTML (Jinja) for search engines
-- App: Flutter
-- Chatbot: retrieval (RAG) over verified records only
+Read `docs/later_phases_plan.md` before any Phase 4 task. It has the design decisions; follow them. Its data protection rules matter most here: store only email, saved slugs, alert settings and consent time.
+
+Earlier phases:
+- Phase 2 (database, API, public pages, prompts 03 to 06) is finished. `docs/phase2_plan.md` still describes how those parts work.
+- Phase 3a (freshness checks, prompt 08) is finished: `scripts/check_freshness.py`.
+- Phase 3b (website launch, prompt 07) is built for Render free + Neon free; the manual launch steps are in `docs/launch_checklist.md`. Deploys run only from `.github/workflows/ci.yml`.
+
+Stack:
+- Python 3.11+, FastAPI, Jinja2 templates, psycopg 3 with plain SQL (no ORM)
+- PostgreSQL 16 with pgvector (see `docker-compose.yml`)
+- pytest for tests
+
+Not in Phase 4 (do not start unasked): Flutter app, chatbot, Telegram/WhatsApp alerts.
 
 ## Folder layout
 
@@ -28,6 +35,9 @@ data/leads.csv                Scholarships waiting to be researched.
 data/inbox/                   YOUR drafts go here, one file per scholarship.
 data/records/                 Human-approved records. Do NOT edit unless asked.
 scripts/validate.py           Checks records against the schema and rules.
+scripts/check_freshness.py    Flags records that may be out of date (never edits them).
+data/source_hashes.json       Hashes of official source pages from the last freshness run.
+reports/                      Freshness reports, one per run.
 prompts/                      Task prompts the human sends to agents.
 ```
 
@@ -68,7 +78,14 @@ At the end of a task, reply with:
 
 Use plain, simple English. Keep it short.
 
-## Coding style (for later phases)
+## Workflow for code tasks
+
+1. Read `docs/phase2_plan.md` and the task prompt.
+2. Keep changes inside the folders the prompt names. Do not rewrite unrelated files.
+3. Add or update tests for what you build. Run `pytest` and `python scripts/validate.py` before finishing; both must pass.
+4. Report: files changed, how to run it, what you tested, anything you were unsure about.
+
+## Coding style
 
 - Simple, explicit code a student can read and defend. Prefer plain `for` loops over clever one-liners.
 - Comments in plain English explaining *why*, not *what*.
@@ -83,4 +100,6 @@ source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python scripts/validate.py         # checks data/records and data/inbox
 python scripts/validate.py data/inbox
+python scripts/check_freshness.py   # writes reports/freshness_<date>.md
+python scripts/check_freshness.py --no-network   # date rules only
 ```

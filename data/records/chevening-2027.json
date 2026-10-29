@@ -1,0 +1,125 @@
+{
+  "scholarship_title": "Chevening Scholarships 2027/2028",
+  "provider_organization": "UK Foreign, Commonwealth and Development Office (FCDO) and partner organisations",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "Nigeria",
+    "Other Chevening-eligible countries and territories (full list on chevening.org)"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "Full tuition fees for a one-year master's at a UK university",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": "GBP",
+      "period": "month",
+      "gross_or_net": "unknown",
+      "notes": "Monthly living allowance for accommodation and living costs; rate differs inside and outside London and is reviewed each year. Amount not published on the pages checked."
+    },
+    "additional_benefits": [
+      "Economy return airfare to the UK",
+      "Arrival allowance",
+      "Departure allowance",
+      "Travel top-up allowance",
+      "UK visa application cost",
+      "TB test (up to GBP 75, where required)"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": "Chevening charges no application fee. UK universities may charge their own course application fees."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "An undergraduate degree that gives entry to a UK master's; completed at least two years before the application deadline",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": "None",
+    "work_experience_years": "2 (at least 2,800 hours, gained after the undergraduate degree)"
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Applications to three eligible UK master's courses",
+      "detail": "At least one unconditional offer needed by 8 Jul 2027, 17:00 UK time",
+      "optional": false
+    },
+    {
+      "name": "Undergraduate degree certificate",
+      "detail": "Can be missing at application but needed by the interview",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Apply to three UK courses early; an unconditional offer is needed by 8 Jul 2027",
+    "Work experience must total at least 2,800 hours after your first degree",
+    "You must return to your home country for at least two years after the award"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": "2026-08-04",
+    "deadline_date": "2026-10-06",
+    "deadline_time": "11:00 UTC",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.chevening.org/scholarship/nigeria/",
+  "source_urls": [
+    {
+      "url": "https://www.chevening.org/scholarship/nigeria/",
+      "title": "Chevening: Nigeria country page",
+      "type": "official",
+      "used_for": "Nigeria eligibility; 2027-2028 applications closed"
+    },
+    {
+      "url": "https://www.chevening.org/resource-hub/guidance/eligibility/",
+      "title": "Chevening: eligibility guidance",
+      "type": "official",
+      "used_for": "Eligibility rules, work experience, return requirement, exclusions"
+    },
+    {
+      "url": "https://www.chevening.org/faqs/what-does-a-chevening-scholarship-cover/",
+      "title": "Chevening FAQ: what the scholarship covers",
+      "type": "official",
+      "used_for": "Funding and allowances"
+    },
+    {
+      "url": "https://www.chevening.org/scholarships/application-timeline/",
+      "title": "Chevening: application timeline 2027-2028",
+      "type": "official",
+      "used_for": "11:00 UTC closing time, interview and offer deadlines"
+    },
+    {
+      "url": "https://pg.edu.pl/en/international/2026-08/thinking-about-studying-uk-apply-chevening-scholarship",
+      "title": "Gdańsk University of Technology: Chevening 2027/28 notice",
+      "type": "secondary",
+      "used_for": "Deadline day (6 Oct 2026)"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.8,
+    "verification_notes": "Official pages confirm Nigeria is eligible, the 2027-2028 round is closed, closing time 11:00 UTC in October 2026, and the offer deadline of 8 Jul 2027. The exact opening (4 Aug 2026) and closing (6 Oct 2026) days come from secondary sources; the official timeline page only says 'August' and 'October'. Stipend amounts are not published on the pages checked. Only documents named on the pages checked are listed; the full document list (essays, references, etc.) was not confirmed and needs a human check."
+  },
+  "award_stats": null
+}

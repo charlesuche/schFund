@@ -1,0 +1,124 @@
+# Every push: run the validator and the tests.
+# Pushes to main: if both pass, deploy to Render, wait until the new version
+# is live, then load data/records/ into the production database.
+name: CI and deploy
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      db:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: scholar
+          POSTGRES_PASSWORD: scholar
+          POSTGRES_DB: scholarships
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U scholar"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      DATABASE_URL: postgresql://scholar:scholar@localhost:5432/scholarships
+      TEST_DATABASE_URL: postgresql://scholar:scholar@localhost:5432/scholarships_test
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create the test database
+        env:
+          PGPASSWORD: scholar
+        run: psql -h localhost -U scholar -d scholarships -c "CREATE DATABASE scholarships_test"
+
+      - name: Validate records
+        run: python scripts/validate.py
+
+      - name: Run tests
+        run: python -m pytest -q
+
+  deploy:
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # Never run two deploys at once; a newer push waits for the older one.
+    concurrency:
+      group: deploy-production
+      cancel-in-progress: false
+    env:
+      RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+      SITE_URL: ${{ secrets.SITE_URL }}
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    steps:
+      - name: Check deploy secrets
+        id: secrets
+        run: |
+          if [ -z "$RENDER_DEPLOY_HOOK_URL" ] || [ -z "$SITE_URL" ] || [ -z "$DATABASE_URL" ]; then
+            echo "::warning::Deploy skipped: set RENDER_DEPLOY_HOOK_URL, SITE_URL and DATABASE_URL in the repository secrets."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.secrets.outputs.ready == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.secrets.outputs.ready == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        if: steps.secrets.outputs.ready == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Deploy this exact commit to Render
+        if: steps.secrets.outputs.ready == 'true'
+        # The hook URL already has ?key=...; ref picks the commit that just passed the tests.
+        run: curl -fsS -X POST "${RENDER_DEPLOY_HOOK_URL}&ref=${GITHUB_SHA}" > /dev/null
+
+      - name: Wait until the new version is live
+        if: steps.secrets.outputs.ready == 'true'
+        # /api/health reports the commit Render is running. A free instance may
+        # also need to wake up first, so allow up to 20 minutes.
+        run: |
+          for attempt in $(seq 1 80); do
+            live=$(curl -fsS --max-time 60 "${SITE_URL}/api/health" | python -c "import json,sys; print(json.load(sys.stdin).get('commit') or '')" || true)
+            if [ "$live" = "$GITHUB_SHA" ]; then
+              echo "Live: $live"
+              exit 0
+            fi
+            echo "Waiting (live: ${live:-unknown})..."
+            sleep 15
+          done
+          echo "::error::The new version did not go live within 20 minutes. Check the Render dashboard."
+          exit 1
+
+      - name: Load records into the production database
+        if: steps.secrets.outputs.ready == 'true'
+        # Validates every record first and loads nothing if one fails.
+        run: python scripts/load_records.py
+
+      - name: Check the live site
+        if: steps.secrets.outputs.ready == 'true'
+        run: |
+          curl -fsS "${SITE_URL}/sitemap.xml" | grep -q "<urlset"
+          curl -fsS "${SITE_URL}/" > /dev/null

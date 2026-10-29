@@ -1,0 +1,195 @@
+{
+  "scholarship_title": "Rhodes Scholarship for West Africa 2027 (with the Oxford-Morland-West Africa Graduate Scholarship)",
+  "provider_organization": "Rhodes Trust, University of Oxford",
+  "academic_level": [
+    "Master",
+    "PhD"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "Benin",
+    "Burkina Faso",
+    "Cabo Verde",
+    "Gambia",
+    "Ghana",
+    "Guinea",
+    "Guinea-Bissau",
+    "Côte d'Ivoire",
+    "Liberia",
+    "Mali",
+    "Mauritania",
+    "Niger",
+    "Nigeria",
+    "Saint Helena, Ascension and Tristan da Cunha",
+    "Senegal",
+    "Sierra Leone",
+    "São Tomé and Príncipe",
+    "Togo"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "University of Oxford course fees",
+    "stipend": {
+      "amount_min": 20400,
+      "amount_max": 20400,
+      "currency": "GBP",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "GBP 20,400 a year (GBP 1,700 a month) at the 2025-26 rate; scholars pay accommodation from this. At least two years of study are covered; a DPhil can be funded for up to three years."
+    },
+    "additional_benefits": [
+      "Two economy return flights (start and end of studies)",
+      "Student visa fees",
+      "Immigration Health Surcharge",
+      "University of Oxford application fee",
+      "Settling-in allowance",
+      "Research, travel and emergency grants",
+      "Travel and accommodation for in-person final interviews within West Africa"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": "No fee to apply for the Rhodes Scholarship; the Oxford course application fee is covered for selected scholars."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Completed undergraduate degree by the deadline with First Class Honours or equivalent (referee guidance mentions GPA of at least 3.70/4.00). Medicine, dentistry, pharmacy: highest classification plus distinctions in at least two of five main subjects.",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": "2026-08-27",
+    "language_proficiency": [
+      "University of Oxford higher-level English requirement (test such as IELTS, or a waiver letter if eligible)"
+    ],
+    "age_limit": "18-24 on 1 Oct 2026; 18-25 for medicine, dentistry, pharmacy, law and engineering; under 27 if the first degree was completed on or after 1 Oct 2025",
+    "work_experience_years": null
+  },
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Nigeria is in the West Africa constituency, which has 3 scholarships a year. You must have lived in the region for at least five of the last ten years. Final interviews are held in person in Abuja, Accra or Lagos in November. Having studied to master's level at home is not counted as an advantage for applicants who studied in Nigeria or Ghana."
+    }
+  ],
+  "required_documents": [
+    {
+      "name": "Two identity documents",
+      "detail": "Any two of: certified birth certificate or affidavit of birth, national ID card, passport, voter's card, notarised citizenship affidavit",
+      "optional": false
+    },
+    {
+      "name": "Official university transcript",
+      "detail": "Grades to date; English translation if needed",
+      "optional": false
+    },
+    {
+      "name": "Proof of residence",
+      "detail": "At least five of the last ten years in the region, e.g. school records",
+      "optional": false
+    },
+    {
+      "name": "English test results or waiver request letter",
+      "detail": "Must meet Oxford's higher-level requirement",
+      "optional": false
+    },
+    {
+      "name": "CV section of the online form",
+      "detail": "Up to 5 entries per area; a separate CV file cannot be uploaded",
+      "optional": false
+    },
+    {
+      "name": "Personal statement",
+      "detail": "Up to 1,000 words, answering three guiding questions",
+      "optional": false
+    },
+    {
+      "name": "Academic statement of study",
+      "detail": "Up to 450 words, covering two years of study at Oxford",
+      "optional": false
+    },
+    {
+      "name": "Four to six references",
+      "detail": "At least three academic and at least one character referee; due 23:59 GMT 3 Sep 2026",
+      "optional": false
+    },
+    {
+      "name": "Colour head-and-shoulders photo",
+      "detail": "JPG",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Register referees early: references were due one week after the application deadline",
+    "Get an Oxford-accepted English test (e.g. IELTS) unless you qualify for a waiver",
+    "Finalists must attend interviews in person in Abuja, Accra or Lagos in November",
+    "You can only apply twice in total, in the same constituency"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Academic excellence",
+        "max_points": null,
+        "notes": "Shown by transcript, academic statement and academic references"
+      },
+      {
+        "criterion": "Energy to use your talents to the full",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Truth, courage, devotion to duty, sympathy for and protection of the weak, kindliness, unselfishness and fellowship",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Moral force of character and instincts to lead",
+        "max_points": null,
+        "notes": null
+      }
+    ],
+    "pass_rule": "Longlist of up to 70, virtual interviews to a shortlist of up to 35, then no more than 15 finalists interviewed in person; scholarship confirmed only on admission to Oxford"
+  },
+  "application_timeline": {
+    "opening_date": "2026-06-01",
+    "deadline_date": "2026-08-27",
+    "deadline_time": "23:59 GMT",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/west-africa/",
+  "source_urls": [
+    {
+      "url": "https://www.rhodeshouse.ox.ac.uk/media/sjypp0gf/west-africa-information-for-candidates-document-2027-final.pdf",
+      "title": "Rhodes Trust: West Africa information for candidates 2027 (PDF)",
+      "type": "official",
+      "used_for": "Eligibility, age, documents, references, statements, selection, dates, no fee"
+    },
+    {
+      "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/west-africa/",
+      "title": "Rhodes Trust: West Africa constituency page",
+      "type": "official",
+      "used_for": "Countries, 3 scholarships a year, dates"
+    },
+    {
+      "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/",
+      "title": "Rhodes Trust: what the scholarship covers",
+      "type": "official",
+      "used_for": "Fees, stipend, flights, visa, IHS, other benefits"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.95,
+    "verification_notes": "Read the full 2027 West Africa candidate document. The 2027 round (for entry Oct 2027) closed 27 Aug 2026; final interviews are in November 2026. The Rhodes site says applications are expected to reopen in 2027 for 2028 entry, without a date. Stipend shown is the 2025-26 rate from the main Rhodes page. The PDF says outcomes are emailed 'by December 2025', which looks like a typo for 2026."
+  },
+  "award_stats": null
+}

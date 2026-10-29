@@ -1,0 +1,158 @@
+{% extends "base.html" %}
+{% from "_macros.html" import status_badge, icon, radio_group, card_dates, provider_mark, flag with context %}
+
+{% block title %}{% if filters.q %}{{ filters.q }} – {% endif %}Scholarships – {{ site_name }}{% endblock %}
+{% block description %}Search {{ total }} scholarships by level, country, funding and status.{% endblock %}
+
+{% block hero %}
+<section class="hero">
+  <div class="container">
+    <h1>Scholarships you can trust, explained in full.</h1>
+    <p class="hero__lead">Every listing is checked against the provider's own call for applications — with deadlines, money, eligibility and the documents you'll need.</p>
+
+    <form class="search-bar" method="get" action="/scholarships" role="search">
+      <div class="search-bar__query">
+        {{ icon("search", 22) }}
+        <label class="visually-hidden" for="q">Search scholarships</label>
+        <input id="q" type="search" name="q" value="{{ filters.q or '' }}" placeholder="Course, country or scholarship name">
+      </div>
+      <span class="search-bar__divider" aria-hidden="true"></span>
+      <label class="visually-hidden" for="hero-level">Level</label>
+      <select id="hero-level" class="search-bar__level" name="level">
+        <option value="">Any level</option>
+        {% for value, name in labels.level.items() %}
+          <option value="{{ value }}" {% if filters.level == value %}selected{% endif %}>{{ name }}</option>
+        {% endfor %}
+      </select>
+      {# Keep the other current filters when searching again. #}
+      {% for name in ["country", "nationality", "status", "funding"] %}
+        {% if filters[name] %}<input type="hidden" name="{{ name }}" value="{{ filters[name] }}">{% endif %}
+      {% endfor %}
+      <input type="hidden" name="sort" value="{{ sort }}">
+      <button class="button button--primary button--search" type="submit">Search</button>
+    </form>
+
+    <ul class="trust-points">
+      <li>{{ icon("shield-check", 20) }} Checked against official sources</li>
+      <li>{{ icon("calendar-check", 20) }} Last-verified date on every page</li>
+    </ul>
+
+    <ul class="stats">
+      <li><strong>{{ stats.total }}</strong> verified scholarships</li>
+      <li><strong>{{ stats.open }}</strong> open right now</li>
+      <li><strong>{{ stats.fully_funded }}</strong> fully funded</li>
+    </ul>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<div class="search-layout">
+  <aside class="filters" aria-labelledby="filters-heading">
+    <h2 id="filters-heading" class="filters__heading">Filters</h2>
+    <form method="get" action="/scholarships">
+      {% if filters.q %}<input type="hidden" name="q" value="{{ filters.q }}">{% endif %}
+      <input type="hidden" name="sort" value="{{ sort }}">
+
+      <fieldset class="filter-group">
+        <legend>Your nationality</legend>
+        <label class="filter-option">
+          <input type="checkbox" name="nationality" value="Nigeria" {% if filters.nationality == "Nigeria" %}checked{% endif %}>
+          <span>Nigeria eligible</span>
+          <span class="count">{{ counts.nationality.Nigeria }}</span>
+        </label>
+      </fieldset>
+
+      {{ radio_group("level", "Level", counts.level, filters.level) }}
+      {{ radio_group("status", "Status", counts.status, filters.status) }}
+      {{ radio_group("funding", "Funding", counts.funding, filters.funding) }}
+      {{ radio_group("country", "Country", counts.country, filters.country) }}
+
+      <div class="filter-actions">
+        <button class="button button--primary" type="submit">Apply filters</button>
+        {% if has_filters %}<a class="button button--ghost" href="/scholarships">Clear all</a>{% endif %}
+      </div>
+    </form>
+  </aside>
+
+  <section class="results" aria-labelledby="results-count">
+    <div class="results__header">
+      <div>
+        <h2 id="results-count" class="results__count">{{ total }} scholarship{{ "" if total == 1 else "s" }}</h2>
+        <p class="results__summary">
+          Showing scholarships
+          {%- if filters.nationality == "Nigeria" %} open to Nigerian citizens
+          {%- elif filters.nationality %} open to citizens of {{ filters.nationality }}{% endif %}
+          {%- if filters.q %} matching “{{ filters.q }}”{% endif %},
+          {{ "soonest deadline first" if sort == "deadline" else "A to Z by name" }}.
+        </p>
+      </div>
+      <nav class="sort" aria-label="Sort results">
+        <span>Sort:</span>
+        <a href="{{ sort_urls.deadline }}" {% if sort == "deadline" %}aria-current="true"{% endif %}>Deadline</a>
+        <a href="{{ sort_urls.title }}" {% if sort == "title" %}aria-current="true"{% endif %}>Name</a>
+      </nav>
+    </div>
+
+    {% if spotlight %}
+      <section class="spotlight" aria-labelledby="spotlight-title">
+        {{ provider_mark(spotlight.slug, "lg", spotlight.provider_logo) }}
+        <div class="spotlight__body">
+          <p class="spotlight__eyebrow">Closing soon</p>
+          <h3 id="spotlight-title" class="spotlight__title"><a href="/scholarships/{{ spotlight.slug }}">{{ spotlight.title }}</a></h3>
+          <p class="spotlight__meta">{{ flag(spotlight.countries) }}<span>{{ spotlight.levels | levels }} · {{ spotlight.countries | join(", ") }}{% if spotlight.money %} · {{ spotlight.money }}{% endif %}</span></p>
+        </div>
+        {% if spotlight.days_left is not none %}
+          <div class="spotlight__countdown">
+            <strong>{{ spotlight.days_left }}</strong>
+            <span>{{ "day left" if spotlight.days_left == 1 else "days left" }}</span>
+            <small>Closes {{ spotlight.deadline_date | date }}{% if spotlight.deadline_time %}, {{ spotlight.deadline_time }}{% endif %}</small>
+          </div>
+        {% endif %}
+        <a class="button button--primary" href="/scholarships/{{ spotlight.slug }}">See what you need</a>
+      </section>
+    {% endif %}
+
+    {% if items %}
+      <ul class="cards">
+        {% for item in items %}
+          {% set dates = card_dates(item) | trim %}
+          <li class="card">
+            <div class="card__head">
+              {{ provider_mark(item.slug, "md", item.provider_logo) }}
+              <div>
+                <h3 class="card__title"><a href="/scholarships/{{ item.slug }}">{{ item.title }}</a></h3>
+                <p class="card__provider">{{ item.provider }}</p>
+              </div>
+            </div>
+            <div class="card__badges">
+              {{ status_badge(item.status) }}
+              <span class="badge badge--muted">{{ labels.funding.get(item.funding_type, item.funding_type) }}</span>
+            </div>
+            <p class="card__meta">{{ flag(item.countries) }}<span>{{ item.levels | levels }} · {{ item.countries | join(", ") }}</span></p>
+            {% if item.money or dates %}
+              <div class="card__rows">
+                {% if item.money %}<p class="card__row card__row--money">{{ icon("money", 18) }} <span>{{ item.money }}</span></p>{% endif %}
+                {% if dates %}<p class="card__row {{ 'card__row--urgent' if item.urgent else '' }}">{{ icon("deadline", 18) }} <span>{{ dates }}</span></p>{% endif %}
+              </div>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+
+      {% if prev_url or next_url %}
+        <nav class="pager" aria-label="Pages">
+          {% if prev_url %}<a class="button button--ghost" href="{{ prev_url }}">Previous</a>{% endif %}
+          <span>Page {{ page }} of {{ page_count }}</span>
+          {% if next_url %}<a class="button button--ghost" href="{{ next_url }}">Next</a>{% endif %}
+        </nav>
+      {% endif %}
+    {% else %}
+      <div class="empty">
+        <p>No scholarships match these filters.</p>
+        <a class="button button--ghost" href="/scholarships">Clear all filters</a>
+      </div>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}

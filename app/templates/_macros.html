@@ -1,0 +1,71 @@
+{% macro status_badge(status) -%}
+  <span class="badge badge--{{ status }}">{{ status_labels[status] }}</span>
+{%- endmacro %}
+
+{% macro days_badge(live) -%}
+  {% if live.status == "open" and live.days_left is not none -%}
+    <span class="badge {{ 'badge--urgent' if live.urgent else 'badge--muted' }}">{{ live.days_left | days_left }}</span>
+  {%- endif %}
+{%- endmacro %}
+
+{% macro icon(name, size) -%}
+  <img class="icon" src="{{ static_url('icons/' ~ name ~ '.svg') }}" width="{{ size }}" height="{{ size }}" alt="">
+{%- endmacro %}
+
+{# One group of radio buttons with database counts. "Any" clears the filter. #}
+{% macro radio_group(name, legend, counts, selected) -%}
+  {% set names = labels.get(name, {}) %}
+  <fieldset class="filter-group">
+    <legend>{{ legend }}</legend>
+    <label class="filter-option">
+      <input type="radio" name="{{ name }}" value="" {% if not selected %}checked{% endif %}>
+      <span>Any</span>
+    </label>
+    {% for value, n in counts.items() %}
+      <label class="filter-option">
+        <input type="radio" name="{{ name }}" value="{{ value }}" {% if selected == value %}checked{% endif %}>
+        <span>{{ names.get(value, value) }}</span>
+        <span class="count">{{ n }}</span>
+      </label>
+    {% endfor %}
+    {% if selected and selected not in counts %}
+      <label class="filter-option">
+        <input type="radio" name="{{ name }}" value="{{ selected }}" checked>
+        <span>{{ names.get(selected, selected) }}</span>
+        <span class="count">0</span>
+      </label>
+    {% endif %}
+  </fieldset>
+{%- endmacro %}
+
+{# The date line on a search card. Only dates and notes the record has. #}
+{% macro card_dates(item) -%}
+  {% if item.status == "open" and item.deadline_date -%}
+    Closes {{ item.deadline_date | date }}{% if item.days_left is not none %} · {{ item.days_left | days_left }}{% endif %}
+  {%- elif item.status == "closed" and item.deadline_date -%}
+    Closed {{ item.deadline_date | date }}
+  {%- elif item.status == "upcoming" and item.opening_date -%}
+    Opens {{ item.opening_date | date }}
+  {%- elif item.deadline_date -%}
+    Deadline {{ item.deadline_date | date }}
+  {%- endif %}
+  {%- if item.status != "open" and item.next_cycle_expected -%}
+    {% if item.deadline_date or (item.status == "upcoming" and item.opening_date) %} · {% endif %}Next call {{ item.next_cycle_expected | month }}{% if item.next_cycle_confidence and item.next_cycle_confidence != "unknown" %} ({{ item.next_cycle_confidence }}){% endif %}
+  {%- endif %}
+{%- endmacro %}
+
+{# Provider logo slot: the record's official logo if it has one, else the provider's initials (Figma "Provider mark"). #}
+{% macro provider_mark(slug, size="md", logo=none) -%}
+  {% set p = slug | provider(logo) %}
+  {% if p and p.logo -%}
+    <span class="provider-mark provider-mark--{{ size }} provider-mark--logo"><img src="{{ static_url(p.logo) }}" alt="{{ p.name }} logo"></span>
+  {%- elif p -%}
+    <span class="provider-mark provider-mark--{{ size }} provider-mark--{{ p.tone }}" aria-hidden="true">{{ p.initials }}</span>
+  {%- endif %}
+{%- endmacro %}
+
+{# Flag of the first host country (24x16), when we have the file. #}
+{% macro flag(countries) -%}
+  {% set path = (countries[0] if countries else none) | flag %}
+  {% if path %}<img class="flag" src="{{ static_url(path) }}" width="24" height="16" alt="">{% endif %}
+{%- endmacro %}

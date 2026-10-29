@@ -50,6 +50,9 @@
   },
   "eligibility_criteria": {
     "min_gpa": "Varies by programme from 70% to 85% of the maximum (e.g. AI 85%, Data Science 80%, Computer Engineering 75%)",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": "2026-06-30",
     "language_proficiency": [
       "English B2 or previous degree taught in English",
       "C1 in two languages for the language programmes"
@@ -64,13 +67,41 @@
     }
   ],
   "required_documents": [
-    "Passport",
-    "Bachelor's degree certificate (or enrolment certificate with expected completion date)",
-    "Transcript in English",
-    "CV in English (max 2 pages)",
-    "Cover letter (where requested)",
-    "Language certificate",
-    "Receipt for the EUR 50 pre-admission fee"
+    {
+      "name": "Passport",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Bachelor's degree certificate",
+      "detail": "Or enrolment certificate with expected completion date",
+      "optional": false
+    },
+    {
+      "name": "Transcript",
+      "detail": "In English",
+      "optional": false
+    },
+    {
+      "name": "CV",
+      "detail": "In English, max 2 pages",
+      "optional": false
+    },
+    {
+      "name": "Cover letter",
+      "detail": "Where requested",
+      "optional": false
+    },
+    {
+      "name": "Language certificate",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Receipt for the pre-admission fee",
+      "detail": "EUR 50",
+      "optional": false
+    }
   ],
   "preparation_alerts": [
     "Online interview for shortlisted candidates",
@@ -79,23 +110,30 @@
     "Diploma translation and legalisation plus Declaration of Value (or CIMEA statements) needed to enrol",
     "Visa proof of funds: at least EUR 546 per month"
   ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
   "application_timeline": {
     "opening_date": "2026-01-29",
     "deadline_date": "2026-03-31",
     "deadline_time": "15:00 Europe/Rome",
     "cycle_frequency": "Annual",
     "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
     "urgent_deadline": false
   },
   "official_apply_url": "https://www.unicandidate.com/application-for-pre-admission-to-master-programmes-at-the-university-of-verona-2026-2027",
   "source_urls": [
     {
       "url": "https://cdn.docs.univr.it/documenti/Concorso/bando/bando992939.pdf",
+      "title": "University of Verona: international master's scholarships call (PDF)",
       "type": "official",
       "used_for": "All fields"
     },
     {
       "url": "https://ambwellington.esteri.it/en/?p=4376",
+      "title": "Italian Embassy in Wellington: Verona scholarships notice",
       "type": "official",
       "used_for": "Deadline confirmation (Italian Embassy notice)"
     }
@@ -105,5 +143,10 @@
     "is_legitimate": true,
     "confidence_score": 0.95,
     "verification_notes": "Read directly from the official call. The call's title says 15 scholarships but its Article 1 and the table total 16; recorded as 16. The application portal (unicandidate.com) is the one named in the university's own call. Previously excluded under the old fee rule; the EUR 50 fee is paid to the university and is not a scam signal."
+  },
+  "award_stats": {
+    "year": 2026,
+    "awards": 16,
+    "applicants": null
   }
 }

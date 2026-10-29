@@ -1,0 +1,61 @@
+# Weekly freshness check (Phase 3a). Never edits data/records/: it only adds a
+# report, updates data/source_hashes.json, and opens an issue when something
+# needs a human re-check.
+name: Freshness check
+
+on:
+  schedule:
+    # GitHub cron runs in UTC. 06:00 UTC on Monday is 07:00 in Stockholm in
+    # winter (CET) and 08:00 in summer (CEST): Monday morning either way.
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}  # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write  # commit the report and hashes
+  issues: write    # open the "Freshness: N records to re-check" issue
+
+concurrency:
+  group: freshness
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run freshness check
+        id: freshness
+        run: python scripts/check_freshness.py
+
+      - name: Commit report and source hashes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/ data/source_hashes.json
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "Freshness report $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Open an issue when records are flagged
+        if: steps.freshness.outputs.flagged != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FLAGGED: ${{ steps.freshness.outputs.flagged }}
+          REPORT: ${{ steps.freshness.outputs.report }}
+        run: |
+          gh issue create \
+            --title "Freshness: ${FLAGGED} records to re-check" \
+            --body-file "${REPORT}"

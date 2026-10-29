@@ -1,0 +1,92 @@
+{
+  "scholarship_title": "Aston University Sir Adrian Cadbury Chancellor's Scholarship, January 2027 postgraduate intake",
+  "provider_organization": "Aston University",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Postgraduate taught courses (not MRes, MBA or research degrees)"
+  ],
+  "eligible_nationalities": [
+    "All (self-funded international offer holders)"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "open",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "GBP 10,000 tuition fee reduction",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No stipend"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not stated on the scholarships page."
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Scholarship application form",
+      "detail": "Personal link emailed to you after you receive an offer",
+      "optional": false
+    },
+    {
+      "name": "Personal statement",
+      "detail": "500 words; statements of 450 words or fewer, or 550 or more, are not assessed",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "You need an Aston offer first; the application link arrives by email after the offer",
+    "Keep the statement between 451 and 549 words"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": "Decision for the January 2027 intake on 6 Nov 2026"
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-11-01",
+    "deadline_time": null,
+    "cycle_frequency": "Rolling",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": true
+  },
+  "official_apply_url": "https://www.aston.ac.uk/international/scholarships/global-ambassador",
+  "source_urls": [
+    {
+      "url": "https://www.aston.ac.uk/international/scholarships/global-ambassador",
+      "title": "Aston University: international scholarships",
+      "type": "official",
+      "used_for": "Chancellor's Scholarship value, eligibility, statement rules, deadlines by intake"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.8,
+    "verification_notes": "The lead was the Aston 'Global Ambassador Scholarship'; the old URL now redirects to Aston's general international scholarships page, which no longer lists it (only a testimonial mentions it). This record covers the Sir Adrian Cadbury Chancellor's Scholarship on that page instead. Deadlines differ by intake: January 2027 closes 1 Nov 2026 (decision 6 Nov); April and September 2027 deadlines TBC. The page also lists an automatic International Community Scholarship (GBP 4,000 to 5,500 off fees for postgraduates). Exact list of excluded courses not fully read."
+  },
+  "award_stats": null
+}

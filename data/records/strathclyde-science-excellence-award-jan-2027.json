@@ -1,0 +1,92 @@
+{
+  "scholarship_title": "Strathclyde Faculty of Science International Excellence Award for PGT Master's, January 2027",
+  "provider_organization": "University of Strathclyde, Faculty of Science",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Science taught master's programmes (January start)"
+  ],
+  "eligible_nationalities": [
+    "All (international non-EU fee status)"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "GBP 7,000 to 8,000 off tuition fees",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No stipend"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not stated on the scholarship page."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Academic excellence (no figure found)",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Offer for a full-time on-campus Science master's starting January 2027",
+      "detail": "Application route for 2027 not confirmed",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "The January 2026 round closed on 12 Dec 2025; expect a similar early deadline"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Bi-annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.strath.ac.uk/studywithus/postgraduatetaught/science/",
+  "source_urls": [
+    {
+      "url": "https://www.strath.ac.uk/studywithus/postgraduatetaught/science/",
+      "title": "University of Strathclyde: Science postgraduate taught",
+      "type": "official",
+      "used_for": "Award value GBP 7,000-8,000 for the January 2027 intake"
+    },
+    {
+      "url": "https://www.strath.ac.uk/studywithus/scholarships/facultyofscienceinternationalexcellenceawardforpgtmastersstudentsjanuary2026/",
+      "title": "Strathclyde: Science International Excellence Award, January 2026",
+      "type": "official",
+      "used_for": "Previous round rules and deadline (12 Dec 2025)"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.6,
+    "verification_notes": "Official Science pages (seen via search results) list a January 2027 International Excellence Award of GBP 7,000-8,000, but the January 2027 award page with eligibility and deadline was not found. Previous round: international non-EU fee payers with a full-time on-campus offer; deadline 12 Dec 2025."
+  },
+  "award_stats": null
+}

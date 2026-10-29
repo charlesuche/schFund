@@ -1,0 +1,141 @@
+{
+  "scholarship_title": "Commonwealth Master's Scholarships 2027/2028",
+  "provider_organization": "Commonwealth Scholarship Commission in the UK (CSC), funded by the UK FCDO",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "Nigeria",
+    "Other eligible low and middle income Commonwealth countries (list on the CSC page)"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "Full tuition fees, by agreement between the CSC and the university",
+    "stipend": {
+      "amount_min": 1712,
+      "amount_max": 2000,
+      "currency": "GBP",
+      "period": "month",
+      "gross_or_net": "unknown",
+      "notes": "GBP 1,712 a month, or GBP 2,000 a month at universities in the London area (current CSC rates)"
+    },
+    "additional_benefits": [
+      "Return airfare to the UK",
+      "Study travel grant",
+      "Child allowance for single, widowed or divorced parents with children in the UK",
+      "Disability needs assessment and support"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "No fee is mentioned on the CSC page or in the Nigerian ministry notice."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "First degree of at least upper second class (2:1), or a lower second plus a relevant postgraduate qualification, by September 2027",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": "None",
+    "work_experience_years": null
+  },
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Apply both on CSC Central and to the national nominator, the Federal Ministry of Education (Department of Scholarship Awards, formerly Federal Scholarship Board), through its online system. The 2026 ministry notice asked for admission to at least two UK universities and proof of NYSC."
+    }
+  ],
+  "required_documents": [
+    {
+      "name": "Passport or national ID card",
+      "detail": "Must show photo, date of birth and citizenship",
+      "optional": false
+    },
+    {
+      "name": "Transcripts for all higher education qualifications",
+      "detail": "Certified translations if not in English; missing transcripts make the application ineligible",
+      "optional": false
+    },
+    {
+      "name": "Two signed references",
+      "detail": "PDF on institutional letterhead, or sent from an email showing the sender's details",
+      "optional": false
+    },
+    {
+      "name": "Admission letters from UK universities",
+      "detail": "Nigerian nominator only: at least two UK universities",
+      "optional": false
+    },
+    {
+      "name": "NYSC certificate or evidence",
+      "detail": "Nigerian nominator only",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Nigerian applicants must also apply to the Federal Ministry of Education, whose deadline can be earlier than the CSC deadline",
+    "Get transcripts and signed references early; incomplete transcripts make the application ineligible",
+    "Secure admission to UK universities before the Nigerian nomination deadline"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Candidate merit, including academic record",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Quality of the study proposal",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Potential impact on the development of the home country",
+        "max_points": null,
+        "notes": null
+      }
+    ],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-10-20",
+    "deadline_time": "16:00 Europe/London",
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
+  "source_urls": [
+    {
+      "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
+      "title": "CSC: Commonwealth Master's Scholarships",
+      "type": "official",
+      "used_for": "Eligibility, countries, funding, documents, selection criteria, deadline"
+    },
+    {
+      "url": "https://leadership.ng/how-nigerian-graduates-can-apply-for-2027-2028-uk-commonwealth-scholarships/",
+      "title": "Leadership: Federal Ministry of Education notice 2027/28",
+      "type": "secondary",
+      "used_for": "Nigerian nominator, NYSC and UK admission requirements"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.85,
+    "verification_notes": "CSC page confirms Nigeria eligible, deadline 16:00 BST 20 Oct (2026 for the 2027/28 round), stipend rates and documents. Nigerian ministry rules come from a newspaper report of the ministry notice; the ministry's own notice was not found. Secondary sites say the CSC portal opened 8 Sep 2026; not confirmed officially, so opening_date is null. Leads.csv had this scheme twice (rows for Commonwealth Master's and Commonwealth Scholarships UK). The Commonwealth PhD scheme is a separate award and not covered here."
+  },
+  "award_stats": null
+}

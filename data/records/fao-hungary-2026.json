@@ -1,0 +1,138 @@
+{
+  "scholarship_title": "FAO–Hungarian Government Scholarship Programme 2026/2027",
+  "provider_organization": "Food and Agriculture Organization of the UN (FAO) and the Government of Hungary",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Agricultural Biotechnology",
+    "Animal Nutrition and Feed Safety Engineering",
+    "Plant Protection"
+  ],
+  "eligible_nationalities": [
+    "Nigeria",
+    "Other FAO beneficiary countries in Africa, Asia and Europe (list on the FAO call page)"
+  ],
+  "host_countries": [
+    "Hungary"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "Application and tuition fees for the whole programme, with basic books and notes",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": "HUF",
+      "period": "month",
+      "gross_or_net": "unknown",
+      "notes": "Subsistence costs are covered; amount not stated on the call page"
+    },
+    "additional_benefits": [
+      "Dormitory accommodation",
+      "Health insurance"
+    ]
+  },
+  "application_fee": {
+    "required": false,
+    "amount": null,
+    "currency": null,
+    "paid_to": "none",
+    "notes": "Application fees are covered by the scholarship."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Excellent school achievements (no figure given)",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": [
+      "English proficiency; shortlisted candidates may take a written or oral English test"
+    ],
+    "age_limit": "No fixed limit; candidates under 30 are preferred",
+    "work_experience_years": null
+  },
+  "country_specific_notes": [
+    {
+      "country": "Nigeria",
+      "note": "Nigeria is on the 2026-27 eligible country list. You must be a national and resident of an eligible country. The Hungarian Embassy in Abuja publicises the call."
+    }
+  ],
+  "required_documents": [
+    {
+      "name": "FAO application form",
+      "detail": "Word form from the FAO call page; submit a complete, clearly named dossier by email",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Incomplete dossiers are not considered; check the course description for the full document list",
+    "Courses only run if enough students enrol"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "School achievements",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "English proficiency",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Motivation",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Good health",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Age",
+        "max_points": null,
+        "notes": "Under 30 preferred"
+      }
+    ],
+    "pass_rule": "Final selection is made by the Hungarian universities"
+  },
+  "application_timeline": {
+    "opening_date": "2026-01-21",
+    "deadline_date": "2026-02-28",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.fao.org/europe/events/detail/fao-hungarian-government-scholarship-programme-2026-2027/en",
+  "source_urls": [
+    {
+      "url": "https://www.fao.org/europe/events/detail/fao-hungarian-government-scholarship-programme-2026-2027/en",
+      "title": "FAO: Hungarian Government Scholarship Programme 2026-2027 call",
+      "type": "official",
+      "used_for": "Eligible countries, programmes, criteria, coverage, how to apply, dates"
+    },
+    {
+      "url": "https://www.fao.org/hungary/fao-in-hungary/fao-hungary-scholarship-programme/en",
+      "title": "FAO in Hungary: scholarship programme overview",
+      "type": "official",
+      "used_for": "Programme purpose and fields"
+    },
+    {
+      "url": "https://abuja.mfa.gov.hu/en/articles/fao-hungarian-government-scholarship-programme-2026-2027-applications-open-deadline-28-february-2026",
+      "title": "Hungarian Embassy Abuja: 2026-2027 call notice",
+      "type": "official",
+      "used_for": "Call publicised in Nigeria, deadline"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.85,
+    "verification_notes": "FAO call page confirms Nigeria eligible, three English-taught master's programmes for 2026-27, coverage and the 21 Jan to 28 Feb 2026 email window. Applications go to an @fao.org address (shown in search results as REU-Scholarship@fao.org), not a personal email. Subsistence amount not stated. The 2024 tweet listed different programmes (environmental, crop production, horticulture); the offered courses change each year. Next call not announced."
+  },
+  "award_stats": null
+}

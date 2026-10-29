@@ -1,0 +1,89 @@
+{
+  "scholarship_title": "WMG (University of Warwick) Africa Bursary and Excellence Scholarships, September 2027 entry",
+  "provider_organization": "WMG, University of Warwick",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "WMG full-time campus-based MSc programmes (engineering, management, supply chain, etc.)"
+  ],
+  "eligible_nationalities": [
+    "Nigeria",
+    "Other African countries (overseas fee payers)"
+  ],
+  "host_countries": [
+    "United Kingdom"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "Automatic GBP 4,000 Africa Bursary; plus merit-based WMG Excellence Scholarships of GBP 5,000, 8,000, 10,000 or 15,000 (tuition only)",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No stipend"
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not stated on the scholarship page."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Excellence awards based on academic track record and/or strong professional profile",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Application to a full-time WMG MSc starting September 2027",
+      "detail": "All applicants considered automatically; no separate form stated",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Self-funded or student-loan funded only for the bursary",
+    "Awards are tuition discounts only (no cash, housing or living costs)",
+    "Apply early; unsuccessful candidates for Excellence awards are not notified"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": "Excellence awardees told with or shortly after the offer"
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://warwick.ac.uk/fac/sci/wmg/study/masters-degrees/scholarships/africa/",
+  "source_urls": [
+    {
+      "url": "https://warwick.ac.uk/fac/sci/wmg/study/masters-degrees/scholarships/africa/",
+      "title": "WMG, University of Warwick: scholarships for African students (September 2027 entry)",
+      "type": "official",
+      "used_for": "Bursary and Excellence amounts, eligibility, conditions"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.85,
+    "verification_notes": "Official WMG page for September 2027 entry. No separate deadline stated; WMG MSc applications reportedly close 31 Aug 2027 (search results). Partial tuition awards only. The earlier IDP figure of GBP 3,500 bursary is outdated."
+  },
+  "award_stats": null
+}

@@ -1,0 +1,129 @@
+{
+  "scholarship_title": "Knight-Hennessy Scholars, 2027 cohort",
+  "provider_organization": "Knight-Hennessy Scholars, Stanford University",
+  "academic_level": [
+    "Master",
+    "PhD"
+  ],
+  "degree_fields": [
+    "All"
+  ],
+  "eligible_nationalities": [
+    "All"
+  ],
+  "host_countries": [
+    "United States"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "Tuition and fees for up to three years of any Stanford graduate degree; longer degrees (e.g. PhD, MD) follow the programme's standard funding",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": "USD",
+      "period": "year",
+      "gross_or_net": "unknown",
+      "notes": "Living and academic stipend for rent, books and similar costs; amount not stated on the pages checked"
+    },
+    "additional_benefits": [
+      "Travel stipend for one economy trip a year between home and Stanford",
+      "One-time relocation stipend",
+      "Leadership development programme"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not checked; the separate Stanford graduate programme application may have its own fee."
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": "2020-01-01",
+    "degree_completed_latest": "2027-09-30",
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Resume",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Online application with short answers and essay",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Transcripts and test scores",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Recommendation letters",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Video statement",
+      "detail": "Only for applicants invited after the first review",
+      "optional": false
+    },
+    {
+      "name": "Separate application to a full-time Stanford graduate programme",
+      "detail": "Must be admitted and enrol; both start in the same year",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "You must also apply to and be admitted by a Stanford graduate programme, with its own deadline",
+    "First bachelor's degree must be earned in January 2020 or later for the 2027 cohort (two extra years for military service)"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": "2027-06",
+    "next_cycle_confidence": "confirmed",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://knight-hennessy.stanford.edu/admission",
+  "source_urls": [
+    {
+      "url": "https://knight-hennessy.stanford.edu/admission",
+      "title": "Knight-Hennessy Scholars: admission",
+      "type": "official",
+      "used_for": "2027 application closed; 2028 application opens June 2027; application parts"
+    },
+    {
+      "url": "https://knight-hennessy.stanford.edu/admission/eligibility",
+      "title": "Knight-Hennessy Scholars: eligibility",
+      "type": "official",
+      "used_for": "Any citizenship, degree date window, Stanford programme rules"
+    },
+    {
+      "url": "https://knight-hennessy.stanford.edu/program/funding",
+      "title": "Knight-Hennessy Scholars: funding",
+      "type": "official",
+      "used_for": "Tuition, stipend, travel and relocation"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.8,
+    "verification_notes": "Official pages say the 2027 cohort application is closed and the 2028 application opens in June 2027. The exact 2027 deadline was not found on an official page (aggregators say 6 Oct 2026), so dates are null. Stipend amount not published on the pages checked. degree_completed_latest uses 'by September 2027' for current students, stored as 30 Sep 2027."
+  },
+  "award_stats": null
+}

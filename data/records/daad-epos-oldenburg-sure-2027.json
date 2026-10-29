@@ -1,0 +1,165 @@
+{
+  "scholarship_title": "DAAD EPOS Scholarship: MSc Sustainable Renewable Energy Technologies (SuRE), University of Oldenburg (intake 2027/2028)",
+  "provider_organization": "German Academic Exchange Service (DAAD), with University of Oldenburg",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "Renewable Energy",
+    "Energy Engineering"
+  ],
+  "eligible_nationalities": [
+    "Nigeria",
+    "Other developing countries on DAAD's EPOS (OECD-DAC) country list"
+  ],
+  "host_countries": [
+    "Germany"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": "No tuition fees for EPOS scholarship holders; registration or enrolment fees may still apply",
+    "stipend": {
+      "amount_min": 992,
+      "amount_max": 992,
+      "currency": "EUR",
+      "period": "month",
+      "gross_or_net": "unknown",
+      "notes": "EUR 992 a month for graduates for the length of the course (24 months without a German course)"
+    },
+    "additional_benefits": [
+      "Health, accident and personal liability insurance contributions",
+      "Travel allowance (unless paid by the home country or another funder)",
+      "Rent subsidy and family allowance in some cases"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not stated on the pages checked."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "The course's own admission requirements",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": [
+      "English, as required by SuRE"
+    ],
+    "age_limit": "None, but your latest degree should normally be no more than six years old",
+    "work_experience_years": "2 (relevant work after the bachelor's degree, at the time of application)"
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Signed DAAD checklist",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "DAAD EPOS application form",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "CV",
+      "detail": "Reverse chronological, no unexplained gaps, Europass format preferred",
+      "optional": false
+    },
+    {
+      "name": "Letter of motivation",
+      "detail": "One identical letter for all courses you apply to (max 3), explaining your choice and priority",
+      "optional": false
+    },
+    {
+      "name": "Recommendation letter from current employer",
+      "detail": "Official letterhead, signed, stamped and recently dated",
+      "optional": false
+    },
+    {
+      "name": "Certificates of employment",
+      "detail": "At least two years of relevant work after the bachelor's; ideally with a re-employment guarantee",
+      "optional": false
+    },
+    {
+      "name": "Language certificate",
+      "detail": "As required by the course",
+      "optional": false
+    },
+    {
+      "name": "Degree certificates",
+      "detail": "Certified translation if not in English or German",
+      "optional": false
+    },
+    {
+      "name": "Full transcript of records",
+      "detail": "With an explanation of the grading system",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Get an employer recommendation and employment certificates showing two years' work after your bachelor's",
+    "Apply directly to the course, not to DAAD; you can apply to up to three EPOS courses",
+    "DAAD applicants upload SuRE documents plus DAAD documents by 15 Oct; self-funded applicants have until 15 Jan 2027"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Review by the course selection committee",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Interview",
+        "max_points": null,
+        "notes": "Telephone or online, for shortlisted candidates"
+      }
+    ],
+    "pass_rule": "The course nominates candidates to DAAD, which makes the final award; most selection ends in March"
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": "2026-10-15",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://uol.de/en/ppre/application",
+  "source_urls": [
+    {
+      "url": "https://uol.de/en/ppre/application",
+      "title": "University of Oldenburg SuRE (PPRE): application",
+      "type": "official",
+      "used_for": "DAAD applicants' deadline 15 Oct 2026 for October 2027 start; selection after first deadline"
+    },
+    {
+      "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50076777",
+      "title": "DAAD scholarship database: Development-Related Postgraduate Courses (EPOS)",
+      "type": "official",
+      "used_for": "Eligibility, stipend, insurance, travel, documents"
+    },
+    {
+      "url": "https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/deadlines_2027_28.pdf",
+      "title": "DAAD: EPOS list of courses and deadlines, intake 2027/2028 (PDF)",
+      "type": "official",
+      "used_for": "Course is on the 2027/28 EPOS list"
+    },
+    {
+      "url": "https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/dac_laenderliste_epos.pdf",
+      "title": "DAAD: EPOS list of eligible developing countries (PDF, validity 2024-2025)",
+      "type": "official",
+      "used_for": "Nigeria eligible"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.8,
+    "verification_notes": "Official uol.de pages give 15 Oct 2026 for DAAD EPOS applicants (October 2027 start) and 15 Jan 2027 for others. Applications reportedly go through uni-assist (from DAAD/myguide listings, not confirmed on uol.de). Shared EPOS rules from DAAD's database entry and FAQ (June 2026). Nigeria is on DAAD's EPOS country list, but that PDF is marked 'validity 2024-2025'."
+  },
+  "award_stats": null
+}

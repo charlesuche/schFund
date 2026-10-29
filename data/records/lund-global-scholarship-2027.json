@@ -1,0 +1,108 @@
+{
+  "scholarship_title": "Lund University Global Scholarship (autumn 2027 intake)",
+  "provider_organization": "Lund University",
+  "academic_level": [
+    "Master"
+  ],
+  "degree_fields": [
+    "All master's programmes (bachelor's only in Development Studies, Mathematics, Physics, Physical Geography)"
+  ],
+  "eligible_nationalities": [
+    "All countries outside the EU/EEA and Switzerland (tuition-fee-paying applicants)"
+  ],
+  "host_countries": [
+    "Sweden"
+  ],
+  "status": "unknown",
+  "financial_coverage": {
+    "funding_type": "Tuition Only",
+    "tuition_coverage": "Part or all of tuition fees; the percentage depends on the programme or faculty budget",
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": null,
+      "period": "total",
+      "gross_or_net": "unknown",
+      "notes": "No living costs; you must show the Swedish Migration Agency you can fund them. About SEK 26 million is awarded each year in total."
+    },
+    "additional_benefits": []
+  },
+  "application_fee": {
+    "required": true,
+    "amount": null,
+    "currency": "SEK",
+    "paid_to": "official_agency",
+    "notes": "The University Admissions in Sweden application fee must be paid before you can apply for the scholarship; amount not stated on the Lund page."
+  },
+  "eligibility_criteria": {
+    "min_gpa": "Strong academic performance (no figure given); must meet the programme's admission requirements",
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": null,
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Complete programme application on universityadmissions.se with Lund as first choice",
+      "detail": "Application fee paid",
+      "optional": false
+    },
+    {
+      "name": "Scholarship motivation letter",
+      "detail": "Up to 600 words, separate from any programme statement of purpose",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Apply to the programme on universityadmissions.se by the January deadline and put Lund first",
+    "You need to show funds for living costs for the Swedish residence permit even with a full tuition award"
+  ],
+  "selection_criteria": {
+    "criteria": [
+      {
+        "criterion": "Academic performance",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Fit with the chosen programme",
+        "max_points": null,
+        "notes": null
+      },
+      {
+        "criterion": "Commitment to studying at Lund (Lund as first choice)",
+        "max_points": null,
+        "notes": "Financial need is not considered"
+      }
+    ],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": null,
+    "deadline_date": null,
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": "2027-02",
+    "next_cycle_confidence": "likely",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://www.lunduniversity.lu.se/study/admission-degree-studies/scholarships-and-awards/lund-university-global-scholarship",
+  "source_urls": [
+    {
+      "url": "https://www.lunduniversity.lu.se/study/admission-degree-studies/scholarships-and-awards/lund-university-global-scholarship",
+      "title": "Lund University: Global Scholarship",
+      "type": "official",
+      "used_for": "Eligibility, coverage, timing, requirements, selection, motivation letter"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.8,
+    "verification_notes": "Official page: the round usually opens in early February; the 2026 round closed 16 Feb 2026. Dates for the 2027 round are not published, so next_cycle_expected is Feb 2027 (likely). Partial or full tuition only, no living costs. Some programme pages mention 'apply by 15 January', which is the University Admissions programme deadline, not the scholarship."
+  },
+  "award_stats": null
+}

@@ -1,0 +1,109 @@
+{
+  "scholarship_title": "Romanian State Scholarships for Foreign Citizens (Ministry of Foreign Affairs) 2026/2027",
+  "provider_organization": "Romanian Ministry of Foreign Affairs, with the Ministry of Education",
+  "academic_level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+  ],
+  "degree_fields": [
+    "All except Medicine, Dental Medicine and Pharmacy"
+  ],
+  "eligible_nationalities": [
+    "All non-EU countries (some exceptions, e.g. people of Romanian origin and diplomatic staff)"
+  ],
+  "host_countries": [
+    "Romania"
+  ],
+  "status": "closed",
+  "financial_coverage": {
+    "funding_type": "Fully Funded",
+    "tuition_coverage": null,
+    "stipend": {
+      "amount_min": null,
+      "amount_max": null,
+      "currency": "RON",
+      "period": "month",
+      "gross_or_net": "unknown",
+      "notes": "Monthly allowance; amount not confirmed on a page read directly (search results quote an embassy FAQ giving 925 lei a month)"
+    },
+    "additional_benefits": [
+      "Preparatory year of Romanian language for non-speakers"
+    ]
+  },
+  "application_fee": {
+    "required": null,
+    "amount": null,
+    "currency": null,
+    "paid_to": null,
+    "notes": "Not stated on the Study in Romania page."
+  },
+  "eligibility_criteria": {
+    "min_gpa": null,
+    "min_grade_percent": null,
+    "degree_completed_earliest": null,
+    "degree_completed_latest": null,
+    "language_proficiency": [
+      "Bachelor's and master's are taught in Romanian (preparatory year available)",
+      "PhD can be in English or another language set by the doctoral school"
+    ],
+    "age_limit": null,
+    "work_experience_years": null
+  },
+  "country_specific_notes": [],
+  "required_documents": [
+    {
+      "name": "Diploma or certificate of completed studies and graduation exam",
+      "detail": "Must be held when applying",
+      "optional": false
+    },
+    {
+      "name": "Valid passport",
+      "detail": null,
+      "optional": false
+    },
+    {
+      "name": "Apostille on all study documents",
+      "detail": "Hague apostille, or authentication by the home-country authorities",
+      "optional": false
+    },
+    {
+      "name": "Written agreement from a doctoral tutor",
+      "detail": "PhD applicants only; also an admission interview",
+      "optional": false
+    }
+  ],
+  "preparation_alerts": [
+    "Apostille your certificates and transcripts early; this can take weeks in Nigeria",
+    "Bachelor's and master's study is in Romanian after a one-year language course"
+  ],
+  "selection_criteria": {
+    "criteria": [],
+    "pass_rule": null
+  },
+  "application_timeline": {
+    "opening_date": "2026-02-16",
+    "deadline_date": "2026-03-31",
+    "deadline_time": null,
+    "cycle_frequency": "Annual",
+    "next_cycle_expected": null,
+    "next_cycle_confidence": "unknown",
+    "urgent_deadline": false
+  },
+  "official_apply_url": "https://studyinromania.gov.ro/mfa_2026-2027",
+  "source_urls": [
+    {
+      "url": "https://studyinromania.gov.ro/mfa_2026-2027",
+      "title": "Study in Romania: MFA scholarships 2026-2027",
+      "type": "official",
+      "used_for": "Eligibility, levels, languages, excluded fields, documents, deadline, results date"
+    }
+  ],
+  "last_verified": "2026-10-28",
+  "verification_status": {
+    "is_legitimate": true,
+    "confidence_score": 0.65,
+    "verification_notes": "Study in Romania page confirms the 2026-27 call (deadline 31 Mar 2026, results about 15 Jul 2026), Romanian-taught bachelor's and master's, and excluded fields. The opening date (16 Feb 2026), minimum grade of 7 (Romanian scale) and benefits (tuition, dorm, medical, transport, 925 lei a month) come from Romanian embassy pages seen only in search results; those pages returned 503 when fetched. tuition_coverage left null for that reason. The 2022 tweet said there are no travel costs; not confirmed. Funding type 'Fully Funded' follows the embassy summaries and needs a human check."
+  },
+  "award_stats": null
+}
